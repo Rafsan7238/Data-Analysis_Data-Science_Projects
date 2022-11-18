@@ -1,0 +1,957 @@
+Order ID,Order Date,Ship Date,Ship Mode,Segment,Market,Category,Sales,Order Priority
+MX-2013-MS178305-41487,1/08/2020,3/08/2020,Second Class,Consumer,LATAM,Technology,255.168,Critical
+MX-2013-MS178305-41487,1/08/2020,3/08/2020,Second Class,Consumer,LATAM,Office Supplies,6.69,Critical
+MX-2013-MS178305-41487,1/08/2020,3/08/2020,Second Class,Consumer,LATAM,Office Supplies,13.032,Critical
+ES-2013-DL1331564-41487,1/08/2020,5/08/2020,Standard Class,Consumer,Europe,Technology,144.48,Medium
+ES-2013-GH1442548-41487,1/08/2020,5/08/2020,Standard Class,Consumer,Europe,Office Supplies,31.92,High
+ES-2013-GH1442548-41487,1/08/2020,5/08/2020,Standard Class,Consumer,Europe,Office Supplies,178.605,High
+ES-2013-AJ1094548-41487,1/08/2020,5/08/2020,Standard Class,Consumer,Europe,Office Supplies,208.332,Medium
+ES-2013-GH1442548-41487,1/08/2020,5/08/2020,Standard Class,Consumer,Europe,Technology,223.47,High
+ES-2013-RC1996048-41487,1/08/2020,7/08/2020,Standard Class,Consumer,Europe,Office Supplies,462.348,Medium
+ES-2013-EB13840139-41487,1/08/2020,6/08/2020,Second Class,Corporate,Europe,Office Supplies,43.56,Medium
+ES-2013-GH1442548-41487,1/08/2020,5/08/2020,Standard Class,Consumer,Europe,Office Supplies,18.12,High
+ES-2013-DL1331564-41487,1/08/2020,5/08/2020,Standard Class,Consumer,Europe,Furniture,131.85,Medium
+ES-2013-GH1442548-41487,1/08/2020,5/08/2020,Standard Class,Consumer,Europe,Office Supplies,104.247,High
+ES-2013-GH1442548-41487,1/08/2020,5/08/2020,Standard Class,Consumer,Europe,Office Supplies,118.71,High
+ES-2013-EB1393045-41487,1/08/2020,3/08/2020,First Class,Consumer,Europe,Technology,1639.089,Medium
+ES-2013-AJ1094548-41487,1/08/2020,5/08/2020,Standard Class,Consumer,Europe,Office Supplies,47.52,Medium
+ES-2013-DL1331564-41487,1/08/2020,5/08/2020,Standard Class,Consumer,Europe,Office Supplies,33.96,Medium
+ES-2013-GH1442548-41487,1/08/2020,5/08/2020,Standard Class,Consumer,Europe,Office Supplies,53.28,High
+ES-2013-EB1393045-41487,1/08/2020,3/08/2020,First Class,Consumer,Europe,Office Supplies,153.81,Medium
+ES-2013-EB13840139-41487,1/08/2020,6/08/2020,Second Class,Corporate,Europe,Office Supplies,3979.29,Medium
+ES-2013-GH1442548-41487,1/08/2020,5/08/2020,Standard Class,Consumer,Europe,Office Supplies,46.44,High
+ES-2013-EB1393045-41487,1/08/2020,3/08/2020,First Class,Consumer,Europe,Technology,108.36,Medium
+ES-2013-GH1442548-41487,1/08/2020,5/08/2020,Standard Class,Consumer,Europe,Furniture,257.25,High
+ID-2013-JO1528092-41487,1/08/2020,3/08/2020,First Class,Consumer,Asia Pacific,Office Supplies,9.072,Medium
+IN-2013-DK1322527-41487,1/08/2020,1/08/2020,Same Day,Corporate,Asia Pacific,Office Supplies,65.34,Medium
+IN-2013-KD1649558-41487,1/08/2020,6/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,1621.44,Medium
+ES-2013-EB13840139-41487,1/08/2020,6/08/2020,Second Class,Corporate,Europe,Technology,428.22,Medium
+IN-2013-JF1541559-41487,1/08/2020,5/08/2020,Standard Class,Consumer,Asia Pacific,Technology,280.2834,High
+IN-2013-DK1322527-41487,1/08/2020,1/08/2020,Same Day,Corporate,Asia Pacific,Office Supplies,79.47,Medium
+IN-2013-KD1649558-41487,1/08/2020,6/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,25.92,Medium
+IN-2013-SH199757-41487,1/08/2020,6/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,196.884,Medium
+CG-2013-CW190533-41487,1/08/2020,7/08/2020,Standard Class,Home Office,Africa,Office Supplies,58.02,Medium
+CG-2013-CW190533-41487,1/08/2020,7/08/2020,Standard Class,Home Office,Africa,Technology,355.92,Medium
+CA-2013-BE11455140-41488,2/08/2020,5/08/2020,Second Class,Home Office,USCA,Office Supplies,8.4,High
+CA-2013-BE11455140-41488,2/08/2020,5/08/2020,Second Class,Home Office,USCA,Technology,199.98,High
+CA-2013-BE11455140-41488,2/08/2020,5/08/2020,Second Class,Home Office,USCA,Technology,128.85,High
+CA-2013-BE11455140-41488,2/08/2020,5/08/2020,Second Class,Home Office,USCA,Furniture,110.98,High
+ES-2013-KH16690124-41488,2/08/2020,6/08/2020,Standard Class,Corporate,Europe,Office Supplies,77.67,High
+ES-2013-CW1190545-41488,2/08/2020,7/08/2020,Standard Class,Home Office,Europe,Furniture,193.05,Medium
+UP-2013-LE6810137-41488,2/08/2020,7/08/2020,Standard Class,Consumer,Europe,Technology,265.65,Medium
+ES-2013-CW1190545-41488,2/08/2020,7/08/2020,Standard Class,Home Office,Europe,Technology,1621.953,Medium
+ES-2013-LS1723045-41488,2/08/2020,6/08/2020,Standard Class,Consumer,Europe,Furniture,79.8,Medium
+ES-2013-KH16690124-41488,2/08/2020,6/08/2020,Standard Class,Corporate,Europe,Office Supplies,116.025,High
+ID-2013-PK18910118-41488,2/08/2020,7/08/2020,Standard Class,Home Office,Asia Pacific,Office Supplies,10.5,Medium
+IN-2013-TH2111558-41488,2/08/2020,8/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,47.04,Medium
+ID-2013-SC203057-41488,2/08/2020,8/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,66.96,Medium
+ID-2013-SC203057-41488,2/08/2020,8/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,81.324,Medium
+ID-2013-SC203057-41488,2/08/2020,8/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,120.096,Medium
+IN-2013-SH2039592-41488,2/08/2020,4/08/2020,First Class,Consumer,Asia Pacific,Furniture,98.88,High
+IN-2013-SJ205007-41488,2/08/2020,8/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,211.95,Low
+IN-2013-SJ205007-41488,2/08/2020,8/08/2020,Standard Class,Consumer,Asia Pacific,Technology,331.452,Low
+IN-2013-TH2111558-41488,2/08/2020,8/08/2020,Standard Class,Corporate,Asia Pacific,Furniture,1106.46,Medium
+IN-2013-RE1940527-41488,2/08/2020,6/08/2020,Standard Class,Consumer,Asia Pacific,Technology,1140.3,High
+IN-2013-KB1658527-41488,2/08/2020,4/08/2020,First Class,Corporate,Asia Pacific,Technology,1521,High
+ES-2013-CW1190545-41488,2/08/2020,7/08/2020,Standard Class,Home Office,Europe,Office Supplies,561.087,Medium
+IN-2013-RE1940527-41488,2/08/2020,6/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,11.55,High
+IN-2013-AF1088559-41488,2/08/2020,7/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,51.1446,Medium
+IN-2013-KB1658527-41488,2/08/2020,4/08/2020,First Class,Corporate,Asia Pacific,Office Supplies,21.42,High
+ID-2013-SC203057-41488,2/08/2020,8/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,67.5,Medium
+ID-2013-PK18910118-41488,2/08/2020,7/08/2020,Standard Class,Home Office,Asia Pacific,Office Supplies,70.815,Medium
+ID-2013-SC203057-41488,2/08/2020,8/08/2020,Standard Class,Consumer,Asia Pacific,Furniture,154.278,Medium
+ID-2013-PK18910118-41488,2/08/2020,7/08/2020,Standard Class,Home Office,Asia Pacific,Office Supplies,248.64,Medium
+IN-2013-SC2002059-41488,2/08/2020,2/08/2020,Same Day,Consumer,Asia Pacific,Office Supplies,59.8794,Critical
+IN-2013-KB1658527-41488,2/08/2020,4/08/2020,First Class,Corporate,Asia Pacific,Office Supplies,211.5,High
+ID-2013-SC203057-41488,2/08/2020,8/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,368.226,Medium
+IN-2013-KB1658527-41488,2/08/2020,4/08/2020,First Class,Corporate,Asia Pacific,Furniture,100.5,High
+IN-2013-MC181007-41488,2/08/2020,7/08/2020,Standard Class,Consumer,Asia Pacific,Furniture,183.42,High
+ID-2013-PK18910118-41488,2/08/2020,7/08/2020,Standard Class,Home Office,Asia Pacific,Office Supplies,48.39,Medium
+IN-2013-SH2039592-41488,2/08/2020,4/08/2020,First Class,Consumer,Asia Pacific,Office Supplies,91.92,High
+ID-2013-SC203057-41488,2/08/2020,8/08/2020,Standard Class,Consumer,Asia Pacific,Furniture,249.264,Medium
+ID-2013-SC203057-41488,2/08/2020,8/08/2020,Standard Class,Consumer,Asia Pacific,Furniture,5759.964,Medium
+IN-2013-AF1088559-41488,2/08/2020,7/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,30.6711,Medium
+EG-2013-RA928538-41488,2/08/2020,4/08/2020,Second Class,Consumer,Africa,Office Supplies,45.78,Critical
+EG-2013-RA928538-41488,2/08/2020,4/08/2020,Second Class,Consumer,Africa,Furniture,74.49,Critical
+EG-2013-RA928538-41488,2/08/2020,4/08/2020,Second Class,Consumer,Africa,Technology,314.1,Critical
+EG-2013-RA928538-41488,2/08/2020,4/08/2020,Second Class,Consumer,Africa,Office Supplies,566.52,Critical
+MX-2013-AF1087051-41489,3/08/2020,9/08/2020,Standard Class,Consumer,LATAM,Furniture,166.12,Medium
+MX-2013-AF1087051-41489,3/08/2020,9/08/2020,Standard Class,Consumer,LATAM,Office Supplies,18.8,Medium
+MX-2013-LB1673582-41489,3/08/2020,5/08/2020,First Class,Consumer,LATAM,Office Supplies,119.64,High
+MX-2013-LB1673582-41489,3/08/2020,5/08/2020,First Class,Consumer,LATAM,Technology,161.59616,High
+MX-2013-LH1690018-41489,3/08/2020,5/08/2020,First Class,Consumer,LATAM,Office Supplies,1455.08,Medium
+US-2013-LB1673518-41489,3/08/2020,5/08/2020,First Class,Consumer,LATAM,Office Supplies,47.856,High
+US-2013-LB1673518-41489,3/08/2020,5/08/2020,First Class,Consumer,LATAM,Technology,64.44416,High
+IT-2013-FM14290124-41489,3/08/2020,5/08/2020,Second Class,Home Office,Europe,Office Supplies,15.975,Medium
+ES-2013-JP16135120-41489,3/08/2020,7/08/2020,Standard Class,Home Office,Europe,Office Supplies,39.54,Medium
+ES-2013-TB21625139-41489,3/08/2020,7/08/2020,Second Class,Consumer,Europe,Furniture,27.018,High
+ES-2013-MA1799548-41489,3/08/2020,9/08/2020,Standard Class,Home Office,Europe,Office Supplies,66.15,Medium
+ES-2013-MH1762045-41489,3/08/2020,8/08/2020,Standard Class,Corporate,Europe,Office Supplies,27.66,Medium
+UP-2013-KA6525137-41489,3/08/2020,9/08/2020,Standard Class,Consumer,Europe,Office Supplies,46.77,Low
+ES-2013-MZ1733564-41489,3/08/2020,7/08/2020,Standard Class,Home Office,Europe,Office Supplies,42.66,High
+ES-2013-MH1762045-41489,3/08/2020,8/08/2020,Standard Class,Corporate,Europe,Furniture,139.68,Medium
+ES-2013-LF1718545-41489,3/08/2020,7/08/2020,Standard Class,Consumer,Europe,Furniture,361.557,Medium
+ES-2013-LF1718545-41489,3/08/2020,7/08/2020,Standard Class,Consumer,Europe,Office Supplies,65.7,Medium
+ES-2013-GH1441064-41489,3/08/2020,5/08/2020,Second Class,Home Office,Europe,Office Supplies,67.5,High
+ES-2013-MZ1733564-41489,3/08/2020,7/08/2020,Standard Class,Home Office,Europe,Office Supplies,85.47,High
+ES-2013-MZ1733564-41489,3/08/2020,7/08/2020,Standard Class,Home Office,Europe,Office Supplies,170.46,High
+IT-2013-PF1922545-41489,3/08/2020,9/08/2020,Standard Class,Consumer,Europe,Furniture,269.028,Medium
+UP-2013-KA6525137-41489,3/08/2020,9/08/2020,Standard Class,Consumer,Europe,Office Supplies,108.42,Low
+ES-2013-SS2059062-41489,3/08/2020,7/08/2020,Standard Class,Consumer,Europe,Technology,167.805,Medium
+ES-2013-SS2059062-41489,3/08/2020,7/08/2020,Standard Class,Consumer,Europe,Office Supplies,321,Medium
+ES-2013-GH1441064-41489,3/08/2020,5/08/2020,Second Class,Home Office,Europe,Technology,215.1,High
+ES-2013-JP16135120-41489,3/08/2020,7/08/2020,Standard Class,Home Office,Europe,Office Supplies,720,Medium
+ES-2013-GH1441064-41489,3/08/2020,5/08/2020,Second Class,Home Office,Europe,Office Supplies,26.04,High
+ES-2013-LF1718545-41489,3/08/2020,7/08/2020,Standard Class,Consumer,Europe,Office Supplies,437.94,Medium
+ES-2013-JP16135120-41489,3/08/2020,7/08/2020,Standard Class,Home Office,Europe,Furniture,414.72,Medium
+ES-2013-CM1211564-41489,3/08/2020,7/08/2020,Standard Class,Consumer,Europe,Furniture,371.79,High
+ES-2013-MH1762045-41489,3/08/2020,8/08/2020,Standard Class,Corporate,Europe,Technology,468.792,Medium
+ES-2013-CM1211564-41489,3/08/2020,7/08/2020,Standard Class,Consumer,Europe,Furniture,259.05,High
+ES-2013-CM1211564-41489,3/08/2020,7/08/2020,Standard Class,Consumer,Europe,Office Supplies,667.68,High
+ES-2013-KN1645048-41489,3/08/2020,7/08/2020,Standard Class,Corporate,Europe,Office Supplies,50.4,High
+ES-2013-MH1762045-41489,3/08/2020,8/08/2020,Standard Class,Corporate,Europe,Office Supplies,103.95,Medium
+ES-2013-JP16135120-41489,3/08/2020,7/08/2020,Standard Class,Home Office,Europe,Office Supplies,152.82,Medium
+IT-2013-FM14290124-41489,3/08/2020,5/08/2020,Second Class,Home Office,Europe,Technology,73.26,Medium
+ES-2013-JP16135120-41489,3/08/2020,7/08/2020,Standard Class,Home Office,Europe,Office Supplies,151.38,Medium
+ES-2013-TB21625139-41489,3/08/2020,7/08/2020,Second Class,Consumer,Europe,Technology,706.806,High
+ES-2013-CM1211564-41489,3/08/2020,7/08/2020,Standard Class,Consumer,Europe,Technology,1715.91,High
+IN-2013-RE194507-41489,3/08/2020,7/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,88.209,Medium
+ES-2013-MZ1733564-41489,3/08/2020,7/08/2020,Standard Class,Home Office,Europe,Office Supplies,37.86,High
+ES-2013-KN1645048-41489,3/08/2020,7/08/2020,Standard Class,Corporate,Europe,Technology,74.22,High
+ES-2013-MH1762045-41489,3/08/2020,8/08/2020,Standard Class,Corporate,Europe,Technology,422.586,Medium
+IN-2013-KH1633059-41489,3/08/2020,8/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,47.1753,High
+IN-2013-GH144257-41489,3/08/2020,8/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,43.254,High
+IN-2013-GH144257-41489,3/08/2020,8/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,177.849,High
+IN-2013-GH144257-41489,3/08/2020,8/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,325.269,High
+IN-2013-KH1633059-41489,3/08/2020,8/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,3501.7368,High
+IN-2013-KH1633059-41489,3/08/2020,8/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,68.0652,High
+IN-2013-GH144257-41489,3/08/2020,8/08/2020,Standard Class,Consumer,Asia Pacific,Furniture,39.285,High
+IN-2013-GH144257-41489,3/08/2020,8/08/2020,Standard Class,Consumer,Asia Pacific,Furniture,2619,High
+EG-2013-AH21038-41489,3/08/2020,7/08/2020,Standard Class,Consumer,Africa,Office Supplies,55.74,Medium
+EG-2013-AH21038-41489,3/08/2020,7/08/2020,Standard Class,Consumer,Africa,Office Supplies,105.24,Medium
+EG-2013-AH21038-41489,3/08/2020,7/08/2020,Standard Class,Consumer,Africa,Office Supplies,408.24,Medium
+EG-2013-AH21038-41489,3/08/2020,7/08/2020,Standard Class,Consumer,Africa,Office Supplies,2243.88,Medium
+IT-2013-KH1669045-41490,4/08/2020,10/08/2020,Standard Class,Corporate,Europe,Office Supplies,17.28,Medium
+IT-2013-KH1669045-41490,4/08/2020,10/08/2020,Standard Class,Corporate,Europe,Office Supplies,462.348,Medium
+IT-2013-KH1669045-41490,4/08/2020,10/08/2020,Standard Class,Corporate,Europe,Office Supplies,8.856,Medium
+IT-2013-KH1669045-41490,4/08/2020,10/08/2020,Standard Class,Corporate,Europe,Office Supplies,79.2,Medium
+ES-2013-CG12520139-41490,4/08/2020,10/08/2020,Standard Class,Consumer,Europe,Office Supplies,44.76,Medium
+ES-2013-FC1424564-41490,4/08/2020,7/08/2020,First Class,Home Office,Europe,Office Supplies,52.74,High
+ES-2013-CG12520139-41490,4/08/2020,10/08/2020,Standard Class,Consumer,Europe,Office Supplies,14.61,Medium
+IT-2013-KH1669045-41490,4/08/2020,10/08/2020,Standard Class,Corporate,Europe,Furniture,150.255,Medium
+IT-2013-KH1669045-41490,4/08/2020,10/08/2020,Standard Class,Corporate,Europe,Office Supplies,226.8,Medium
+ES-2013-AH1007545-41490,4/08/2020,6/08/2020,First Class,Corporate,Europe,Office Supplies,183.735,High
+SF-2013-PF9165117-41490,4/08/2020,10/08/2020,Standard Class,Consumer,Africa,Office Supplies,125.22,Medium
+SF-2013-PF9165117-41490,4/08/2020,10/08/2020,Standard Class,Consumer,Africa,Office Supplies,22.29,Medium
+CA-2013-AH10690140-41491,5/08/2020,11/08/2020,Standard Class,Corporate,USCA,Furniture,14.76,Medium
+CA-2013-AH10690140-41491,5/08/2020,11/08/2020,Standard Class,Corporate,USCA,Office Supplies,1.362,Medium
+CA-2013-AH10690140-41491,5/08/2020,11/08/2020,Standard Class,Corporate,USCA,Office Supplies,33.488,Medium
+CA-2013-AH10690140-41491,5/08/2020,11/08/2020,Standard Class,Corporate,USCA,Office Supplies,23.04,Medium
+IT-2013-EK1379548-41491,5/08/2020,11/08/2020,Standard Class,Home Office,Europe,Office Supplies,83.592,Medium
+IT-2013-EK1379548-41491,5/08/2020,11/08/2020,Standard Class,Home Office,Europe,Office Supplies,571.455,Medium
+IT-2013-EK1379548-41491,5/08/2020,11/08/2020,Standard Class,Home Office,Europe,Office Supplies,66.45,Medium
+IT-2013-EK1379548-41491,5/08/2020,11/08/2020,Standard Class,Home Office,Europe,Furniture,1284.822,Medium
+CA-2013-EM409523-41492,6/08/2020,8/08/2020,First Class,Corporate,USCA,Office Supplies,193.2,High
+MX-2013-SV2081531-41492,6/08/2020,6/08/2020,Same Day,Corporate,LATAM,Technology,296.76528,Medium
+MX-2013-SV2081531-41492,6/08/2020,6/08/2020,Same Day,Corporate,LATAM,Office Supplies,73.08,Medium
+MX-2013-NS1864051-41492,6/08/2020,9/08/2020,Second Class,Corporate,LATAM,Office Supplies,27.6,Critical
+MX-2013-NS1864051-41492,6/08/2020,9/08/2020,Second Class,Corporate,LATAM,Furniture,330.64,Critical
+MX-2013-NS1864051-41492,6/08/2020,9/08/2020,Second Class,Corporate,LATAM,Technology,570.5,Critical
+CA-2013-RP19270140-41492,6/08/2020,10/08/2020,Standard Class,Corporate,USCA,Office Supplies,35.52,Medium
+CA-2013-RP19270140-41492,6/08/2020,10/08/2020,Standard Class,Corporate,USCA,Office Supplies,6.23,Medium
+CA-2013-RP19270140-41492,6/08/2020,10/08/2020,Standard Class,Corporate,USCA,Furniture,369.1992,Medium
+CA-2013-MS17980140-41492,6/08/2020,8/08/2020,First Class,Corporate,USCA,Office Supplies,27.216,Critical
+CA-2013-RP19270140-41492,6/08/2020,10/08/2020,Standard Class,Corporate,USCA,Office Supplies,56.704,Medium
+ES-2013-JH1543045-41492,6/08/2020,11/08/2020,Standard Class,Consumer,Europe,Office Supplies,38.16,Medium
+HR-2013-ME772530-41492,6/08/2020,7/08/2020,First Class,Consumer,Europe,Office Supplies,15.66,Critical
+ES-2013-AR1082545-41492,6/08/2020,11/08/2020,Standard Class,Corporate,Europe,Office Supplies,61.02,Medium
+ES-2013-AO1081045-41492,6/08/2020,13/08/2020,Standard Class,Corporate,Europe,Office Supplies,57.42,Medium
+ES-2013-DM1301564-41492,6/08/2020,11/08/2020,Second Class,Consumer,Europe,Office Supplies,71.1,Medium
+ES-2013-AO1081045-41492,6/08/2020,13/08/2020,Standard Class,Corporate,Europe,Office Supplies,118.56,Medium
+ES-2013-LR1691564-41492,6/08/2020,11/08/2020,Standard Class,Consumer,Europe,Office Supplies,105.06,High
+ES-2013-MK1790545-41492,6/08/2020,8/08/2020,Second Class,Corporate,Europe,Technology,205.4025,High
+BK-2013-NW840017-41492,6/08/2020,10/08/2020,Second Class,Consumer,Europe,Technology,740.34,High
+BK-2013-NW840017-41492,6/08/2020,10/08/2020,Second Class,Consumer,Europe,Office Supplies,40.05,High
+ES-2013-DJ1363048-41492,6/08/2020,11/08/2020,Standard Class,Consumer,Europe,Technology,50.04,Medium
+ES-2013-MK1790545-41492,6/08/2020,8/08/2020,Second Class,Corporate,Europe,Office Supplies,28.44,High
+BK-2013-NW840017-41492,6/08/2020,10/08/2020,Second Class,Consumer,Europe,Office Supplies,57.51,High
+ES-2013-LR1691564-41492,6/08/2020,11/08/2020,Standard Class,Consumer,Europe,Furniture,75.36,High
+ES-2013-JH1543045-41492,6/08/2020,11/08/2020,Standard Class,Consumer,Europe,Technology,95.64,Medium
+ES-2013-AZ1075045-41492,6/08/2020,10/08/2020,Standard Class,Consumer,Europe,Technology,154.5,Medium
+ES-2013-DM1301564-41492,6/08/2020,11/08/2020,Second Class,Consumer,Europe,Office Supplies,195.156,Medium
+HR-2013-ME772530-41492,6/08/2020,7/08/2020,First Class,Consumer,Europe,Technology,86.97,Critical
+ES-2013-JH1543045-41492,6/08/2020,11/08/2020,Standard Class,Consumer,Europe,Technology,220.8045,Medium
+BK-2013-NW840017-41492,6/08/2020,10/08/2020,Second Class,Consumer,Europe,Technology,103.59,High
+ES-2013-AO1081045-41492,6/08/2020,13/08/2020,Standard Class,Corporate,Europe,Technology,207.18,Medium
+IT-2013-JL1550591-41492,6/08/2020,8/08/2020,Second Class,Consumer,Europe,Office Supplies,15.615,Medium
+ES-2013-JH1543045-41492,6/08/2020,11/08/2020,Standard Class,Consumer,Europe,Furniture,48.93,Medium
+ES-2013-JH1543045-41492,6/08/2020,11/08/2020,Standard Class,Consumer,Europe,Office Supplies,65.16,Medium
+IT-2013-PO19195120-41492,6/08/2020,7/08/2020,First Class,Home Office,Europe,Office Supplies,11.49,Critical
+ES-2013-AO1081045-41492,6/08/2020,13/08/2020,Standard Class,Corporate,Europe,Technology,406.35,Medium
+ID-2013-CS1213059-41492,6/08/2020,10/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,9.54,High
+ES-2013-JH1543045-41492,6/08/2020,11/08/2020,Standard Class,Consumer,Europe,Office Supplies,29.28,Medium
+HR-2013-ME772530-41492,6/08/2020,7/08/2020,First Class,Consumer,Europe,Office Supplies,16.02,Critical
+IT-2013-PO19195120-41492,6/08/2020,7/08/2020,First Class,Home Office,Europe,Technology,983.88,Critical
+ID-2013-CS1213059-41492,6/08/2020,10/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,16.4565,High
+ID-2013-TM210107-41492,6/08/2020,10/08/2020,Second Class,Consumer,Asia Pacific,Furniture,69.516,High
+ID-2013-CS1213059-41492,6/08/2020,10/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,82.044,High
+TO-2013-EB3870131-41492,6/08/2020,8/08/2020,Second Class,Consumer,Africa,Furniture,25.23,High
+MA-2013-BS136577-41492,6/08/2020,13/08/2020,Standard Class,Corporate,Africa,Office Supplies,52.2,Medium
+US-2013-KW16570140-41493,7/08/2020,8/08/2020,First Class,Consumer,USCA,Office Supplies,28.4,High
+US-2013-KW16570140-41493,7/08/2020,8/08/2020,First Class,Consumer,USCA,Furniture,212.94,High
+US-2013-NS18640140-41493,7/08/2020,9/08/2020,First Class,Corporate,USCA,Office Supplies,77.58,Critical
+CA-2013-JK15625140-41493,7/08/2020,12/08/2020,Standard Class,Consumer,USCA,Office Supplies,106.8,Medium
+MX-2013-BG1174018-41493,7/08/2020,8/08/2020,First Class,Consumer,LATAM,Office Supplies,30.9,High
+MX-2013-BG1174018-41493,7/08/2020,8/08/2020,First Class,Consumer,LATAM,Technology,146.7,High
+MX-2013-BG1174018-41493,7/08/2020,8/08/2020,First Class,Consumer,LATAM,Furniture,382.9,High
+MX-2013-BG1174018-41493,7/08/2020,8/08/2020,First Class,Consumer,LATAM,Furniture,1534.96,High
+MX-2013-BG1174018-41493,7/08/2020,8/08/2020,First Class,Consumer,LATAM,Furniture,340.38,High
+MX-2013-BG1174018-41493,7/08/2020,8/08/2020,First Class,Consumer,LATAM,Office Supplies,9.6,High
+MX-2013-BG1174018-41493,7/08/2020,8/08/2020,First Class,Consumer,LATAM,Office Supplies,2461.06,High
+ES-2013-VW2177545-41493,7/08/2020,12/08/2020,Second Class,Corporate,Europe,Furniture,791.1,Medium
+IT-2013-NP1870091-41493,7/08/2020,10/08/2020,Second Class,Consumer,Europe,Office Supplies,39,Medium
+ES-2013-ML1741048-41493,7/08/2020,9/08/2020,First Class,Consumer,Europe,Office Supplies,73.5,Medium
+ES-2013-ML1741048-41493,7/08/2020,9/08/2020,First Class,Consumer,Europe,Office Supplies,45.45,Medium
+ES-2013-CC1255045-41493,7/08/2020,11/08/2020,Second Class,Consumer,Europe,Office Supplies,41.55,Medium
+ES-2013-PW19240139-41493,7/08/2020,11/08/2020,Standard Class,Consumer,Europe,Office Supplies,108.36,Medium
+ES-2013-BD1162064-41493,7/08/2020,12/08/2020,Standard Class,Consumer,Europe,Furniture,582.12,Medium
+CA-2013-EM14095140-41493,7/08/2020,9/08/2020,Second Class,Corporate,USCA,Technology,494.97,High
+CA-2013-EM14095140-41493,7/08/2020,9/08/2020,Second Class,Corporate,USCA,Office Supplies,25.06,High
+ES-2013-VW2177545-41493,7/08/2020,12/08/2020,Second Class,Corporate,Europe,Office Supplies,99,Medium
+ID-2013-JC1577559-41493,7/08/2020,13/08/2020,Standard Class,Consumer,Asia Pacific,Technology,98.6436,Medium
+IN-2013-DK1298559-41493,7/08/2020,9/08/2020,First Class,Consumer,Asia Pacific,Office Supplies,76.8924,Medium
+IN-2013-JE1547527-41493,7/08/2020,13/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,105.12,Medium
+ID-2013-JC1577559-41493,7/08/2020,13/08/2020,Standard Class,Consumer,Asia Pacific,Technology,227.8314,Medium
+IN-2013-DK1298559-41493,7/08/2020,9/08/2020,First Class,Consumer,Asia Pacific,Technology,348.0273,Medium
+KE-2013-RA928569-41493,7/08/2020,12/08/2020,Second Class,Consumer,Africa,Office Supplies,27.09,High
+KE-2013-RA928569-41493,7/08/2020,12/08/2020,Second Class,Consumer,Africa,Office Supplies,106.56,High
+WA-2013-GP474089-41493,7/08/2020,7/08/2020,Same Day,Corporate,Africa,Office Supplies,102.84,High
+KE-2013-RA928569-41493,7/08/2020,12/08/2020,Second Class,Consumer,Africa,Office Supplies,111.84,High
+MX-2013-YC2189539-41494,8/08/2020,13/08/2020,Standard Class,Corporate,LATAM,Furniture,25.2,Medium
+MX-2013-YC2189539-41494,8/08/2020,13/08/2020,Standard Class,Corporate,LATAM,Office Supplies,26.88,Medium
+MX-2013-EJ1415582-41494,8/08/2020,14/08/2020,Standard Class,Consumer,LATAM,Technology,573.9498,Medium
+CA-2013-DB13405140-41494,8/08/2020,10/08/2020,Second Class,Consumer,USCA,Office Supplies,447.86,Critical
+CA-2013-DB13405140-41494,8/08/2020,10/08/2020,Second Class,Consumer,USCA,Office Supplies,39.66,Critical
+CA-2013-RD19585140-41494,8/08/2020,12/08/2020,Standard Class,Consumer,USCA,Technology,79.99,Medium
+CA-2013-DB13405140-41494,8/08/2020,10/08/2020,Second Class,Consumer,USCA,Office Supplies,113.92,Critical
+EZ-2013-JR567032-41494,8/08/2020,13/08/2020,Standard Class,Consumer,Europe,Office Supplies,22.41,Medium
+EZ-2013-JR567032-41494,8/08/2020,13/08/2020,Standard Class,Consumer,Europe,Office Supplies,23.16,Medium
+PL-2013-SS10410103-41494,8/08/2020,13/08/2020,Standard Class,Consumer,Europe,Technology,67.98,Medium
+ES-2013-JC1610548-41494,8/08/2020,12/08/2020,Second Class,Corporate,Europe,Office Supplies,68.526,High
+ES-2013-MT178158-41494,8/08/2020,12/08/2020,Standard Class,Consumer,Europe,Office Supplies,50.16,Medium
+EZ-2013-JR567032-41494,8/08/2020,13/08/2020,Standard Class,Consumer,Europe,Office Supplies,51.6,Medium
+ES-2013-MT178158-41494,8/08/2020,12/08/2020,Standard Class,Consumer,Europe,Office Supplies,196.8,Medium
+PL-2013-AB600103-41494,8/08/2020,10/08/2020,First Class,Corporate,Europe,Furniture,1977.72,Critical
+ES-2013-MT178158-41494,8/08/2020,12/08/2020,Standard Class,Consumer,Europe,Office Supplies,48.06,Medium
+EZ-2013-JR567032-41494,8/08/2020,13/08/2020,Standard Class,Consumer,Europe,Office Supplies,164.76,Medium
+ES-2013-JC1610548-41494,8/08/2020,12/08/2020,Second Class,Corporate,Europe,Office Supplies,142.074,High
+ES-2013-MC1760564-41494,8/08/2020,10/08/2020,Second Class,Corporate,Europe,Technology,562.08,High
+ID-2013-JK1573078-41494,8/08/2020,14/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,15.75,Medium
+IN-2013-RD1958527-41494,8/08/2020,14/08/2020,Standard Class,Consumer,Asia Pacific,Technology,297.48,Medium
+IN-2013-SF2006527-41494,8/08/2020,12/08/2020,Standard Class,Consumer,Asia Pacific,Technology,954.36,High
+PL-2013-AB600103-41494,8/08/2020,10/08/2020,First Class,Corporate,Europe,Office Supplies,51.6,Critical
+IN-2013-CY1274527-41494,8/08/2020,12/08/2020,Second Class,Corporate,Asia Pacific,Office Supplies,50.94,High
+IN-2013-AS10240102-41494,8/08/2020,8/08/2020,Same Day,Consumer,Asia Pacific,Furniture,135.09,Critical
+IN-2013-RD1958527-41494,8/08/2020,14/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,1285.05,Medium
+IN-2013-RD1958527-41494,8/08/2020,14/08/2020,Standard Class,Consumer,Asia Pacific,Technology,494.64,Medium
+AG-2013-AA4803-41494,8/08/2020,14/08/2020,Standard Class,Consumer,Africa,Furniture,110.1,Medium
+MX-2013-MM1726039-41495,9/08/2020,9/08/2020,Same Day,Consumer,LATAM,Office Supplies,102.54,High
+CA-2013-DS13180140-41495,9/08/2020,16/08/2020,Standard Class,Corporate,USCA,Office Supplies,21.98,Medium
+CA-2013-DS13180140-41495,9/08/2020,16/08/2020,Standard Class,Corporate,USCA,Office Supplies,2.2,Medium
+CA-2013-HR14770140-41495,9/08/2020,13/08/2020,Second Class,Home Office,USCA,Furniture,687.4,Medium
+CA-2013-DS13180140-41495,9/08/2020,16/08/2020,Standard Class,Corporate,USCA,Furniture,622.45,Medium
+CA-2013-NP18325140-41495,9/08/2020,12/08/2020,First Class,Consumer,USCA,Furniture,382.806,Medium
+CA-2013-NP18325140-41495,9/08/2020,12/08/2020,First Class,Consumer,USCA,Technology,247.8,Medium
+CA-2013-NP18325140-41495,9/08/2020,12/08/2020,First Class,Consumer,USCA,Office Supplies,143.7,Medium
+CA-2013-MF18250140-41495,9/08/2020,16/08/2020,Standard Class,Corporate,USCA,Office Supplies,144.12,Medium
+CA-2013-NP18325140-41495,9/08/2020,12/08/2020,First Class,Consumer,USCA,Office Supplies,10.65,Medium
+CA-2013-NP18325140-41495,9/08/2020,12/08/2020,First Class,Consumer,USCA,Office Supplies,41.96,Medium
+CA-2013-NP18325140-41495,9/08/2020,12/08/2020,First Class,Consumer,USCA,Technology,307.98,Medium
+CA-2013-NP18325140-41495,9/08/2020,12/08/2020,First Class,Consumer,USCA,Furniture,6.16,Medium
+CA-2013-NP18325140-41495,9/08/2020,12/08/2020,First Class,Consumer,USCA,Office Supplies,1217.568,Medium
+CA-2013-NP18325140-41495,9/08/2020,12/08/2020,First Class,Consumer,USCA,Furniture,47.04,Medium
+CA-2013-NP18325140-41495,9/08/2020,12/08/2020,First Class,Consumer,USCA,Technology,979.95,Medium
+CA-2013-MF18250140-41495,9/08/2020,16/08/2020,Standard Class,Corporate,USCA,Furniture,10.02,Medium
+MX-2013-AH1069028-41495,9/08/2020,15/08/2020,Standard Class,Corporate,LATAM,Technology,161.59616,Low
+MX-2013-AH1069028-41495,9/08/2020,15/08/2020,Standard Class,Corporate,LATAM,Technology,133.14,Low
+MX-2013-AH1069028-41495,9/08/2020,15/08/2020,Standard Class,Corporate,LATAM,Office Supplies,49.8,Low
+MX-2013-AR1082528-41495,9/08/2020,15/08/2020,Standard Class,Corporate,LATAM,Office Supplies,549.24,Medium
+ES-2013-ES14020139-41495,9/08/2020,14/08/2020,Standard Class,Consumer,Europe,Office Supplies,106.65,Medium
+ES-2013-RA1994564-41495,9/08/2020,13/08/2020,Standard Class,Consumer,Europe,Office Supplies,88.83,Medium
+ES-2013-DS1303045-41495,9/08/2020,13/08/2020,Standard Class,Home Office,Europe,Technology,644.436,High
+ES-2013-RA1994564-41495,9/08/2020,13/08/2020,Standard Class,Consumer,Europe,Office Supplies,53.28,Medium
+ES-2013-DS1303045-41495,9/08/2020,13/08/2020,Standard Class,Home Office,Europe,Technology,245.07,High
+ES-2013-DS1303045-41495,9/08/2020,13/08/2020,Standard Class,Home Office,Europe,Office Supplies,291.6,High
+ES-2013-CC1261045-41495,9/08/2020,9/08/2020,Same Day,Corporate,Europe,Furniture,670.14,High
+ES-2013-DS1303045-41495,9/08/2020,13/08/2020,Standard Class,Home Office,Europe,Office Supplies,33.93,High
+ES-2013-DS1303045-41495,9/08/2020,13/08/2020,Standard Class,Home Office,Europe,Office Supplies,51.651,High
+ES-2013-CJ1187545-41495,9/08/2020,13/08/2020,Standard Class,Corporate,Europe,Office Supplies,232.389,Medium
+CA-2013-RA19885140-41495,9/08/2020,14/08/2020,Standard Class,Corporate,USCA,Office Supplies,4.608,Medium
+IN-2013-VG2180559-41495,9/08/2020,13/08/2020,Second Class,Corporate,Asia Pacific,Office Supplies,99.6,Medium
+IN-2013-KB1631578-41495,9/08/2020,11/08/2020,First Class,Consumer,Asia Pacific,Furniture,94.5,Critical
+IR-2013-NP832560-41495,9/08/2020,14/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,396.84,Medium
+IN-2013-KB1631578-41495,9/08/2020,11/08/2020,First Class,Consumer,Asia Pacific,Technology,1226.19,Critical
+ES-2013-TP2113048-41495,9/08/2020,15/08/2020,Standard Class,Consumer,Europe,Technology,1080.63,Medium
+IN-2013-DG1330058-41495,9/08/2020,11/08/2020,Second Class,Corporate,Asia Pacific,Office Supplies,58.65,High
+IN-2013-MS17710113-41495,9/08/2020,12/08/2020,Second Class,Consumer,Asia Pacific,Office Supplies,54.72,Critical
+IN-2013-TS212057-41495,9/08/2020,13/08/2020,Standard Class,Corporate,Asia Pacific,Furniture,1251.936,High
+IN-2013-NP1870058-41495,9/08/2020,14/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,70.35,Medium
+AG-2013-MP74703-41495,9/08/2020,13/08/2020,Standard Class,Home Office,Africa,Office Supplies,17.52,Medium
+AO-2013-CA23104-41495,9/08/2020,14/08/2020,Standard Class,Corporate,Africa,Office Supplies,4.8,Medium
+MX-2013-DO1343531-41496,10/08/2020,14/08/2020,Standard Class,Consumer,LATAM,Technology,132.84,Medium
+MX-2013-DO1343531-41496,10/08/2020,14/08/2020,Standard Class,Consumer,LATAM,Technology,75.68,Medium
+MX-2013-MC1763539-41496,10/08/2020,13/08/2020,Second Class,Corporate,LATAM,Furniture,451.6,Critical
+MX-2013-MC1763539-41496,10/08/2020,13/08/2020,Second Class,Corporate,LATAM,Office Supplies,21.36,Critical
+CA-2013-JK16120140-41496,10/08/2020,16/08/2020,Standard Class,Home Office,USCA,Office Supplies,41.4,Medium
+CA-2013-JK16120140-41496,10/08/2020,16/08/2020,Standard Class,Home Office,USCA,Office Supplies,3.75,Medium
+CA-2013-JK16120140-41496,10/08/2020,16/08/2020,Standard Class,Home Office,USCA,Office Supplies,29.79,Medium
+CA-2013-BD11320140-41496,10/08/2020,14/08/2020,Standard Class,Consumer,USCA,Office Supplies,64.75,Medium
+ES-2013-SC20770139-41496,10/08/2020,14/08/2020,Standard Class,Corporate,Europe,Office Supplies,95.76,Medium
+ES-2013-LL1684048-41496,10/08/2020,16/08/2020,Standard Class,Consumer,Europe,Office Supplies,109.92,Medium
+ES-2013-GB1457545-41496,10/08/2020,14/08/2020,Standard Class,Consumer,Europe,Office Supplies,83.34,Medium
+ES-2013-LL1684048-41496,10/08/2020,16/08/2020,Standard Class,Consumer,Europe,Office Supplies,85.59,Medium
+ES-2013-FM1421545-41496,10/08/2020,12/08/2020,Second Class,Corporate,Europe,Technology,118.575,High
+UP-2013-AG675137-41496,10/08/2020,16/08/2020,Standard Class,Consumer,Europe,Office Supplies,85.68,Low
+ES-2013-JF1519048-41496,10/08/2020,12/08/2020,First Class,Consumer,Europe,Office Supplies,73.53,Medium
+ES-2013-SC20770139-41496,10/08/2020,14/08/2020,Standard Class,Corporate,Europe,Technology,674.4,Medium
+UP-2013-AG675137-41496,10/08/2020,16/08/2020,Standard Class,Consumer,Europe,Furniture,463.68,Low
+ES-2013-YS2188048-41496,10/08/2020,14/08/2020,Standard Class,Corporate,Europe,Technology,1281.75,Medium
+ES-2013-SS2087545-41496,10/08/2020,14/08/2020,Standard Class,Consumer,Europe,Office Supplies,13.68,Medium
+ES-2013-MD1786045-41496,10/08/2020,14/08/2020,Standard Class,Corporate,Europe,Office Supplies,224.4,High
+ID-2013-EK13795102-41496,10/08/2020,11/08/2020,First Class,Home Office,Asia Pacific,Office Supplies,49.302,Medium
+ID-2013-SC2009592-41496,10/08/2020,14/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,23.616,Medium
+ID-2013-SC2009592-41496,10/08/2020,14/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,15.984,Medium
+ID-2013-LP1708059-41496,10/08/2020,16/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,21.5922,Medium
+IN-2013-CT1199566-41496,10/08/2020,12/08/2020,First Class,Consumer,Asia Pacific,Office Supplies,20.7,High
+IN-2013-AS1063058-41496,10/08/2020,15/08/2020,Standard Class,Home Office,Asia Pacific,Office Supplies,169.29,Medium
+IN-2013-CT1199566-41496,10/08/2020,12/08/2020,First Class,Consumer,Asia Pacific,Technology,1214.22,High
+ID-2013-BE1141059-41496,10/08/2020,10/08/2020,Same Day,Consumer,Asia Pacific,Technology,558.9552,High
+ID-2013-BE1141059-41496,10/08/2020,10/08/2020,Same Day,Consumer,Asia Pacific,Furniture,1685.16,High
+ES-2013-SC20770139-41496,10/08/2020,14/08/2020,Standard Class,Corporate,Europe,Office Supplies,34.02,Medium
+ES-2013-CK1276045-41496,10/08/2020,15/08/2020,Standard Class,Corporate,Europe,Technology,213.57,Medium
+ES-2013-YS2188048-41496,10/08/2020,14/08/2020,Standard Class,Corporate,Europe,Office Supplies,170.46,Medium
+ES-2013-JK1537045-41496,10/08/2020,17/08/2020,Standard Class,Consumer,Europe,Office Supplies,244.35,Medium
+IN-2013-CT1199566-41496,10/08/2020,12/08/2020,First Class,Consumer,Asia Pacific,Office Supplies,32.64,High
+IN-2013-CT1199566-41496,10/08/2020,12/08/2020,First Class,Consumer,Asia Pacific,Office Supplies,14.4,High
+ID-2013-LP1708059-41496,10/08/2020,16/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,192.1284,Medium
+ID-2013-LP1708059-41496,10/08/2020,16/08/2020,Standard Class,Consumer,Asia Pacific,Furniture,1001.1366,Medium
+ID-2013-BE1141059-41496,10/08/2020,10/08/2020,Same Day,Consumer,Asia Pacific,Furniture,467.1576,High
+IN-2013-CT1199566-41496,10/08/2020,12/08/2020,First Class,Consumer,Asia Pacific,Technology,3038.64,High
+ID-2013-JM1619559-41496,10/08/2020,17/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,54.4416,Low
+NI-2013-MO780095-41496,10/08/2020,14/08/2020,Standard Class,Home Office,Africa,Furniture,44.802,Medium
+CM-2013-MC759022-41496,10/08/2020,14/08/2020,Standard Class,Corporate,Africa,Office Supplies,31.95,High
+SF-2013-SM10005117-41496,10/08/2020,16/08/2020,Standard Class,Consumer,Africa,Office Supplies,58.98,Low
+NI-2013-ZD1192595-41496,10/08/2020,14/08/2020,Standard Class,Consumer,Africa,Technology,159.066,High
+EG-2013-KC625538-41496,10/08/2020,14/08/2020,Standard Class,Corporate,Africa,Technology,527.46,High
+US-2013-JF1556536-41497,11/08/2020,15/08/2020,Standard Class,Consumer,LATAM,Office Supplies,45.52,Medium
+US-2013-DW1358555-41497,11/08/2020,15/08/2020,Standard Class,Corporate,LATAM,Office Supplies,16.248,Medium
+US-2013-DW1358555-41497,11/08/2020,15/08/2020,Standard Class,Corporate,LATAM,Office Supplies,22.512,Medium
+US-2013-DW1358555-41497,11/08/2020,15/08/2020,Standard Class,Corporate,LATAM,Furniture,94.8,Medium
+US-2013-DW1358555-41497,11/08/2020,15/08/2020,Standard Class,Corporate,LATAM,Furniture,133.344,Medium
+US-2013-PO19180140-41497,11/08/2020,15/08/2020,Standard Class,Home Office,USCA,Office Supplies,11.96,Medium
+US-2013-PO19180140-41497,11/08/2020,15/08/2020,Standard Class,Home Office,USCA,Technology,138,Medium
+CA-2013-BW11065140-41497,11/08/2020,16/08/2020,Standard Class,Consumer,USCA,Furniture,46.152,Medium
+ES-2013-FM1438048-41497,11/08/2020,16/08/2020,Standard Class,Consumer,Europe,Office Supplies,42.336,High
+IN-2013-AR1051058-41497,11/08/2020,16/08/2020,Standard Class,Consumer,Asia Pacific,Furniture,60.39,Medium
+IN-2013-RD1972066-41497,11/08/2020,14/08/2020,First Class,Consumer,Asia Pacific,Office Supplies,26.22,Critical
+IN-2013-RD1972066-41497,11/08/2020,14/08/2020,First Class,Consumer,Asia Pacific,Office Supplies,59.88,Critical
+IN-2013-RD1972066-41497,11/08/2020,14/08/2020,First Class,Consumer,Asia Pacific,Furniture,66.69,Critical
+ES-2013-CC123708-41498,12/08/2020,16/08/2020,Second Class,Consumer,Europe,Office Supplies,59.58,High
+ID-2013-CW11905102-41498,12/08/2020,17/08/2020,Standard Class,Home Office,Asia Pacific,Office Supplies,45.045,Medium
+IN-2013-AR1034527-41498,12/08/2020,17/08/2020,Second Class,Corporate,Asia Pacific,Technology,207.6,Medium
+IN-2013-AR1034527-41498,12/08/2020,17/08/2020,Second Class,Corporate,Asia Pacific,Office Supplies,379.68,Medium
+MX-2013-DG1330031-41499,13/08/2020,19/08/2020,Standard Class,Corporate,LATAM,Office Supplies,123.9,Medium
+CA-2013-RA19285140-41499,13/08/2020,17/08/2020,Second Class,Consumer,USCA,Office Supplies,11.36,Medium
+CA-2013-EJ13720140-41499,13/08/2020,16/08/2020,First Class,Consumer,USCA,Office Supplies,422.856,High
+US-2013-SC2068018-41499,13/08/2020,17/08/2020,Standard Class,Home Office,LATAM,Office Supplies,26.4,High
+ES-2013-SE20110139-41499,13/08/2020,14/08/2020,First Class,Consumer,Europe,Office Supplies,81.162,Critical
+ES-2013-SC2002045-41499,13/08/2020,15/08/2020,First Class,Consumer,Europe,Office Supplies,61.74,Critical
+UP-2013-BP1095137-41499,13/08/2020,17/08/2020,Standard Class,Corporate,Europe,Furniture,124.59,High
+ES-2013-SC2002045-41499,13/08/2020,15/08/2020,First Class,Consumer,Europe,Technology,355.725,Critical
+ES-2013-TS2134045-41499,13/08/2020,19/08/2020,Standard Class,Consumer,Europe,Office Supplies,21.3,Medium
+ES-2013-DA1345045-41499,13/08/2020,19/08/2020,Standard Class,Home Office,Europe,Office Supplies,62.775,Low
+UP-2013-BP1095137-41499,13/08/2020,17/08/2020,Standard Class,Corporate,Europe,Furniture,113.04,High
+ES-2013-SC2002045-41499,13/08/2020,15/08/2020,First Class,Consumer,Europe,Office Supplies,86.4,Critical
+ES-2013-JM1586564-41499,13/08/2020,15/08/2020,First Class,Consumer,Europe,Office Supplies,541.296,Critical
+UP-2013-JF5415137-41499,13/08/2020,17/08/2020,Standard Class,Consumer,Europe,Office Supplies,97.92,High
+ES-2013-JM1586564-41499,13/08/2020,15/08/2020,First Class,Consumer,Europe,Office Supplies,283.92,Critical
+ES-2013-JM1586564-41499,13/08/2020,15/08/2020,First Class,Consumer,Europe,Furniture,828.06,Critical
+CA-2013-GK14620140-41499,13/08/2020,15/08/2020,First Class,Corporate,USCA,Office Supplies,64.68,Medium
+CA-2013-CK12595140-41499,13/08/2020,17/08/2020,Standard Class,Consumer,USCA,Office Supplies,5.64,Medium
+ID-2013-GZ14470102-41499,13/08/2020,18/08/2020,Standard Class,Consumer,Asia Pacific,Furniture,294.0795,Medium
+UP-2013-BP1095137-41499,13/08/2020,17/08/2020,Standard Class,Corporate,Europe,Office Supplies,6.72,High
+UP-2013-BP1095137-41499,13/08/2020,17/08/2020,Standard Class,Corporate,Europe,Office Supplies,30.21,High
+UP-2013-GH4410137-41499,13/08/2020,18/08/2020,Second Class,Home Office,Europe,Furniture,124.59,Medium
+ES-2013-AF10885139-41499,13/08/2020,18/08/2020,Standard Class,Consumer,Europe,Office Supplies,108.48,Medium
+ID-2013-SS20590102-41499,13/08/2020,16/08/2020,Second Class,Consumer,Asia Pacific,Office Supplies,7.7385,Critical
+IN-2013-LA1678092-41499,13/08/2020,15/08/2020,First Class,Corporate,Asia Pacific,Office Supplies,27.72,Critical
+ID-2013-JM1619559-41499,13/08/2020,17/08/2020,Standard Class,Consumer,Asia Pacific,Technology,117.7872,High
+IN-2013-EM1396027-41499,13/08/2020,17/08/2020,Standard Class,Consumer,Asia Pacific,Furniture,373.23,High
+IN-2013-EM1396027-41499,13/08/2020,17/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,342.3,High
+ZA-2013-SF10200146-41499,13/08/2020,18/08/2020,Standard Class,Consumer,Africa,Office Supplies,38.61,Medium
+NG-2013-AH12094-41499,13/08/2020,17/08/2020,Standard Class,Home Office,Africa,Technology,43.02,High
+ML-2013-FW439579-41499,13/08/2020,18/08/2020,Standard Class,Corporate,Africa,Technology,73.95,High
+ZA-2013-SF10200146-41499,13/08/2020,18/08/2020,Standard Class,Consumer,Africa,Furniture,338.04,Medium
+ML-2013-FW439579-41499,13/08/2020,18/08/2020,Standard Class,Corporate,Africa,Office Supplies,142.08,High
+NG-2013-AH12094-41499,13/08/2020,17/08/2020,Standard Class,Home Office,Africa,Office Supplies,218.16,High
+ZA-2013-SF10200146-41499,13/08/2020,18/08/2020,Standard Class,Consumer,Africa,Office Supplies,15.96,Medium
+MX-2013-RA1994582-41500,14/08/2020,16/08/2020,Second Class,Consumer,LATAM,Technology,2171.6,Medium
+ES-2013-MB18085139-41500,14/08/2020,21/08/2020,Standard Class,Consumer,Europe,Office Supplies,35.1,Medium
+IT-2013-JK15730125-41500,14/08/2020,20/08/2020,Standard Class,Consumer,Europe,Office Supplies,139.8,Medium
+IT-2013-PF19225125-41500,14/08/2020,18/08/2020,Standard Class,Consumer,Europe,Office Supplies,189.63,High
+IT-2013-TA2138548-41500,14/08/2020,20/08/2020,Standard Class,Home Office,Europe,Office Supplies,6.27,Medium
+IT-2013-JK15730125-41500,14/08/2020,20/08/2020,Standard Class,Consumer,Europe,Furniture,96.9,Medium
+IT-2013-PF19225125-41500,14/08/2020,18/08/2020,Standard Class,Consumer,Europe,Office Supplies,47.49,High
+ES-2013-JL1583545-41500,14/08/2020,18/08/2020,Standard Class,Consumer,Europe,Technology,69.15,High
+ES-2013-CD1228044-41500,14/08/2020,19/08/2020,Standard Class,Consumer,Europe,Office Supplies,190.89,Medium
+IT-2013-JK15730125-41500,14/08/2020,20/08/2020,Standard Class,Consumer,Europe,Technology,1360.56,Medium
+ES-2013-JL1583545-41500,14/08/2020,18/08/2020,Standard Class,Consumer,Europe,Office Supplies,1345.329,High
+ES-2013-CD1228044-41500,14/08/2020,19/08/2020,Standard Class,Consumer,Europe,Office Supplies,49.08,Medium
+IT-2013-PF19225125-41500,14/08/2020,18/08/2020,Standard Class,Consumer,Europe,Office Supplies,244.8,High
+ES-2013-CD1228044-41500,14/08/2020,19/08/2020,Standard Class,Consumer,Europe,Office Supplies,28.08,Medium
+IT-2013-TA2138548-41500,14/08/2020,20/08/2020,Standard Class,Home Office,Europe,Office Supplies,277.92,Medium
+ES-2013-CD1228044-41500,14/08/2020,19/08/2020,Standard Class,Consumer,Europe,Office Supplies,182.7,Medium
+ES-2013-TH2155045-41500,14/08/2020,17/08/2020,First Class,Home Office,Europe,Office Supplies,78.57,Medium
+IT-2013-PF19225125-41500,14/08/2020,18/08/2020,Standard Class,Consumer,Europe,Technology,364.32,High
+IT-2013-TA2138548-41500,14/08/2020,20/08/2020,Standard Class,Home Office,Europe,Technology,1075.23,Medium
+IN-2013-TS2150558-41500,14/08/2020,19/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,52.32,Medium
+IN-2013-TS2150558-41500,14/08/2020,19/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,257.7,Medium
+IN-2013-PO1885058-41500,14/08/2020,19/08/2020,Standard Class,Consumer,Asia Pacific,Technology,346.32,Medium
+IN-2013-TS2150558-41500,14/08/2020,19/08/2020,Standard Class,Consumer,Asia Pacific,Furniture,106.08,Medium
+ID-2013-LC169607-41500,14/08/2020,18/08/2020,Standard Class,Home Office,Asia Pacific,Office Supplies,159.84,Medium
+IN-2013-TS2150558-41500,14/08/2020,19/08/2020,Standard Class,Consumer,Asia Pacific,Technology,367.83,Medium
+IN-2013-PO1885058-41500,14/08/2020,19/08/2020,Standard Class,Consumer,Asia Pacific,Technology,369.72,Medium
+IN-2013-LS172457-41500,14/08/2020,18/08/2020,Standard Class,Consumer,Asia Pacific,Technology,427.68,High
+ID-2013-JO1555097-41500,14/08/2020,16/08/2020,First Class,Home Office,Asia Pacific,Technology,39.75,Critical
+IN-2013-LS172457-41500,14/08/2020,18/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,20.925,High
+IN-2013-LS172457-41500,14/08/2020,18/08/2020,Standard Class,Consumer,Asia Pacific,Furniture,68.121,High
+ID-2013-IM150707-41500,14/08/2020,20/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,80.757,Low
+ID-2013-JO1555097-41500,14/08/2020,16/08/2020,First Class,Home Office,Asia Pacific,Technology,26.58,Critical
+ID-2013-IM150707-41500,14/08/2020,20/08/2020,Standard Class,Consumer,Asia Pacific,Technology,223.938,Low
+GH-2013-RE945049-41500,14/08/2020,19/08/2020,Second Class,Consumer,Africa,Office Supplies,53.91,High
+ML-2013-TB1128079-41500,14/08/2020,16/08/2020,Second Class,Consumer,Africa,Technology,301.77,High
+GH-2013-RE945049-41500,14/08/2020,19/08/2020,Second Class,Consumer,Africa,Furniture,389.25,High
+GH-2013-RE945049-41500,14/08/2020,19/08/2020,Second Class,Consumer,Africa,Office Supplies,816.6,High
+KE-2013-JO514569-41500,14/08/2020,18/08/2020,Standard Class,Corporate,Africa,Office Supplies,126.96,Medium
+KE-2013-JO514569-41500,14/08/2020,18/08/2020,Standard Class,Corporate,Africa,Office Supplies,511.68,Medium
+NI-2013-EH376595-41500,14/08/2020,20/08/2020,Standard Class,Corporate,Africa,Office Supplies,17.64,Low
+US-2013-ME1772555-41501,15/08/2020,17/08/2020,Second Class,Consumer,LATAM,Office Supplies,21.96,Critical
+MX-2013-MC1763582-41501,15/08/2020,20/08/2020,Standard Class,Corporate,LATAM,Office Supplies,102.4,Medium
+MX-2013-AS1004598-41501,15/08/2020,20/08/2020,Standard Class,Corporate,LATAM,Office Supplies,13.956,Medium
+PL-2013-RR9525103-41501,15/08/2020,15/08/2020,Same Day,Corporate,Europe,Office Supplies,199.32,Medium
+ES-2013-TM2149045-41501,15/08/2020,22/08/2020,Standard Class,Consumer,Europe,Office Supplies,248.64,Low
+ES-2013-SS2041045-41501,15/08/2020,18/08/2020,First Class,Consumer,Europe,Office Supplies,77.4,Medium
+ES-2013-SS2041045-41501,15/08/2020,18/08/2020,First Class,Consumer,Europe,Furniture,1255.5,Medium
+ES-2013-BF1100591-41501,15/08/2020,19/08/2020,Standard Class,Home Office,Europe,Office Supplies,6.63,Medium
+ES-2013-SS2041045-41501,15/08/2020,18/08/2020,First Class,Consumer,Europe,Office Supplies,63.24,Medium
+PL-2013-RR9525103-41501,15/08/2020,15/08/2020,Same Day,Corporate,Europe,Office Supplies,109.8,Medium
+ES-2013-SS2041045-41501,15/08/2020,18/08/2020,First Class,Consumer,Europe,Office Supplies,149.31,Medium
+IT-2013-JS1594091-41501,15/08/2020,18/08/2020,First Class,Home Office,Europe,Technology,239.4,Medium
+IT-2013-JS1594091-41501,15/08/2020,18/08/2020,First Class,Home Office,Europe,Furniture,264.672,Medium
+ID-2013-KM162257-41501,15/08/2020,19/08/2020,Standard Class,Corporate,Asia Pacific,Technology,2042.82,High
+ES-2013-JP15520139-41501,15/08/2020,19/08/2020,Second Class,Consumer,Europe,Office Supplies,132.192,Medium
+IT-2013-JS1594091-41501,15/08/2020,18/08/2020,First Class,Home Office,Europe,Technology,319.56,Medium
+ID-2013-KM162257-41501,15/08/2020,19/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,38.772,High
+IN-2013-CS1213066-41501,15/08/2020,21/08/2020,Standard Class,Consumer,Asia Pacific,Technology,262.14,Medium
+ID-2013-KN163907-41501,15/08/2020,18/08/2020,First Class,Corporate,Asia Pacific,Furniture,117.558,Medium
+CM-2013-GB453022-41501,15/08/2020,21/08/2020,Standard Class,Corporate,Africa,Office Supplies,34.2,Medium
+KE-2013-CD279069-41501,15/08/2020,19/08/2020,Standard Class,Home Office,Africa,Office Supplies,20.49,High
+SF-2013-RD9930117-41501,15/08/2020,21/08/2020,Standard Class,Consumer,Africa,Office Supplies,282.51,Low
+CM-2013-GB453022-41501,15/08/2020,21/08/2020,Standard Class,Corporate,Africa,Technology,244.98,Medium
+CA-2013-TZ1144523-41502,16/08/2020,20/08/2020,Standard Class,Corporate,USCA,Office Supplies,53.52,High
+MX-2013-VG2179082-41502,16/08/2020,21/08/2020,Standard Class,Consumer,LATAM,Technology,620.32,Medium
+US-2013-SP20860140-41502,16/08/2020,20/08/2020,Standard Class,Corporate,USCA,Furniture,254.352,High
+US-2013-SP20860140-41502,16/08/2020,20/08/2020,Standard Class,Corporate,USCA,Office Supplies,3.762,High
+US-2013-JW15955140-41502,16/08/2020,20/08/2020,Standard Class,Consumer,USCA,Furniture,301.47,Medium
+US-2013-SP20860140-41502,16/08/2020,20/08/2020,Standard Class,Corporate,USCA,Office Supplies,2.724,High
+US-2013-SP20860140-41502,16/08/2020,20/08/2020,Standard Class,Corporate,USCA,Technology,31.176,High
+US-2013-JW15955140-41502,16/08/2020,20/08/2020,Standard Class,Consumer,USCA,Office Supplies,44.688,Medium
+US-2013-SP20860140-41502,16/08/2020,20/08/2020,Standard Class,Corporate,USCA,Office Supplies,10.272,High
+US-2013-SP20860140-41502,16/08/2020,20/08/2020,Standard Class,Corporate,USCA,Office Supplies,10.368,High
+US-2013-SP20860140-41502,16/08/2020,20/08/2020,Standard Class,Corporate,USCA,Technology,519.792,High
+MX-2013-TG2164018-41502,16/08/2020,21/08/2020,Standard Class,Consumer,LATAM,Office Supplies,61.92,Medium
+MX-2013-TG2164018-41502,16/08/2020,21/08/2020,Standard Class,Consumer,LATAM,Office Supplies,77.84,Medium
+MX-2013-BS1136518-41502,16/08/2020,16/08/2020,Same Day,Corporate,LATAM,Office Supplies,110.08,High
+EZ-2013-MP817532-41502,16/08/2020,21/08/2020,Standard Class,Home Office,Europe,Office Supplies,6.12,Medium
+IT-2013-BT1153048-41502,16/08/2020,22/08/2020,Standard Class,Home Office,Europe,Office Supplies,91.584,Medium
+ES-2013-JL1585048-41502,16/08/2020,21/08/2020,Standard Class,Consumer,Europe,Office Supplies,10.86,Medium
+ES-2013-JL1585048-41502,16/08/2020,21/08/2020,Standard Class,Consumer,Europe,Office Supplies,12.3,Medium
+ES-2013-JD16150139-41502,16/08/2020,21/08/2020,Standard Class,Corporate,Europe,Office Supplies,76.05,Medium
+IT-2013-BT1153048-41502,16/08/2020,22/08/2020,Standard Class,Home Office,Europe,Office Supplies,40.932,Medium
+ES-2013-JD16150139-41502,16/08/2020,21/08/2020,Standard Class,Corporate,Europe,Office Supplies,63.9,Medium
+ES-2013-JD16150139-41502,16/08/2020,21/08/2020,Standard Class,Corporate,Europe,Office Supplies,88.47,Medium
+ES-2013-TB2128044-41502,16/08/2020,21/08/2020,Standard Class,Consumer,Europe,Furniture,155.88,Medium
+BO-2013-GH441013-41502,16/08/2020,20/08/2020,Standard Class,Home Office,Europe,Furniture,62.07,High
+BO-2013-GH441013-41502,16/08/2020,20/08/2020,Standard Class,Home Office,Europe,Furniture,171.51,High
+ES-2013-TB2128044-41502,16/08/2020,21/08/2020,Standard Class,Consumer,Europe,Office Supplies,382.41,Medium
+IN-2013-MD178607-41502,16/08/2020,16/08/2020,Same Day,Corporate,Asia Pacific,Office Supplies,46.305,High
+ID-2013-EM14200130-41502,16/08/2020,16/08/2020,Same Day,Home Office,Asia Pacific,Office Supplies,33.615,High
+IN-2013-SW207557-41502,16/08/2020,20/08/2020,Standard Class,Corporate,Asia Pacific,Furniture,267.3,Medium
+IN-2013-SW207557-41502,16/08/2020,20/08/2020,Standard Class,Corporate,Asia Pacific,Technology,380.538,Medium
+ID-2013-EM14200130-41502,16/08/2020,16/08/2020,Same Day,Home Office,Asia Pacific,Technology,178.1595,High
+ID-2013-EM14200130-41502,16/08/2020,16/08/2020,Same Day,Home Office,Asia Pacific,Technology,3741.5238,High
+ES-2013-TB2128044-41502,16/08/2020,21/08/2020,Standard Class,Consumer,Europe,Office Supplies,56.25,Medium
+ID-2013-EM14200130-41502,16/08/2020,16/08/2020,Same Day,Home Office,Asia Pacific,Office Supplies,73.458,High
+IN-2013-SW207557-41502,16/08/2020,20/08/2020,Standard Class,Corporate,Asia Pacific,Technology,517.59,Medium
+IN-2013-SW207557-41502,16/08/2020,20/08/2020,Standard Class,Corporate,Asia Pacific,Furniture,264.276,Medium
+IN-2013-CG1252058-41502,16/08/2020,18/08/2020,Second Class,Consumer,Asia Pacific,Office Supplies,231.36,Critical
+IN-2013-MD178607-41502,16/08/2020,16/08/2020,Same Day,Corporate,Asia Pacific,Furniture,698.544,High
+IN-2013-MG1768011-41502,16/08/2020,23/08/2020,Standard Class,Home Office,Asia Pacific,Office Supplies,47.88,Medium
+IN-2013-NW1840027-41502,16/08/2020,23/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,20.13,Medium
+ID-2013-EM14200130-41502,16/08/2020,16/08/2020,Same Day,Home Office,Asia Pacific,Office Supplies,13.5786,High
+ID-2013-EM14200130-41502,16/08/2020,16/08/2020,Same Day,Home Office,Asia Pacific,Office Supplies,99.7248,High
+IN-2013-SW207557-41502,16/08/2020,20/08/2020,Standard Class,Corporate,Asia Pacific,Technology,2897.91,Medium
+CG-2013-JD606033-41502,16/08/2020,22/08/2020,Standard Class,Consumer,Africa,Office Supplies,15.54,Medium
+GH-2013-TS1116049-41502,16/08/2020,22/08/2020,Standard Class,Corporate,Africa,Furniture,48.42,Medium
+UG-2013-BE1335136-41502,16/08/2020,18/08/2020,Second Class,Home Office,Africa,Office Supplies,65.592,Medium
+CG-2013-JD606033-41502,16/08/2020,22/08/2020,Standard Class,Consumer,Africa,Office Supplies,50.55,Medium
+CG-2013-JD606033-41502,16/08/2020,22/08/2020,Standard Class,Consumer,Africa,Office Supplies,140.67,Medium
+UG-2013-BE1335136-41502,16/08/2020,18/08/2020,Second Class,Home Office,Africa,Furniture,110.052,Medium
+UG-2013-BE1335136-41502,16/08/2020,18/08/2020,Second Class,Home Office,Africa,Technology,76.905,Medium
+GH-2013-TS1116049-41502,16/08/2020,22/08/2020,Standard Class,Corporate,Africa,Technology,575.64,Medium
+GH-2013-TS1116049-41502,16/08/2020,22/08/2020,Standard Class,Corporate,Africa,Office Supplies,22.47,Medium
+MX-2013-BF1121551-41503,17/08/2020,19/08/2020,Second Class,Home Office,LATAM,Furniture,207.84,Medium
+MX-2013-BF1121551-41503,17/08/2020,19/08/2020,Second Class,Home Office,LATAM,Furniture,276.864,Medium
+CA-2013-SC20440140-41503,17/08/2020,21/08/2020,Standard Class,Corporate,USCA,Office Supplies,52.2,High
+PL-2013-BE1335103-41503,17/08/2020,22/08/2020,Second Class,Home Office,Europe,Office Supplies,13.32,Medium
+IT-2013-ZD2192548-41503,17/08/2020,22/08/2020,Standard Class,Consumer,Europe,Furniture,1127.808,Medium
+RO-2013-DB3660107-41503,17/08/2020,19/08/2020,Second Class,Consumer,Europe,Furniture,1391.52,Critical
+ES-2013-BE1133545-41503,17/08/2020,22/08/2020,Standard Class,Home Office,Europe,Office Supplies,93.69,Medium
+ES-2013-BE1133545-41503,17/08/2020,22/08/2020,Standard Class,Home Office,Europe,Office Supplies,87.03,Medium
+ES-2013-BE1133545-41503,17/08/2020,22/08/2020,Standard Class,Home Office,Europe,Furniture,200.88,Medium
+MG-2013-SS1014084-41503,17/08/2020,21/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,16.65,Medium
+IN-2013-TR2132558-41503,17/08/2020,22/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,98.85,Medium
+MG-2013-SS1014084-41503,17/08/2020,21/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,178.32,Medium
+IN-2013-TR2132558-41503,17/08/2020,22/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,13.8,Medium
+MG-2013-SS1014084-41503,17/08/2020,21/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,30.96,Medium
+MG-2013-SS1014084-41503,17/08/2020,21/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,62.16,Medium
+IN-2013-ML1826558-41503,17/08/2020,22/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,130.23,Medium
+IN-2013-ML1826558-41503,17/08/2020,22/08/2020,Standard Class,Consumer,Asia Pacific,Technology,855.45,Medium
+MG-2013-SS1014084-41503,17/08/2020,21/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,21.48,Medium
+IN-2013-TR2132558-41503,17/08/2020,22/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,21.6,Medium
+MG-2013-SS1014084-41503,17/08/2020,21/08/2020,Standard Class,Corporate,Asia Pacific,Technology,294.3,Medium
+IN-2013-TR2132558-41503,17/08/2020,22/08/2020,Standard Class,Consumer,Asia Pacific,Furniture,581.25,Medium
+MG-2013-SS1014084-41503,17/08/2020,21/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,1124.58,Medium
+IN-2013-KH1651011-41503,17/08/2020,23/08/2020,Standard Class,Consumer,Asia Pacific,Furniture,1333.44,Medium
+IN-2013-TR2132558-41503,17/08/2020,22/08/2020,Standard Class,Consumer,Asia Pacific,Furniture,168.03,Medium
+IN-2013-KH1651011-41503,17/08/2020,23/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,82.65,Medium
+NI-2013-SC1069595-41503,17/08/2020,17/08/2020,Same Day,Corporate,Africa,Office Supplies,4.194,Critical
+NI-2013-SC1069595-41503,17/08/2020,17/08/2020,Same Day,Corporate,Africa,Office Supplies,14.832,Critical
+EG-2013-MP796538-41503,17/08/2020,20/08/2020,Second Class,Corporate,Africa,Technology,58.83,High
+NI-2013-SC1069595-41503,17/08/2020,17/08/2020,Same Day,Corporate,Africa,Furniture,43.011,Critical
+NI-2013-SC1069595-41503,17/08/2020,17/08/2020,Same Day,Corporate,Africa,Office Supplies,254.52,Critical
+US-2013-PO1918082-41504,18/08/2020,23/08/2020,Standard Class,Home Office,LATAM,Technology,1058.2792,High
+US-2013-DL128655-41504,18/08/2020,19/08/2020,First Class,Consumer,LATAM,Technology,54.42,High
+MX-2013-ER1385518-41504,18/08/2020,24/08/2020,Standard Class,Corporate,LATAM,Furniture,826.56,Medium
+UP-2013-SJ10125137-41504,18/08/2020,22/08/2020,Standard Class,Home Office,Europe,Office Supplies,16.98,High
+UP-2013-SJ10125137-41504,18/08/2020,22/08/2020,Standard Class,Home Office,Europe,Furniture,51.81,High
+IT-2013-KE1642048-41504,18/08/2020,22/08/2020,Standard Class,Corporate,Europe,Office Supplies,85.35,Medium
+IT-2013-KE1642048-41504,18/08/2020,22/08/2020,Standard Class,Corporate,Europe,Office Supplies,388.773,Medium
+UP-2013-SJ10125137-41504,18/08/2020,22/08/2020,Standard Class,Home Office,Europe,Technology,122.37,High
+ES-2013-EB1411048-41504,18/08/2020,22/08/2020,Standard Class,Consumer,Europe,Furniture,201.123,High
+ES-2013-JJ15760120-41504,18/08/2020,19/08/2020,First Class,Home Office,Europe,Technology,558.9,Critical
+ES-2013-RS1987045-41504,18/08/2020,20/08/2020,Second Class,Home Office,Europe,Office Supplies,56.7,High
+ES-2013-RS1987045-41504,18/08/2020,20/08/2020,Second Class,Home Office,Europe,Technology,716.55,High
+IN-2013-CM124457-41504,18/08/2020,22/08/2020,Standard Class,Consumer,Asia Pacific,Furniture,23.91,Medium
+ID-2013-NM18445130-41504,18/08/2020,25/08/2020,Standard Class,Home Office,Asia Pacific,Office Supplies,82.7595,Low
+ID-2013-NM18445130-41504,18/08/2020,25/08/2020,Standard Class,Home Office,Asia Pacific,Technology,224.0028,Low
+ID-2013-NM18445130-41504,18/08/2020,25/08/2020,Standard Class,Home Office,Asia Pacific,Technology,475.1916,Low
+ID-2013-NM18445130-41504,18/08/2020,25/08/2020,Standard Class,Home Office,Asia Pacific,Technology,439.3116,Low
+ID-2013-NM18445130-41504,18/08/2020,25/08/2020,Standard Class,Home Office,Asia Pacific,Technology,1023.2904,Low
+MO-2013-AH1007586-41504,18/08/2020,24/08/2020,Standard Class,Corporate,Africa,Office Supplies,15.75,Medium
+IN-2013-JW1522027-41505,19/08/2020,24/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,33.96,Medium
+CA-2013-NP832523-41506,20/08/2020,26/08/2020,Standard Class,Consumer,USCA,Office Supplies,144.54,Medium
+CA-2013-SV1036523-41506,20/08/2020,24/08/2020,Second Class,Consumer,USCA,Office Supplies,22.68,Medium
+CA-2013-SV1036523-41506,20/08/2020,24/08/2020,Second Class,Consumer,USCA,Office Supplies,24.72,Medium
+CA-2013-SV1036523-41506,20/08/2020,24/08/2020,Second Class,Consumer,USCA,Office Supplies,26.43,Medium
+CA-2013-SV1036523-41506,20/08/2020,24/08/2020,Second Class,Consumer,USCA,Technology,122.91,Medium
+CA-2013-SV1036523-41506,20/08/2020,24/08/2020,Second Class,Consumer,USCA,Office Supplies,103.56,Medium
+CA-2013-SV1036523-41506,20/08/2020,24/08/2020,Second Class,Consumer,USCA,Furniture,459.63,Medium
+CA-2013-NP832523-41506,20/08/2020,26/08/2020,Standard Class,Consumer,USCA,Technology,385.56,Medium
+MX-2013-SC2023031-41506,20/08/2020,24/08/2020,Standard Class,Corporate,LATAM,Office Supplies,53.4,High
+MX-2013-SC2023031-41506,20/08/2020,24/08/2020,Standard Class,Corporate,LATAM,Office Supplies,123.48,High
+MX-2013-GD1459082-41506,20/08/2020,27/08/2020,Standard Class,Corporate,LATAM,Technology,2276.0388,Medium
+ES-2013-MC1759064-41506,20/08/2020,22/08/2020,Second Class,Corporate,Europe,Office Supplies,65.394,Medium
+UP-2013-KH6330137-41506,20/08/2020,24/08/2020,Standard Class,Corporate,Europe,Office Supplies,97.32,High
+ES-2013-CA12265139-41506,20/08/2020,24/08/2020,Standard Class,Consumer,Europe,Technology,123.12,High
+ES-2013-CA12265139-41506,20/08/2020,24/08/2020,Standard Class,Consumer,Europe,Furniture,3315.27,High
+ES-2013-CA12265139-41506,20/08/2020,24/08/2020,Standard Class,Consumer,Europe,Technology,632.34,High
+ID-2013-CS121757-41506,20/08/2020,24/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,15.903,High
+IN-2013-TS2150559-41506,20/08/2020,25/08/2020,Second Class,Consumer,Asia Pacific,Office Supplies,31.323,Medium
+IR-2013-EM414060-41506,20/08/2020,24/08/2020,Standard Class,Home Office,Asia Pacific,Office Supplies,102.9,High
+IR-2013-EM414060-41506,20/08/2020,24/08/2020,Standard Class,Home Office,Asia Pacific,Furniture,137.16,High
+IN-2013-GD1459027-41506,20/08/2020,25/08/2020,Second Class,Corporate,Asia Pacific,Office Supplies,96.84,High
+IN-2013-CM1216027-41506,20/08/2020,24/08/2020,Standard Class,Consumer,Asia Pacific,Technology,5737.5,Medium
+IN-2013-SP2054527-41506,20/08/2020,22/08/2020,Second Class,Corporate,Asia Pacific,Office Supplies,98.49,Medium
+IN-2013-BM1178527-41506,20/08/2020,23/08/2020,Second Class,Consumer,Asia Pacific,Technology,726.39,Medium
+IR-2013-EM414060-41506,20/08/2020,24/08/2020,Standard Class,Home Office,Asia Pacific,Office Supplies,824.04,High
+AG-2013-DC32853-41506,20/08/2020,24/08/2020,Standard Class,Consumer,Africa,Technology,172.53,High
+SF-2013-CP2085117-41506,20/08/2020,22/08/2020,First Class,Corporate,Africa,Office Supplies,170.46,Critical
+SF-2013-CP2085117-41506,20/08/2020,22/08/2020,First Class,Corporate,Africa,Office Supplies,354.9,Critical
+SF-2013-CP2085117-41506,20/08/2020,22/08/2020,First Class,Corporate,Africa,Office Supplies,39.36,Critical
+AG-2013-DC32853-41506,20/08/2020,24/08/2020,Standard Class,Consumer,Africa,Office Supplies,96.96,High
+GH-2013-BT130549-41506,20/08/2020,22/08/2020,Second Class,Home Office,Africa,Office Supplies,139.5,High
+SF-2013-CP2085117-41506,20/08/2020,22/08/2020,First Class,Corporate,Africa,Furniture,889.02,Critical
+NG-2013-TS1137094-41506,20/08/2020,25/08/2020,Second Class,Corporate,Africa,Office Supplies,24.09,Medium
+SF-2013-CP2085117-41506,20/08/2020,22/08/2020,First Class,Corporate,Africa,Office Supplies,16.14,Critical
+NG-2013-TS1137094-41506,20/08/2020,25/08/2020,Second Class,Corporate,Africa,Office Supplies,49.5,Medium
+NG-2013-TS1137094-41506,20/08/2020,25/08/2020,Second Class,Corporate,Africa,Technology,158.58,Medium
+US-2013-SM20320140-41507,21/08/2020,25/08/2020,Standard Class,Home Office,USCA,Office Supplies,49.568,High
+CA-2013-KN16390140-41507,21/08/2020,25/08/2020,Standard Class,Corporate,USCA,Furniture,598.458,High
+US-2013-SM20320140-41507,21/08/2020,25/08/2020,Standard Class,Home Office,USCA,Office Supplies,3.488,High
+US-2013-SM20320140-41507,21/08/2020,25/08/2020,Standard Class,Home Office,USCA,Office Supplies,663.072,High
+CA-2013-KN16390140-41507,21/08/2020,25/08/2020,Standard Class,Corporate,USCA,Office Supplies,12.828,High
+CA-2013-KN16390140-41507,21/08/2020,25/08/2020,Standard Class,Corporate,USCA,Furniture,25.984,High
+US-2013-SM20320140-41507,21/08/2020,25/08/2020,Standard Class,Home Office,USCA,Technology,21.728,High
+US-2013-SM20320140-41507,21/08/2020,25/08/2020,Standard Class,Home Office,USCA,Office Supplies,99.588,High
+ES-2013-TZ2144545-41507,21/08/2020,26/08/2020,Second Class,Corporate,Europe,Office Supplies,41.85,Medium
+IT-2013-MW18235104-41507,21/08/2020,28/08/2020,Standard Class,Corporate,Europe,Office Supplies,86.805,Medium
+ES-2013-TZ2144545-41507,21/08/2020,26/08/2020,Second Class,Corporate,Europe,Office Supplies,97.2,Medium
+ES-2013-SC2030548-41507,21/08/2020,26/08/2020,Standard Class,Consumer,Europe,Technology,136.68,High
+IT-2013-ND18370104-41507,21/08/2020,25/08/2020,Standard Class,Consumer,Europe,Office Supplies,29.79,Medium
+IT-2013-MW18235104-41507,21/08/2020,28/08/2020,Standard Class,Corporate,Europe,Technology,178.68,Medium
+ES-2013-TZ2144545-41507,21/08/2020,26/08/2020,Second Class,Corporate,Europe,Furniture,1110.267,Medium
+ES-2013-SE2011045-41507,21/08/2020,24/08/2020,First Class,Consumer,Europe,Office Supplies,34.8,Medium
+ES-2013-SC2030548-41507,21/08/2020,26/08/2020,Standard Class,Consumer,Europe,Office Supplies,24.72,High
+IT-2013-AB1001591-41507,21/08/2020,21/08/2020,Same Day,Consumer,Europe,Office Supplies,19.665,Critical
+IT-2013-AB1001591-41507,21/08/2020,21/08/2020,Same Day,Consumer,Europe,Technology,83.31,Critical
+RO-2013-TP11565107-41507,21/08/2020,28/08/2020,Standard Class,Corporate,Europe,Furniture,455.52,Low
+CA-2013-HG14965140-41507,21/08/2020,26/08/2020,Standard Class,Corporate,USCA,Office Supplies,17.52,High
+CA-2013-HG14965140-41507,21/08/2020,26/08/2020,Standard Class,Corporate,USCA,Office Supplies,35.76,High
+IN-2013-SG2060592-41507,21/08/2020,26/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,106.32,High
+IN-2013-MF1825027-41507,21/08/2020,25/08/2020,Standard Class,Corporate,Asia Pacific,Technology,171.99,Medium
+IN-2013-MF1825027-41507,21/08/2020,25/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,97.5,Medium
+IN-2013-MF1825027-41507,21/08/2020,25/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,847.53,Medium
+EG-2013-BM178538-41507,21/08/2020,26/08/2020,Standard Class,Consumer,Africa,Technology,258.75,Medium
+EG-2013-BM178538-41507,21/08/2020,26/08/2020,Standard Class,Consumer,Africa,Office Supplies,95.28,Medium
+EG-2013-SW1045538-41507,21/08/2020,23/08/2020,Second Class,Consumer,Africa,Technology,145.32,Medium
+CA-2013-RB19705140-41508,22/08/2020,26/08/2020,Standard Class,Home Office,USCA,Office Supplies,16.52,High
+CA-2013-DP13105140-41508,22/08/2020,25/08/2020,First Class,Corporate,USCA,Office Supplies,50.112,Critical
+US-2013-JL151305-41508,22/08/2020,22/08/2020,Same Day,Consumer,LATAM,Office Supplies,37.44,High
+MX-2013-HH1501018-41508,22/08/2020,28/08/2020,Standard Class,Corporate,LATAM,Office Supplies,51.9,Medium
+MX-2013-BW1120026-41508,22/08/2020,25/08/2020,Second Class,Consumer,LATAM,Office Supplies,5.2,Medium
+MX-2013-BW1120026-41508,22/08/2020,25/08/2020,Second Class,Consumer,LATAM,Office Supplies,10.2,Medium
+MX-2013-BW1120026-41508,22/08/2020,25/08/2020,Second Class,Consumer,LATAM,Furniture,87.76,Medium
+MX-2013-BW1120026-41508,22/08/2020,25/08/2020,Second Class,Consumer,LATAM,Technology,849.92,Medium
+MX-2013-BW1120026-41508,22/08/2020,25/08/2020,Second Class,Consumer,LATAM,Technology,345.9,Medium
+ES-2013-BF11275120-41508,22/08/2020,28/08/2020,Standard Class,Corporate,Europe,Office Supplies,545.94,Medium
+HR-2013-RR952530-41508,22/08/2020,28/08/2020,Standard Class,Corporate,Europe,Furniture,51.93,Medium
+ES-2013-DK1322545-41508,22/08/2020,26/08/2020,Standard Class,Corporate,Europe,Office Supplies,163.296,Medium
+IT-2013-DB1312048-41508,22/08/2020,28/08/2020,Standard Class,Corporate,Europe,Technology,691.983,Medium
+IT-2013-DB1312048-41508,22/08/2020,28/08/2020,Standard Class,Corporate,Europe,Furniture,914.5125,Medium
+BO-2013-TZ1144513-41508,22/08/2020,27/08/2020,Standard Class,Corporate,Europe,Technology,50.28,Medium
+IT-2013-DB1312048-41508,22/08/2020,28/08/2020,Standard Class,Corporate,Europe,Furniture,117.855,Medium
+ID-2013-TG21640102-41508,22/08/2020,27/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,42.9,Medium
+IR-2013-KN670560-41508,22/08/2020,29/08/2020,Standard Class,Home Office,Asia Pacific,Technology,74.61,Low
+ID-2013-TG21640102-41508,22/08/2020,27/08/2020,Standard Class,Consumer,Asia Pacific,Furniture,259.605,Medium
+IR-2013-KN670560-41508,22/08/2020,29/08/2020,Standard Class,Home Office,Asia Pacific,Office Supplies,3369.24,Low
+IN-2013-TS214307-41508,22/08/2020,26/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,41.202,High
+ID-2013-BT115307-41508,22/08/2020,25/08/2020,Second Class,Home Office,Asia Pacific,Technology,483.516,Medium
+IN-2013-TS214307-41508,22/08/2020,26/08/2020,Standard Class,Corporate,Asia Pacific,Furniture,114.075,High
+IN-2013-Co1264027-41508,22/08/2020,29/08/2020,Standard Class,Consumer,Asia Pacific,Furniture,294.6,Low
+CA-2013-TD20995140-41509,23/08/2020,23/08/2020,Same Day,Consumer,USCA,Office Supplies,31.68,High
+CA-2013-TD20995140-41509,23/08/2020,23/08/2020,Same Day,Consumer,USCA,Office Supplies,5.768,High
+CA-2013-TD20995140-41509,23/08/2020,23/08/2020,Same Day,Consumer,USCA,Office Supplies,10.368,High
+CA-2013-TD20995140-41509,23/08/2020,23/08/2020,Same Day,Consumer,USCA,Office Supplies,12.032,High
+ES-2013-YS2188045-41509,23/08/2020,29/08/2020,Standard Class,Corporate,Europe,Office Supplies,87.3,Medium
+ES-2013-AT1073548-41509,23/08/2020,28/08/2020,Second Class,Consumer,Europe,Office Supplies,102.15,Medium
+IT-2013-SR20425139-41509,23/08/2020,29/08/2020,Standard Class,Home Office,Europe,Office Supplies,338.31,Low
+IT-2013-NS1864045-41509,23/08/2020,25/08/2020,Second Class,Corporate,Europe,Office Supplies,9.06,Critical
+IT-2013-SR20425139-41509,23/08/2020,29/08/2020,Standard Class,Home Office,Europe,Office Supplies,151.632,Low
+IT-2013-SR20425139-41509,23/08/2020,29/08/2020,Standard Class,Home Office,Europe,Technology,222.777,Low
+PL-2013-MA7560103-41509,23/08/2020,28/08/2020,Second Class,Home Office,Europe,Furniture,59.19,Medium
+IT-2013-SR20425139-41509,23/08/2020,29/08/2020,Standard Class,Home Office,Europe,Office Supplies,131.76,Low
+IT-2013-SR20425139-41509,23/08/2020,29/08/2020,Standard Class,Home Office,Europe,Office Supplies,171.288,Low
+IT-2013-NS1864045-41509,23/08/2020,25/08/2020,Second Class,Corporate,Europe,Office Supplies,82.14,Critical
+ES-2013-JF1541545-41509,23/08/2020,27/08/2020,Standard Class,Consumer,Europe,Furniture,253.854,Medium
+IT-2013-SR20425139-41509,23/08/2020,29/08/2020,Standard Class,Home Office,Europe,Office Supplies,206.604,Low
+ES-2013-KL16555139-41509,23/08/2020,25/08/2020,First Class,Corporate,Europe,Furniture,159.3,High
+ES-2013-JF1541545-41509,23/08/2020,27/08/2020,Second Class,Consumer,Europe,Furniture,1309.608,Medium
+ES-2013-JF1541545-41509,23/08/2020,27/08/2020,Second Class,Consumer,Europe,Office Supplies,44.94,Medium
+ES-2013-KL16555139-41509,23/08/2020,25/08/2020,First Class,Corporate,Europe,Office Supplies,32.4,High
+ES-2013-JF1519048-41509,23/08/2020,28/08/2020,Standard Class,Consumer,Europe,Furniture,147.672,Medium
+ES-2013-TB21055139-41509,23/08/2020,27/08/2020,Standard Class,Consumer,Europe,Office Supplies,77.91,High
+ES-2013-KL16555139-41509,23/08/2020,25/08/2020,First Class,Corporate,Europe,Office Supplies,82.08,High
+IT-2013-SR20425139-41509,23/08/2020,29/08/2020,Standard Class,Home Office,Europe,Office Supplies,126.927,Low
+IT-2013-NS1864045-41509,23/08/2020,25/08/2020,Second Class,Corporate,Europe,Furniture,234.276,Critical
+CA-2013-FH14350140-41509,23/08/2020,28/08/2020,Standard Class,Consumer,USCA,Office Supplies,8.64,Medium
+CA-2013-FH14350140-41509,23/08/2020,28/08/2020,Standard Class,Consumer,USCA,Office Supplies,193.8,Medium
+CA-2013-FH14350140-41509,23/08/2020,28/08/2020,Standard Class,Consumer,USCA,Office Supplies,97.88,Medium
+CA-2013-FH14350140-41509,23/08/2020,28/08/2020,Standard Class,Consumer,USCA,Office Supplies,25.86,Medium
+CA-2013-FH14350140-41509,23/08/2020,28/08/2020,Standard Class,Consumer,USCA,Office Supplies,21.4,Medium
+CA-2013-FH14350140-41509,23/08/2020,28/08/2020,Standard Class,Consumer,USCA,Office Supplies,542.94,Medium
+CA-2013-FH14350140-41509,23/08/2020,28/08/2020,Standard Class,Consumer,USCA,Technology,251.91,Medium
+IN-2013-PC1900027-41509,23/08/2020,28/08/2020,Standard Class,Home Office,Asia Pacific,Office Supplies,227.64,Medium
+IN-2013-AP1091527-41509,23/08/2020,25/08/2020,First Class,Consumer,Asia Pacific,Office Supplies,65.55,High
+IN-2013-FG1426058-41509,23/08/2020,29/08/2020,Standard Class,Home Office,Asia Pacific,Office Supplies,101.76,Low
+IN-2013-NP18685102-41509,23/08/2020,26/08/2020,Second Class,Home Office,Asia Pacific,Furniture,630.585,High
+IN-2013-FG1426058-41509,23/08/2020,29/08/2020,Standard Class,Home Office,Asia Pacific,Technology,439.56,Low
+IN-2013-AP1091527-41509,23/08/2020,25/08/2020,First Class,Consumer,Asia Pacific,Furniture,664.35,High
+IN-2013-FG1426058-41509,23/08/2020,29/08/2020,Standard Class,Home Office,Asia Pacific,Technology,760.38,Low
+IN-2013-PH1879058-41509,23/08/2020,28/08/2020,Standard Class,Home Office,Asia Pacific,Office Supplies,6.75,Medium
+IN-2013-NP18685102-41509,23/08/2020,26/08/2020,Second Class,Home Office,Asia Pacific,Office Supplies,34.848,High
+IN-2013-EB1397558-41509,23/08/2020,27/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,200.79,Medium
+IN-2013-FG1426058-41509,23/08/2020,29/08/2020,Standard Class,Home Office,Asia Pacific,Office Supplies,152.4,Low
+IN-2013-NP18685102-41509,23/08/2020,26/08/2020,Second Class,Home Office,Asia Pacific,Office Supplies,49.929,High
+IN-2013-PH1879058-41509,23/08/2020,28/08/2020,Standard Class,Home Office,Asia Pacific,Office Supplies,125.73,Medium
+IN-2013-AP1091527-41509,23/08/2020,25/08/2020,First Class,Consumer,Asia Pacific,Office Supplies,56.4,High
+IN-2013-NP18685102-41509,23/08/2020,26/08/2020,Second Class,Home Office,Asia Pacific,Office Supplies,99.396,High
+IN-2013-DK128357-41509,23/08/2020,29/08/2020,Standard Class,Corporate,Asia Pacific,Furniture,359.397,Medium
+IN-2013-EB1397558-41509,23/08/2020,27/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,95.85,Medium
+IN-2013-FG1426058-41509,23/08/2020,29/08/2020,Standard Class,Home Office,Asia Pacific,Technology,1134.9,Low
+NI-2013-JF535595-41509,23/08/2020,29/08/2020,Standard Class,Consumer,Africa,Office Supplies,8.73,Low
+ZA-2013-AB10060147-41509,23/08/2020,24/08/2020,First Class,Home Office,Africa,Office Supplies,6.858,Medium
+NI-2013-JF535595-41509,23/08/2020,29/08/2020,Standard Class,Consumer,Africa,Technology,248.292,Low
+NI-2013-JF535595-41509,23/08/2020,29/08/2020,Standard Class,Consumer,Africa,Office Supplies,55.908,Low
+MX-2013-CR1262551-41510,24/08/2020,26/08/2020,First Class,Home Office,LATAM,Office Supplies,98,Medium
+MX-2013-CR1262551-41510,24/08/2020,26/08/2020,First Class,Home Office,LATAM,Office Supplies,26.58,Medium
+CA-2013-CB12025140-41510,24/08/2020,28/08/2020,Standard Class,Consumer,USCA,Office Supplies,2.724,Medium
+CA-2013-CB12025140-41510,24/08/2020,28/08/2020,Standard Class,Consumer,USCA,Office Supplies,999.432,Medium
+CA-2013-CB12025140-41510,24/08/2020,28/08/2020,Standard Class,Consumer,USCA,Furniture,918.785,Medium
+CA-2013-CB12025140-41510,24/08/2020,28/08/2020,Standard Class,Consumer,USCA,Office Supplies,724.08,Medium
+CA-2013-MS17710140-41510,24/08/2020,26/08/2020,Second Class,Consumer,USCA,Technology,26.982,High
+CA-2013-MS17710140-41510,24/08/2020,26/08/2020,Second Class,Consumer,USCA,Office Supplies,435.504,High
+CA-2013-SC20380140-41510,24/08/2020,28/08/2020,Second Class,Consumer,USCA,Furniture,14.91,Medium
+CA-2013-MS17710140-41510,24/08/2020,26/08/2020,Second Class,Consumer,USCA,Office Supplies,6.912,High
+CA-2013-EM13810140-41510,24/08/2020,28/08/2020,Standard Class,Corporate,USCA,Technology,26,High
+CA-2013-EM13810140-41510,24/08/2020,28/08/2020,Standard Class,Corporate,USCA,Furniture,284.364,High
+IT-2013-MG1789091-41510,24/08/2020,28/08/2020,Standard Class,Home Office,Europe,Office Supplies,57.87,Medium
+IT-2013-AG1027048-41510,24/08/2020,25/08/2020,First Class,Consumer,Europe,Office Supplies,57.75,Critical
+IT-2013-KC1667591-41510,24/08/2020,28/08/2020,Standard Class,Corporate,Europe,Office Supplies,31.17,Medium
+IT-2013-FA1423064-41510,24/08/2020,27/08/2020,First Class,Corporate,Europe,Furniture,19.776,High
+ES-2013-SP2092048-41510,24/08/2020,29/08/2020,Standard Class,Consumer,Europe,Office Supplies,99,High
+ES-2013-SP2092048-41510,24/08/2020,29/08/2020,Standard Class,Consumer,Europe,Technology,1917,High
+MK-2013-NF847576-41510,24/08/2020,29/08/2020,Standard Class,Home Office,Europe,Office Supplies,10.98,Medium
+IT-2013-KC1667591-41510,24/08/2020,28/08/2020,Standard Class,Corporate,Europe,Office Supplies,17.145,Medium
+ES-2013-NZ1856545-41510,24/08/2020,26/08/2020,Second Class,Home Office,Europe,Furniture,103.68,High
+IT-2013-MG1789091-41510,24/08/2020,28/08/2020,Standard Class,Home Office,Europe,Office Supplies,88.83,Medium
+IT-2013-MG1789091-41510,24/08/2020,28/08/2020,Standard Class,Home Office,Europe,Technology,183.15,Medium
+ES-2013-SP2092048-41510,24/08/2020,29/08/2020,Standard Class,Consumer,Europe,Office Supplies,98.64,High
+IT-2013-LH17155124-41510,24/08/2020,28/08/2020,Standard Class,Consumer,Europe,Office Supplies,153.42,Medium
+ES-2013-MS1798064-41510,24/08/2020,26/08/2020,Second Class,Corporate,Europe,Office Supplies,138.51,High
+ES-2013-MH1729045-41510,24/08/2020,26/08/2020,Second Class,Home Office,Europe,Office Supplies,94.5,High
+ES-2013-MH17440120-41510,24/08/2020,28/08/2020,Standard Class,Corporate,Europe,Furniture,370.53,Medium
+ES-2013-SP2092048-41510,24/08/2020,29/08/2020,Standard Class,Consumer,Europe,Technology,512.28,High
+ES-2013-SP2092048-41510,24/08/2020,29/08/2020,Standard Class,Consumer,Europe,Furniture,453.681,High
+ES-2013-SP2092048-41510,24/08/2020,29/08/2020,Standard Class,Consumer,Europe,Technology,866.52,High
+ES-2013-SP2092048-41510,24/08/2020,29/08/2020,Standard Class,Consumer,Europe,Furniture,404.514,High
+ES-2013-SP2092048-41510,24/08/2020,29/08/2020,Standard Class,Consumer,Europe,Office Supplies,1420.416,High
+ES-2013-SP2092048-41510,24/08/2020,29/08/2020,Standard Class,Consumer,Europe,Furniture,1857.06,High
+CA-2013-KW16435140-41510,24/08/2020,28/08/2020,Standard Class,Consumer,USCA,Technology,79.96,High
+CA-2013-KW16435140-41510,24/08/2020,28/08/2020,Standard Class,Consumer,USCA,Technology,587.97,High
+CA-2013-KW16435140-41510,24/08/2020,28/08/2020,Standard Class,Consumer,USCA,Technology,3080,High
+IN-2013-CA12265113-41510,24/08/2020,28/08/2020,Standard Class,Consumer,Asia Pacific,Technology,381.96,Medium
+IN-2013-BF1100592-41510,24/08/2020,31/08/2020,Standard Class,Home Office,Asia Pacific,Office Supplies,1269.9,Medium
+ES-2013-MH17440120-41510,24/08/2020,28/08/2020,Standard Class,Corporate,Europe,Office Supplies,27.36,Medium
+IT-2013-MG1789091-41510,24/08/2020,28/08/2020,Standard Class,Home Office,Europe,Office Supplies,86.76,Medium
+ES-2013-MH17440120-41510,24/08/2020,28/08/2020,Standard Class,Corporate,Europe,Office Supplies,36.75,Medium
+IT-2013-MG1789091-41510,24/08/2020,28/08/2020,Standard Class,Home Office,Europe,Office Supplies,63.42,Medium
+ES-2013-MS1798064-41510,24/08/2020,26/08/2020,Second Class,Corporate,Europe,Office Supplies,150.6,High
+IN-2013-BF1100592-41510,24/08/2020,31/08/2020,Standard Class,Home Office,Asia Pacific,Furniture,31.74,Medium
+IN-2013-CA12265113-41510,24/08/2020,28/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,88.47,Medium
+ID-2013-ZC2191059-41510,24/08/2020,27/08/2020,Second Class,Consumer,Asia Pacific,Office Supplies,65.5557,Critical
+IN-2013-FW1439527-41510,24/08/2020,31/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,170.73,Medium
+IN-2013-BF1100592-41510,24/08/2020,31/08/2020,Standard Class,Home Office,Asia Pacific,Office Supplies,15.06,Medium
+ID-2013-ZC2191059-41510,24/08/2020,27/08/2020,Second Class,Consumer,Asia Pacific,Furniture,163.1331,Critical
+NI-2013-JD579095-41510,24/08/2020,26/08/2020,Second Class,Consumer,Africa,Office Supplies,65.88,Critical
+NI-2013-JD579095-41510,24/08/2020,26/08/2020,Second Class,Consumer,Africa,Office Supplies,44.568,Critical
+NI-2013-JD579095-41510,24/08/2020,26/08/2020,Second Class,Consumer,Africa,Office Supplies,24.48,Critical
+CG-2013-LW682533-41510,24/08/2020,28/08/2020,Standard Class,Corporate,Africa,Office Supplies,9,High
+CG-2013-LW682533-41510,24/08/2020,28/08/2020,Standard Class,Corporate,Africa,Office Supplies,16.26,High
+NI-2013-JD579095-41510,24/08/2020,26/08/2020,Second Class,Consumer,Africa,Technology,105.498,Critical
+NI-2013-JD579095-41510,24/08/2020,26/08/2020,Second Class,Consumer,Africa,Furniture,217.44,Critical
+NI-2013-JD579095-41510,24/08/2020,26/08/2020,Second Class,Consumer,Africa,Office Supplies,40.032,Critical
+MX-2013-HK1489036-41511,25/08/2020,1/09/2020,Standard Class,Corporate,LATAM,Office Supplies,105.088,Low
+MX-2013-HK1489036-41511,25/08/2020,1/09/2020,Standard Class,Corporate,LATAM,Technology,127.2,Low
+CA-2013-MC18100140-41511,25/08/2020,25/08/2020,Same Day,Consumer,USCA,Furniture,20.104,High
+CA-2013-MC18100140-41511,25/08/2020,25/08/2020,Same Day,Consumer,USCA,Office Supplies,3.798,High
+CA-2013-MC18100140-41511,25/08/2020,25/08/2020,Same Day,Consumer,USCA,Furniture,7.88,High
+MX-2013-BS1159018-41511,25/08/2020,26/08/2020,First Class,Corporate,LATAM,Technology,395.44752,Critical
+MX-2013-BS1159018-41511,25/08/2020,26/08/2020,First Class,Corporate,LATAM,Office Supplies,370.52,Critical
+ES-2013-JH1618045-41511,25/08/2020,29/08/2020,Standard Class,Consumer,Europe,Office Supplies,266.814,Medium
+ES-2013-JH1618045-41511,25/08/2020,29/08/2020,Standard Class,Consumer,Europe,Office Supplies,27.24,Medium
+ES-2013-JH1618045-41511,25/08/2020,29/08/2020,Standard Class,Consumer,Europe,Office Supplies,97.74,Medium
+ES-2013-JH1618045-41511,25/08/2020,29/08/2020,Standard Class,Consumer,Europe,Office Supplies,130.896,Medium
+IN-2013-HJ148757-41511,25/08/2020,27/08/2020,First Class,Home Office,Asia Pacific,Office Supplies,14.418,High
+IN-2013-HJ148757-41511,25/08/2020,27/08/2020,First Class,Home Office,Asia Pacific,Office Supplies,38.556,High
+IN-2013-HJ148757-41511,25/08/2020,27/08/2020,First Class,Home Office,Asia Pacific,Office Supplies,176.148,High
+ES-2013-KB1631545-41511,25/08/2020,29/08/2020,Standard Class,Consumer,Europe,Office Supplies,11.31,Medium
+ES-2013-JH1618045-41511,25/08/2020,29/08/2020,Standard Class,Consumer,Europe,Office Supplies,218.4,Medium
+IN-2013-GR1456066-41511,25/08/2020,27/08/2020,First Class,Corporate,Asia Pacific,Office Supplies,17.88,High
+IN-2013-HJ148757-41511,25/08/2020,27/08/2020,First Class,Home Office,Asia Pacific,Office Supplies,70.308,High
+ID-2013-WB218507-41511,25/08/2020,25/08/2020,Same Day,Consumer,Asia Pacific,Office Supplies,43.2,High
+IN-2013-HJ148757-41511,25/08/2020,27/08/2020,First Class,Home Office,Asia Pacific,Office Supplies,308.745,High
+US-2013-LC1688555-41512,26/08/2020,28/08/2020,Second Class,Consumer,LATAM,Furniture,437.688,Critical
+MX-2013-VM2168582-41512,26/08/2020,29/08/2020,Second Class,Home Office,LATAM,Office Supplies,39.68,Medium
+MX-2013-VM2168582-41512,26/08/2020,29/08/2020,Second Class,Home Office,LATAM,Furniture,51.084,Medium
+MX-2013-VM2168582-41512,26/08/2020,29/08/2020,Second Class,Home Office,LATAM,Technology,1314.24,Medium
+US-2013-LC1688518-41512,26/08/2020,28/08/2020,Second Class,Consumer,LATAM,Furniture,291.792,Medium
+IN-2013-BO1135058-41512,26/08/2020,31/08/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,123.72,Medium
+MX-2013-DB1306082-41513,27/08/2020,28/08/2020,First Class,Consumer,LATAM,Office Supplies,19.2,High
+MX-2013-DB1306082-41513,27/08/2020,28/08/2020,First Class,Consumer,LATAM,Furniture,258.24,High
+MX-2013-DB1306082-41513,27/08/2020,28/08/2020,First Class,Consumer,LATAM,Office Supplies,56.3,High
+MX-2013-DB1306082-41513,27/08/2020,28/08/2020,First Class,Consumer,LATAM,Office Supplies,12.92,High
+MX-2013-DB1306082-41513,27/08/2020,28/08/2020,First Class,Consumer,LATAM,Office Supplies,27.58,High
+MX-2013-DB1306082-41513,27/08/2020,28/08/2020,First Class,Consumer,LATAM,Office Supplies,156.64,High
+MX-2013-DB1306082-41513,27/08/2020,28/08/2020,First Class,Consumer,LATAM,Furniture,37.86,High
+ES-2013-DP1316545-41513,27/08/2020,31/08/2020,Standard Class,Consumer,Europe,Technology,450.33,Medium
+IT-2013-SN2071091-41513,27/08/2020,31/08/2020,Standard Class,Home Office,Europe,Office Supplies,50.76,Medium
+ES-2013-DP1316545-41513,27/08/2020,31/08/2020,Standard Class,Consumer,Europe,Office Supplies,48.63,Medium
+ES-2013-HW1493564-41513,27/08/2020,28/08/2020,First Class,Corporate,Europe,Office Supplies,49.32,High
+IR-2013-SW1075560-41513,27/08/2020,31/08/2020,Second Class,Corporate,Asia Pacific,Office Supplies,16.68,Medium
+IN-2013-JE1571527-41513,27/08/2020,31/08/2020,Second Class,Consumer,Asia Pacific,Office Supplies,13.11,High
+ID-2013-DF1313592-41513,27/08/2020,31/08/2020,Standard Class,Consumer,Asia Pacific,Technology,91.152,Medium
+IN-2013-CS121757-41513,27/08/2020,1/09/2020,Standard Class,Corporate,Asia Pacific,Technology,558,Medium
+ID-2013-BM1114059-41513,27/08/2020,1/09/2020,Standard Class,Consumer,Asia Pacific,Technology,498.2988,Medium
+IN-2013-JE1571527-41513,27/08/2020,31/08/2020,Second Class,Consumer,Asia Pacific,Technology,861.9,High
+ES-2013-DP1316545-41513,27/08/2020,31/08/2020,Standard Class,Consumer,Europe,Furniture,47.19,Medium
+ES-2013-BC11125120-41513,27/08/2020,2/09/2020,Standard Class,Home Office,Europe,Office Supplies,99.12,Medium
+PL-2013-JG5115103-41513,27/08/2020,31/08/2020,Standard Class,Consumer,Europe,Furniture,169.8,Medium
+ID-2013-PW1924097-41513,27/08/2020,31/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,9.765,Medium
+ID-2013-MD1735059-41513,27/08/2020,2/09/2020,Standard Class,Consumer,Asia Pacific,Technology,431.2182,Medium
+IN-2013-SO203357-41513,27/08/2020,31/08/2020,Standard Class,Consumer,Asia Pacific,Furniture,786.618,Medium
+IN-2013-CD119807-41513,27/08/2020,29/08/2020,Second Class,Consumer,Asia Pacific,Office Supplies,67.92,High
+ID-2013-DF1313592-41513,27/08/2020,31/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,12.456,Medium
+IN-2013-CS121757-41513,27/08/2020,1/09/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,17.52,Medium
+ID-2013-LT17110130-41513,27/08/2020,29/08/2020,Second Class,Consumer,Asia Pacific,Office Supplies,52.47,Medium
+IN-2013-SO203357-41513,27/08/2020,31/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,87.534,Medium
+ID-2013-LT17110130-41513,27/08/2020,29/08/2020,Second Class,Consumer,Asia Pacific,Office Supplies,124.338,Medium
+IR-2013-LH675060-41513,27/08/2020,31/08/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,256.8,High
+IN-2013-EH140057-41513,27/08/2020,1/09/2020,Second Class,Home Office,Asia Pacific,Technology,485.82,Medium
+IN-2013-ML1804059-41513,27/08/2020,27/08/2020,Same Day,Corporate,Asia Pacific,Technology,627.192,Medium
+ZA-2013-BM1785147-41513,27/08/2020,31/08/2020,Standard Class,Consumer,Africa,Office Supplies,2.592,Medium
+EG-2013-NM844538-41513,27/08/2020,30/08/2020,Second Class,Home Office,Africa,Office Supplies,96.18,High
+NI-2013-TB1105595-41513,27/08/2020,31/08/2020,Standard Class,Consumer,Africa,Furniture,192.618,High
+MO-2013-AJ96086-41513,27/08/2020,31/08/2020,Standard Class,Consumer,Africa,Technology,253.32,High
+ZA-2013-BM1785147-41513,27/08/2020,31/08/2020,Standard Class,Consumer,Africa,Office Supplies,18.81,Medium
+MO-2013-FA423086-41513,27/08/2020,2/09/2020,Standard Class,Corporate,Africa,Office Supplies,93,Medium
+MO-2013-AJ96086-41513,27/08/2020,31/08/2020,Standard Class,Consumer,Africa,Office Supplies,57.87,High
+MO-2013-AJ96086-41513,27/08/2020,31/08/2020,Standard Class,Consumer,Africa,Technology,2544.6,High
+MO-2013-AJ96086-41513,27/08/2020,31/08/2020,Standard Class,Consumer,Africa,Office Supplies,27,High
+MO-2013-AJ96086-41513,27/08/2020,31/08/2020,Standard Class,Consumer,Africa,Furniture,49.44,High
+CA-2013-KB660023-41514,28/08/2020,30/08/2020,First Class,Corporate,USCA,Technology,29.28,High
+US-2013-JH1598536-41514,28/08/2020,1/09/2020,Standard Class,Consumer,LATAM,Office Supplies,137.088,High
+CA-2013-BP11185140-41514,28/08/2020,1/09/2020,Standard Class,Corporate,USCA,Technology,1099.96,High
+US-2013-TS21370140-41514,28/08/2020,1/09/2020,Standard Class,Corporate,USCA,Technology,2799.96,Medium
+CA-2013-BP11185140-41514,28/08/2020,1/09/2020,Standard Class,Corporate,USCA,Furniture,103.481,High
+CA-2013-SM20950140-41514,28/08/2020,2/09/2020,Standard Class,Corporate,USCA,Office Supplies,470.36,Medium
+ES-2013-ES1402045-41514,28/08/2020,31/08/2020,First Class,Consumer,Europe,Office Supplies,107.28,Medium
+ES-2013-ES1402045-41514,28/08/2020,31/08/2020,First Class,Consumer,Europe,Technology,625.3875,Medium
+ES-2013-CK1259564-41514,28/08/2020,1/09/2020,Standard Class,Consumer,Europe,Technology,492.42,Medium
+ID-2013-AA1037558-41514,28/08/2020,2/09/2020,Standard Class,Consumer,Asia Pacific,Furniture,185.265,Medium
+IN-2013-DP131057-41514,28/08/2020,2/09/2020,Second Class,Corporate,Asia Pacific,Furniture,1227.717,Medium
+ID-2013-PO191957-41514,28/08/2020,28/08/2020,Same Day,Home Office,Asia Pacific,Office Supplies,48.816,Critical
+IN-2013-JK1612027-41514,28/08/2020,1/09/2020,Standard Class,Home Office,Asia Pacific,Furniture,991.92,High
+ID-2013-PO191957-41514,28/08/2020,28/08/2020,Same Day,Home Office,Asia Pacific,Furniture,1582.2,Critical
+IN-2013-DP131057-41514,28/08/2020,2/09/2020,Second Class,Corporate,Asia Pacific,Office Supplies,20.574,Medium
+IN-2013-JC157757-41514,28/08/2020,30/08/2020,First Class,Consumer,Asia Pacific,Office Supplies,6.48,Critical
+IN-2013-CK122057-41514,28/08/2020,1/09/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,49.842,Medium
+IN-2013-CK122057-41514,28/08/2020,1/09/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,53.46,Medium
+IN-2013-JC157757-41514,28/08/2020,30/08/2020,First Class,Consumer,Asia Pacific,Office Supplies,39.852,Critical
+IN-2013-EM142007-41514,28/08/2020,28/08/2020,Same Day,Home Office,Asia Pacific,Technology,52.704,Critical
+IN-2013-BE11335144-41514,28/08/2020,28/08/2020,Same Day,Home Office,Asia Pacific,Office Supplies,136.701,High
+IN-2013-DP131057-41514,28/08/2020,2/09/2020,Second Class,Corporate,Asia Pacific,Office Supplies,2498.526,Medium
+EG-2013-HL504038-41514,28/08/2020,1/09/2020,Standard Class,Consumer,Africa,Furniture,107.1,Medium
+GH-2013-RA994549-41514,28/08/2020,1/09/2020,Standard Class,Consumer,Africa,Furniture,194.58,High
+TZ-2013-KT6480129-41514,28/08/2020,1/09/2020,Standard Class,Consumer,Africa,Office Supplies,12,Medium
+ZA-2013-BB1545146-41514,28/08/2020,3/09/2020,Standard Class,Corporate,Africa,Office Supplies,15.33,Low
+TZ-2013-KT6480129-41514,28/08/2020,1/09/2020,Standard Class,Consumer,Africa,Office Supplies,30.21,Medium
+TZ-2013-EM3810129-41514,28/08/2020,28/08/2020,Same Day,Corporate,Africa,Office Supplies,24.72,High
+ZA-2013-BB1545146-41514,28/08/2020,3/09/2020,Standard Class,Corporate,Africa,Office Supplies,6,Low
+TZ-2013-EM3810129-41514,28/08/2020,28/08/2020,Same Day,Corporate,Africa,Office Supplies,23.46,High
+CA-2013-CC222023-41515,29/08/2020,2/09/2020,Standard Class,Consumer,USCA,Office Supplies,27.69,High
+CA-2013-CC222023-41515,29/08/2020,2/09/2020,Standard Class,Consumer,USCA,Office Supplies,16.5,High
+US-2013-BN1147082-41515,29/08/2020,1/09/2020,First Class,Corporate,LATAM,Furniture,44.752,Critical
+CA-2013-CC12100140-41515,29/08/2020,2/09/2020,Standard Class,Home Office,USCA,Technology,131.98,High
+CA-2013-CC12100140-41515,29/08/2020,2/09/2020,Standard Class,Home Office,USCA,Technology,114.52,High
+US-2013-KS163005-41515,29/08/2020,31/08/2020,First Class,Corporate,LATAM,Office Supplies,13.752,High
+MX-2013-DS130305-41515,29/08/2020,2/09/2020,Standard Class,Home Office,LATAM,Office Supplies,16.884,Medium
+ES-2013-DO1343564-41515,29/08/2020,3/09/2020,Standard Class,Consumer,Europe,Technology,284.25,Medium
+ES-2013-DO1343564-41515,29/08/2020,3/09/2020,Standard Class,Consumer,Europe,Technology,1165.68,Medium
+ES-2013-RF1984014-41515,29/08/2020,5/09/2020,Standard Class,Consumer,Europe,Office Supplies,593.82,Medium
+ES-2013-RD19585139-41515,29/08/2020,30/08/2020,First Class,Consumer,Europe,Technology,342.225,Critical
+EN-2013-CK276042-41515,29/08/2020,2/09/2020,Standard Class,Corporate,Europe,Furniture,415.2,Medium
+ES-2013-RF1984014-41515,29/08/2020,5/09/2020,Standard Class,Consumer,Europe,Technology,1640.16,Medium
+IT-2013-PB1880548-41515,29/08/2020,3/09/2020,Standard Class,Home Office,Europe,Office Supplies,1533.33,Medium
+ES-2013-DM1295548-41515,29/08/2020,3/09/2020,Standard Class,Corporate,Europe,Office Supplies,42.48,Medium
+ES-2013-RF1984014-41515,29/08/2020,5/09/2020,Standard Class,Consumer,Europe,Office Supplies,34.08,Medium
+ES-2013-RF1984014-41515,29/08/2020,5/09/2020,Standard Class,Consumer,Europe,Furniture,373.23,Medium
+ES-2013-RF1984014-41515,29/08/2020,5/09/2020,Standard Class,Consumer,Europe,Technology,910.35,Medium
+ES-2013-DO1343564-41515,29/08/2020,3/09/2020,Standard Class,Consumer,Europe,Office Supplies,14.04,Medium
+ES-2013-RF1984014-41515,29/08/2020,5/09/2020,Standard Class,Consumer,Europe,Office Supplies,37.08,Medium
+IT-2013-RB1964562-41515,29/08/2020,3/09/2020,Standard Class,Corporate,Europe,Office Supplies,43.41,Medium
+ES-2013-RF1984014-41515,29/08/2020,5/09/2020,Standard Class,Consumer,Europe,Office Supplies,37.08,Medium
+IT-2013-RB1964562-41515,29/08/2020,3/09/2020,Standard Class,Corporate,Europe,Office Supplies,45.675,Medium
+ES-2013-DO1343564-41515,29/08/2020,3/09/2020,Standard Class,Consumer,Europe,Office Supplies,87.84,Medium
+ES-2013-DO1343564-41515,29/08/2020,3/09/2020,Standard Class,Consumer,Europe,Office Supplies,152.352,Medium
+ES-2013-RF1984014-41515,29/08/2020,5/09/2020,Standard Class,Consumer,Europe,Office Supplies,62.16,Medium
+IT-2013-PB1880548-41515,29/08/2020,3/09/2020,Standard Class,Home Office,Europe,Technology,126.45,Medium
+ES-2013-RF1984014-41515,29/08/2020,5/09/2020,Standard Class,Consumer,Europe,Office Supplies,112.92,Medium
+ES-2013-DO1343564-41515,29/08/2020,3/09/2020,Standard Class,Consumer,Europe,Office Supplies,254.88,Medium
+IN-2013-SM2000558-41515,29/08/2020,4/09/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,39.15,Low
+IN-2013-HR1477027-41515,29/08/2020,4/09/2020,Standard Class,Home Office,Asia Pacific,Office Supplies,80.01,Low
+IN-2013-TS2134027-41515,29/08/2020,3/09/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,634.95,High
+ES-2013-HA1492048-41515,29/08/2020,3/09/2020,Standard Class,Consumer,Europe,Furniture,263.655,Medium
+ES-2013-DO1343564-41515,29/08/2020,3/09/2020,Standard Class,Consumer,Europe,Technology,221.4,Medium
+ES-2013-KL16645139-41515,29/08/2020,4/09/2020,Standard Class,Consumer,Europe,Furniture,876.3,Medium
+ES-2013-DL128658-41515,29/08/2020,31/08/2020,First Class,Consumer,Europe,Technology,719.07,Medium
+IT-2013-JD16060120-41515,29/08/2020,1/09/2020,First Class,Consumer,Europe,Office Supplies,1392.633,Critical
+IN-2013-SN207107-41515,29/08/2020,30/08/2020,First Class,Home Office,Asia Pacific,Office Supplies,49.194,High
+IN-2013-SC2023058-41515,29/08/2020,2/09/2020,Standard Class,Corporate,Asia Pacific,Technology,337.23,Medium
+IN-2013-SN207107-41515,29/08/2020,30/08/2020,First Class,Home Office,Asia Pacific,Furniture,316.44,High
+IN-2013-SN207107-41515,29/08/2020,30/08/2020,First Class,Home Office,Asia Pacific,Furniture,822.852,High
+IN-2013-SC2023058-41515,29/08/2020,2/09/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,48.48,Medium
+IN-2013-TS2134027-41515,29/08/2020,3/09/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,41.37,High
+IN-2013-SC2023058-41515,29/08/2020,2/09/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,257.25,Medium
+IN-2013-TS2134027-41515,29/08/2020,3/09/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,16.68,High
+IN-2013-SC2023058-41515,29/08/2020,2/09/2020,Standard Class,Corporate,Asia Pacific,Furniture,43.8,Medium
+MZ-2013-KS630087-41515,29/08/2020,30/08/2020,First Class,Corporate,Africa,Office Supplies,22.62,Medium
+SL-2013-MZ7515112-41515,29/08/2020,3/09/2020,Standard Class,Corporate,Africa,Office Supplies,14.7,Medium
+SL-2013-MZ7515112-41515,29/08/2020,3/09/2020,Standard Class,Corporate,Africa,Technology,84.84,Medium
+US-2013-AH1012082-41516,30/08/2020,3/09/2020,Standard Class,Home Office,LATAM,Furniture,973.12,High
+MX-2013-DV1346593-41516,30/08/2020,3/09/2020,Standard Class,Consumer,LATAM,Office Supplies,17.52,High
+ES-2013-JK16120139-41516,30/08/2020,30/08/2020,Same Day,Home Office,Europe,Office Supplies,25.08,Critical
+ES-2013-SH2063548-41516,30/08/2020,2/09/2020,Second Class,Corporate,Europe,Office Supplies,43.2,Medium
+ES-2013-JE1574544-41516,30/08/2020,4/09/2020,Second Class,Consumer,Europe,Office Supplies,318.33,High
+ES-2013-CY127458-41516,30/08/2020,1/09/2020,First Class,Corporate,Europe,Office Supplies,256.8,High
+IT-2013-AA1048045-41516,30/08/2020,2/09/2020,Second Class,Consumer,Europe,Technology,1894.4205,Medium
+ES-2013-EM1414048-41516,30/08/2020,5/09/2020,Standard Class,Home Office,Europe,Office Supplies,153.45,Low
+ES-2013-SH2063548-41516,30/08/2020,2/09/2020,Second Class,Corporate,Europe,Furniture,2794.2525,Medium
+IN-2013-AH104657-41516,30/08/2020,4/09/2020,Second Class,Consumer,Asia Pacific,Office Supplies,36.882,Medium
+IR-2013-RK930060-41516,30/08/2020,1/09/2020,Second Class,Consumer,Asia Pacific,Office Supplies,52.74,High
+GH-2013-MM792049-41516,30/08/2020,5/09/2020,Standard Class,Consumer,Africa,Office Supplies,127.47,Medium
+GH-2013-MM792049-41516,30/08/2020,5/09/2020,Standard Class,Consumer,Africa,Office Supplies,108.42,Medium
+GH-2013-MM792049-41516,30/08/2020,5/09/2020,Standard Class,Consumer,Africa,Technology,239.04,Medium
+MX-2013-BW1111036-41517,31/08/2020,4/09/2020,Standard Class,Corporate,LATAM,Office Supplies,30.016,Medium
+CA-2013-SD20485140-41517,31/08/2020,5/09/2020,Standard Class,Home Office,USCA,Office Supplies,20.96,High
+ES-2013-LC1696045-41517,31/08/2020,6/09/2020,Standard Class,Home Office,Europe,Technology,1281.75,Medium
+ES-2013-HF1499545-41517,31/08/2020,1/09/2020,First Class,Consumer,Europe,Technology,632.145,High
+ES-2013-BF1097545-41517,31/08/2020,2/09/2020,Second Class,Corporate,Europe,Technology,1622.1825,Critical
+ES-2013-SC2009545-41517,31/08/2020,4/09/2020,Second Class,Consumer,Europe,Office Supplies,28.716,High
+IT-2013-PS18970124-41517,31/08/2020,4/09/2020,Standard Class,Home Office,Europe,Technology,100.08,High
+ES-2013-JK1520545-41517,31/08/2020,5/09/2020,Standard Class,Consumer,Europe,Office Supplies,121.2,Medium
+ES-2013-JK1520545-41517,31/08/2020,5/09/2020,Standard Class,Consumer,Europe,Office Supplies,298.62,Medium
+ES-2013-BF1097545-41517,31/08/2020,2/09/2020,Second Class,Corporate,Europe,Office Supplies,53.64,Critical
+ES-2013-JK1520545-41517,31/08/2020,5/09/2020,Standard Class,Consumer,Europe,Office Supplies,333.27,Medium
+ES-2013-TG2131045-41517,31/08/2020,3/09/2020,Second Class,Consumer,Europe,Office Supplies,22.86,Medium
+IN-2013-AS102257-41517,31/08/2020,5/09/2020,Standard Class,Corporate,Asia Pacific,Furniture,138.753,Medium
+ES-2013-LW1712545-41517,31/08/2020,2/09/2020,Second Class,Consumer,Europe,Office Supplies,44.7,High
+IT-2013-PS18970124-41517,31/08/2020,4/09/2020,Standard Class,Home Office,Europe,Office Supplies,17.01,High
+IN-2013-AS102257-41517,31/08/2020,5/09/2020,Standard Class,Corporate,Asia Pacific,Furniture,95.472,Medium
+ID-2013-CR1273058-41517,31/08/2020,4/09/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,50.46,High
+IN-2013-DE132557-41517,31/08/2020,6/09/2020,Standard Class,Home Office,Asia Pacific,Furniture,1639.872,Medium
+ID-2013-CR1273058-41517,31/08/2020,4/09/2020,Standard Class,Consumer,Asia Pacific,Technology,639.84,High
+IN-2013-CS1184527-41517,31/08/2020,2/09/2020,Second Class,Corporate,Asia Pacific,Technology,1285.56,Critical
+ID-2013-CR1273058-41517,31/08/2020,4/09/2020,Standard Class,Consumer,Asia Pacific,Furniture,22.17,High
+ID-2013-CR1273058-41517,31/08/2020,4/09/2020,Standard Class,Consumer,Asia Pacific,Technology,73.47,High
+IN-2013-AS102257-41517,31/08/2020,5/09/2020,Standard Class,Corporate,Asia Pacific,Office Supplies,122.796,Medium
+IN-2013-DE132557-41517,31/08/2020,6/09/2020,Standard Class,Home Office,Asia Pacific,Furniture,97.038,Medium
+ID-2013-CR1273058-41517,31/08/2020,4/09/2020,Standard Class,Consumer,Asia Pacific,Office Supplies,66.75,High
+IN-2013-SH2063558-41517,31/08/2020,3/09/2020,First Class,Corporate,Asia Pacific,Office Supplies,108.42,Medium
+IN-2013-AS102257-41517,31/08/2020,5/09/2020,Standard Class,Corporate,Asia Pacific,Furniture,176.148,Medium
+IN-2013-DE132557-41517,31/08/2020,6/09/2020,Standard Class,Home Office,Asia Pacific,Office Supplies,182.736,Medium
+IN-2013-DE132557-41517,31/08/2020,6/09/2020,Standard Class,Home Office,Asia Pacific,Technology,389.691,Medium
+ID-2013-ME1772559-41517,31/08/2020,4/09/2020,Standard Class,Consumer,Asia Pacific,Technology,567.6204,Medium
+AG-2013-CC24303-41517,31/08/2020,5/09/2020,Standard Class,Home Office,Africa,Furniture,17.55,Medium
+AG-2013-CC24303-41517,31/08/2020,5/09/2020,Standard Class,Home Office,Africa,Office Supplies,16.89,Medium
+AG-2013-CC24303-41517,31/08/2020,5/09/2020,Standard Class,Home Office,Africa,Office Supplies,118.8,Medium

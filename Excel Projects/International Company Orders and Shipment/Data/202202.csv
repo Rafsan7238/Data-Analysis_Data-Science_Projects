@@ -1,0 +1,665 @@
+Order ID,Order Date,Ship Date,Ship Mode,Segment,Market,Category,Sales,Order Priority
+US-2015-JD1601598-42036,1/02/2022,6/02/2022,Standard Class,Consumer,LATAM,Office Supplies,$21.67,High
+US-2015-JD1601598-42036,1/02/2022,6/02/2022,Standard Class,Consumer,LATAM,Office Supplies,$29.21,High
+US-2015-JD1601598-42036,1/02/2022,6/02/2022,Standard Class,Consumer,LATAM,Office Supplies,$97.20,High
+ES-2015-JM1553564-42036,1/02/2022,7/02/2022,Standard Class,Consumer,Europe,Office Supplies,$484.60,Medium
+ES-2015-LS17245139-42036,1/02/2022,6/02/2022,Standard Class,Consumer,Europe,Office Supplies,$96.12,Medium
+ES-2015-JM1553564-42036,1/02/2022,7/02/2022,Standard Class,Consumer,Europe,Office Supplies,$84.78,Medium
+CM-2015-DB291022-42036,1/02/2022,3/02/2022,Second Class,Home Office,Africa,Office Supplies,$52.92,High
+MX-2015-AD1018031-42038,3/02/2022,5/02/2022,First Class,Home Office,LATAM,Office Supplies,$32.32,High
+MX-2015-AD1018031-42038,3/02/2022,5/02/2022,First Class,Home Office,LATAM,Office Supplies,$54.18,High
+MX-2015-RD1966082-42038,3/02/2022,6/02/2022,First Class,Home Office,LATAM,Technology,$331.84,Critical
+US-2015-DW13585140-42038,3/02/2022,6/02/2022,First Class,Corporate,USCA,Office Supplies,$21.46,Medium
+US-2015-DW13585140-42038,3/02/2022,6/02/2022,First Class,Corporate,USCA,Technology,$59.97,Medium
+US-2015-DW13585140-42038,3/02/2022,6/02/2022,First Class,Corporate,USCA,Office Supplies,$78.30,Medium
+ES-2015-HD14785120-42038,3/02/2022,7/02/2022,Standard Class,Home Office,Europe,Office Supplies,$29.52,Medium
+ES-2015-HD14785120-42038,3/02/2022,7/02/2022,Standard Class,Home Office,Europe,Office Supplies,$250.38,Medium
+ES-2015-YC2189514-42038,3/02/2022,6/02/2022,Second Class,Corporate,Europe,Office Supplies,$49.56,High
+ES-2015-HD14785120-42038,3/02/2022,7/02/2022,Standard Class,Home Office,Europe,Office Supplies,$88.86,Medium
+ES-2015-JF1549045-42038,3/02/2022,9/02/2022,Standard Class,Consumer,Europe,Office Supplies,$157.30,Medium
+ES-2015-JF1549045-42038,3/02/2022,9/02/2022,Standard Class,Consumer,Europe,Technology,$428.71,Medium
+ES-2015-HD14785120-42038,3/02/2022,7/02/2022,Standard Class,Home Office,Europe,Technology,$248.18,Medium
+ES-2015-JF1549045-42038,3/02/2022,9/02/2022,Standard Class,Consumer,Europe,Technology,$528.74,Medium
+ES-2015-PF1912048-42038,3/02/2022,8/02/2022,Standard Class,Consumer,Europe,Furniture,$306.34,Medium
+IR-2015-CD198060-42038,3/02/2022,6/02/2022,First Class,Consumer,Asia Pacific,Office Supplies,$23.34,Critical
+IN-2015-SJ2021527-42038,3/02/2022,8/02/2022,Standard Class,Consumer,Asia Pacific,Furniture,$289.92,High
+ID-2015-BE1145592-42038,3/02/2022,7/02/2022,Standard Class,Home Office,Asia Pacific,Office Supplies,$474.98,Medium
+IN-2015-JM1565592-42038,3/02/2022,8/02/2022,Standard Class,Home Office,USCA,Office Supplies,$28.98,High
+ES-2015-YC2189514-42038,3/02/2022,6/02/2022,Second Class,Corporate,Europe,Office Supplies,$21.96,High
+MX-2015-JK1573039-42039,4/02/2022,8/02/2022,Standard Class,Consumer,LATAM,Office Supplies,$9.68,Medium
+MX-2015-AH1021051-42039,4/02/2022,8/02/2022,Second Class,Consumer,LATAM,Technology,"$2,981.58",Medium
+MX-2015-TM2101055-42039,4/02/2022,8/02/2022,Standard Class,Consumer,LATAM,Furniture,$41.35,High
+MX-2015-SC2084582-42039,4/02/2022,10/02/2022,Standard Class,Consumer,LATAM,Furniture,$170.24,Low
+CA-2015-RD19810140-42039,4/02/2022,8/02/2022,Second Class,Home Office,USCA,Furniture,$22.20,High
+CA-2015-RD19810140-42039,4/02/2022,8/02/2022,Second Class,Home Office,USCA,Office Supplies,$65.58,High
+CA-2015-RD19810140-42039,4/02/2022,8/02/2022,Second Class,Home Office,USCA,Office Supplies,$419.40,High
+CA-2015-RD19810140-42039,4/02/2022,8/02/2022,Second Class,Home Office,USCA,Office Supplies,$5.18,High
+CA-2015-MC17575140-42039,4/02/2022,9/02/2022,Standard Class,Consumer,USCA,Office Supplies,$5.23,High
+CA-2015-MC17575140-42039,4/02/2022,9/02/2022,Standard Class,Consumer,USCA,Office Supplies,$285.55,High
+IT-2015-SS2087591-42039,4/02/2022,10/02/2022,Standard Class,Consumer,Europe,Office Supplies,$5.60,Medium
+MX-2015-BP1109518-42039,4/02/2022,10/02/2022,Standard Class,Corporate,LATAM,Furniture,$273.24,Low
+CA-2015-SC20380140-42039,4/02/2022,9/02/2022,Standard Class,Consumer,USCA,Office Supplies,$3.88,Medium
+IN-2015-EH141257-42039,4/02/2022,8/02/2022,Standard Class,Home Office,Asia Pacific,Office Supplies,$37.91,High
+IR-2015-SN1056060-42039,4/02/2022,8/02/2022,Standard Class,Home Office,Asia Pacific,Technology,$174.24,Medium
+ID-2015-JC1538592-42039,4/02/2022,9/02/2022,Standard Class,Consumer,Asia Pacific,Furniture,$232.85,Medium
+CA-2015-SC20380140-42039,4/02/2022,9/02/2022,Standard Class,Consumer,USCA,Office Supplies,$115.30,Medium
+IN-2015-JH159107-42039,4/02/2022,8/02/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$54.43,Medium
+IR-2015-SN1056060-42039,4/02/2022,8/02/2022,Standard Class,Home Office,Asia Pacific,Furniture,$43.53,Medium
+ID-2015-MF18250102-42039,4/02/2022,7/02/2022,First Class,Home Office,USCA,Office Supplies,$30.60,Medium
+ID-2015-MF18250102-42039,4/02/2022,7/02/2022,First Class,Home Office,USCA,Office Supplies,$54.45,Medium
+ID-2015-CS121757-42039,4/02/2022,11/02/2022,Standard Class,Home Office,USCA,Furniture,$299.05,Medium
+ID-2015-MF18250102-42039,4/02/2022,7/02/2022,First Class,Home Office,USCA,Technology,$89.40,Medium
+ID-2015-MF18250102-42039,4/02/2022,7/02/2022,First Class,Home Office,USCA,Office Supplies,$35.64,Medium
+ID-2015-EH1400559-42039,4/02/2022,8/02/2022,Standard Class,Home Office,Asia Pacific,Office Supplies,$99.52,High
+ID-2015-MF18250102-42039,4/02/2022,7/02/2022,First Class,Home Office,USCA,Furniture,$582.89,Medium
+ID-2015-MF18250102-42039,4/02/2022,7/02/2022,First Class,Home Office,USCA,Technology,$956.03,Medium
+ID-2015-MF18250102-42039,4/02/2022,7/02/2022,First Class,Home Office,USCA,Furniture,$714.15,Medium
+CG-2015-BO142533-42039,4/02/2022,7/02/2022,Second Class,Consumer,Africa,Office Supplies,$42.12,High
+CG-2015-BO142533-42039,4/02/2022,7/02/2022,Second Class,Consumer,Africa,Office Supplies,$99.72,High
+CA-2015-JF15355140-42040,5/02/2022,10/02/2022,Standard Class,Consumer,USCA,Office Supplies,$32.67,Medium
+RS-2015-TB11250108-42040,5/02/2022,12/02/2022,Standard Class,Consumer,Europe,Office Supplies,$11.40,Medium
+ES-2015-JJ1576045-42040,5/02/2022,7/02/2022,Second Class,Home Office,Europe,Office Supplies,$101.76,High
+ES-2015-JJ1576045-42040,5/02/2022,7/02/2022,Second Class,Home Office,Europe,Furniture,$170.28,High
+ES-2015-JJ1576045-42040,5/02/2022,7/02/2022,Second Class,Home Office,Europe,Furniture,$107.68,High
+ES-2015-GM1444045-42040,5/02/2022,11/02/2022,Standard Class,Consumer,Europe,Office Supplies,$21.96,Low
+ES-2015-BE11455124-42040,5/02/2022,9/02/2022,Standard Class,Home Office,Europe,Office Supplies,$283.26,High
+ES-2015-JJ1576045-42040,5/02/2022,7/02/2022,Second Class,Home Office,Europe,Furniture,$380.16,High
+ES-2015-RD1972064-42040,5/02/2022,10/02/2022,Standard Class,Consumer,Europe,Furniture,$244.14,Medium
+IN-2015-SC2023027-42040,5/02/2022,8/02/2022,Second Class,Home Office,USCA,Office Supplies,$87.03,Medium
+IN-2015-RH1951011-42040,5/02/2022,12/02/2022,Standard Class,Home Office,Asia Pacific,Technology,$354.15,Medium
+IN-2015-KB165857-42040,5/02/2022,9/02/2022,Standard Class,Home Office,USCA,Office Supplies,$571.43,Medium
+IN-2015-SC2023027-42040,5/02/2022,8/02/2022,Second Class,Home Office,USCA,Technology,$379.38,Medium
+IN-2015-KB165857-42040,5/02/2022,9/02/2022,Standard Class,Home Office,USCA,Office Supplies,"$1,419.36",Medium
+IN-2015-SC2023027-42040,5/02/2022,8/02/2022,Second Class,Home Office,USCA,Office Supplies,$43.44,Medium
+IN-2015-EK1379527-42040,5/02/2022,11/02/2022,Standard Class,Home Office,Asia Pacific,Office Supplies,$14.19,Medium
+IN-2015-SC2023027-42040,5/02/2022,8/02/2022,Second Class,Home Office,USCA,Office Supplies,$92.82,Medium
+IN-2015-KB165857-42040,5/02/2022,9/02/2022,Standard Class,Home Office,USCA,Office Supplies,$53.95,Medium
+IN-2015-SC2023027-42040,5/02/2022,8/02/2022,Second Class,Home Office,USCA,Technology,"$1,715.91",Medium
+IN-2015-KB165857-42040,5/02/2022,9/02/2022,Standard Class,Home Office,USCA,Office Supplies,$78.25,Medium
+MX-2015-DC1285051-42041,6/02/2022,10/02/2022,Standard Class,Consumer,LATAM,Office Supplies,$7.38,High
+MX-2015-DC1285051-42041,6/02/2022,10/02/2022,Standard Class,Consumer,LATAM,Technology,$81.00,High
+MX-2015-RB1943582-42041,6/02/2022,10/02/2022,Second Class,Consumer,LATAM,Office Supplies,$13.76,High
+MX-2015-KM1622582-42041,6/02/2022,13/02/2022,Standard Class,Corporate,LATAM,Office Supplies,$164.20,Low
+MX-2015-RB1943582-42041,6/02/2022,10/02/2022,Second Class,Consumer,LATAM,Furniture,"$1,867.14",High
+CA-2015-CB12025140-42041,6/02/2022,9/02/2022,Second Class,Consumer,USCA,Office Supplies,$7.12,Medium
+CA-2015-CB12025140-42041,6/02/2022,9/02/2022,Second Class,Consumer,USCA,Office Supplies,$243.99,Medium
+ES-2015-CR1282048-42041,6/02/2022,13/02/2022,Standard Class,Home Office,Europe,Office Supplies,$113.04,Medium
+ES-2015-CB1202545-42041,6/02/2022,10/02/2022,Standard Class,Consumer,Europe,Office Supplies,$162.00,Medium
+ES-2015-CC12475120-42041,6/02/2022,10/02/2022,Second Class,Consumer,Europe,Office Supplies,$146.10,High
+ES-2015-MR1754548-42041,6/02/2022,10/02/2022,Standard Class,Home Office,Europe,Technology,$576.72,Medium
+RS-2015-HE4800108-42041,6/02/2022,10/02/2022,Standard Class,Corporate,Europe,Furniture,$47.64,Medium
+ES-2015-CC12475120-42041,6/02/2022,10/02/2022,Second Class,Consumer,Europe,Office Supplies,$78.30,High
+ES-2015-BD1132045-42041,6/02/2022,10/02/2022,Standard Class,Consumer,Europe,Office Supplies,$255.74,High
+ES-2015-TA2138545-42041,6/02/2022,8/02/2022,First Class,Home Office,Europe,Office Supplies,$17.10,Medium
+RS-2015-HE4800108-42041,6/02/2022,10/02/2022,Standard Class,Corporate,Europe,Office Supplies,$43.20,Medium
+RS-2015-HE4800108-42041,6/02/2022,10/02/2022,Standard Class,Corporate,Europe,Office Supplies,$330.24,Medium
+ES-2015-TA2138545-42041,6/02/2022,8/02/2022,First Class,Home Office,Europe,Furniture,$346.11,Medium
+ES-2015-CC12475120-42041,6/02/2022,10/02/2022,Second Class,Consumer,Europe,Office Supplies,$49.95,High
+ES-2015-HM1498014-42041,6/02/2022,11/02/2022,Second Class,Consumer,Europe,Office Supplies,$104.40,Medium
+ES-2015-LH1690048-42041,6/02/2022,6/02/2022,Same Day,Consumer,Europe,Office Supplies,$207.12,Medium
+IN-2015-SJ20215127-42041,6/02/2022,11/02/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$49.50,Medium
+ID-2015-JD15790130-42041,6/02/2022,8/02/2022,First Class,Consumer,Asia Pacific,Furniture,$130.35,High
+MX-2015-JD1589582-42042,7/02/2022,11/02/2022,Standard Class,Corporate,LATAM,Technology,$616.40,Medium
+US-2015-SP20545140-42042,7/02/2022,13/02/2022,Standard Class,Corporate,USCA,Office Supplies,$46.24,Medium
+US-2015-SP20545140-42042,7/02/2022,13/02/2022,Standard Class,Corporate,USCA,Technology,$227.46,Medium
+CA-2015-BD11770140-42042,7/02/2022,12/02/2022,Standard Class,Consumer,USCA,Furniture,$240.78,Medium
+IT-2015-CM12655124-42042,7/02/2022,14/02/2022,Standard Class,Home Office,Europe,Office Supplies,$46.50,Medium
+ES-2015-AS10045139-42042,7/02/2022,11/02/2022,Standard Class,Corporate,Europe,Office Supplies,$122.40,High
+ES-2015-SN20710139-42042,7/02/2022,10/02/2022,First Class,Home Office,Europe,Office Supplies,$82.08,High
+BO-2015-DS303013-42042,7/02/2022,14/02/2022,Standard Class,Home Office,Europe,Technology,$798.84,Medium
+ES-2015-TS2150545-42042,7/02/2022,8/02/2022,First Class,Consumer,Europe,Technology,$541.52,High
+IT-2015-CM12655124-42042,7/02/2022,14/02/2022,Standard Class,Home Office,Europe,Furniture,"$2,830.43",Medium
+ES-2015-BF11275139-42042,7/02/2022,11/02/2022,Second Class,Corporate,Europe,Office Supplies,$33.12,High
+ES-2015-AS10045139-42042,7/02/2022,11/02/2022,Standard Class,Corporate,Europe,Office Supplies,$35.19,High
+ES-2015-AS10045139-42042,7/02/2022,11/02/2022,Standard Class,Corporate,Europe,Office Supplies,$50.94,High
+ES-2015-AS10045139-42042,7/02/2022,11/02/2022,Standard Class,Corporate,Europe,Office Supplies,$79.20,High
+ES-2015-AS10045139-42042,7/02/2022,11/02/2022,Standard Class,Corporate,Europe,Technology,$413.82,High
+ES-2015-AS10045139-42042,7/02/2022,11/02/2022,Standard Class,Corporate,Europe,Technology,$307.44,High
+ES-2015-AS10045139-42042,7/02/2022,11/02/2022,Standard Class,Corporate,Europe,Technology,$388.92,High
+ES-2015-LP17080120-42042,7/02/2022,11/02/2022,Standard Class,Consumer,Europe,Office Supplies,$14.04,Medium
+ES-2015-DB1327045-42042,7/02/2022,10/02/2022,First Class,Home Office,Europe,Office Supplies,$18.18,Medium
+ES-2015-SN20710139-42042,7/02/2022,10/02/2022,First Class,Home Office,Europe,Office Supplies,$22.86,High
+IT-2015-CM12655124-42042,7/02/2022,14/02/2022,Standard Class,Home Office,Europe,Office Supplies,$60.96,Medium
+ES-2015-TR21325139-42042,7/02/2022,11/02/2022,Standard Class,Consumer,Europe,Office Supplies,$66.96,High
+IT-2015-CM12655124-42042,7/02/2022,14/02/2022,Standard Class,Home Office,Europe,Office Supplies,$204.57,Medium
+ES-2015-LP17080120-42042,7/02/2022,11/02/2022,Standard Class,Consumer,Europe,Technology,$311.69,Medium
+ES-2015-SN20710139-42042,7/02/2022,10/02/2022,First Class,Home Office,Europe,Furniture,$429.48,High
+IT-2015-AB10015139-42042,7/02/2022,12/02/2022,Second Class,Consumer,Europe,Office Supplies,$174.96,High
+IT-2015-CM12655124-42042,7/02/2022,14/02/2022,Standard Class,Home Office,Europe,Office Supplies,$38.07,Medium
+IT-2015-JC1610591-42042,7/02/2022,9/02/2022,First Class,Corporate,Europe,Technology,$46.53,Critical
+ID-2015-TZ214457-42042,7/02/2022,11/02/2022,Second Class,Home Office,USCA,Office Supplies,$6.80,Medium
+IN-2015-BT1148559-42042,7/02/2022,11/02/2022,Standard Class,Home Office,Asia Pacific,Office Supplies,$20.72,Medium
+IN-2015-BT1148559-42042,7/02/2022,11/02/2022,Standard Class,Home Office,Asia Pacific,Office Supplies,$228.83,Medium
+ID-2015-RR19525130-42042,7/02/2022,10/02/2022,Second Class,Home Office,USCA,Office Supplies,$85.29,Medium
+IN-2015-BT1148559-42042,7/02/2022,11/02/2022,Standard Class,Home Office,Asia Pacific,Technology,$340.48,Medium
+CA-2015-MV17485140-42042,7/02/2022,10/02/2022,First Class,Consumer,USCA,Furniture,$359.97,High
+ID-2015-TZ214457-42042,7/02/2022,11/02/2022,Second Class,Home Office,USCA,Office Supplies,$32.47,Medium
+IN-2015-JC1610511-42042,7/02/2022,9/02/2022,Second Class,Home Office,USCA,Office Supplies,$182.55,Critical
+ID-2015-TZ214457-42042,7/02/2022,11/02/2022,Second Class,Home Office,USCA,Furniture,$706.16,Medium
+ID-2015-TZ214457-42042,7/02/2022,11/02/2022,Second Class,Home Office,USCA,Office Supplies,$88.74,Medium
+IN-2015-JC1610511-42042,7/02/2022,9/02/2022,Second Class,Home Office,USCA,Furniture,$111.06,Critical
+IT-2015-CM12655124-42042,7/02/2022,14/02/2022,Standard Class,Home Office,Europe,Office Supplies,$46.74,Medium
+ES-2015-LP17080120-42042,7/02/2022,11/02/2022,Standard Class,Consumer,Europe,Office Supplies,$86.52,Medium
+HU-2015-BN151557-42042,7/02/2022,13/02/2022,Standard Class,Consumer,Europe,Office Supplies,$274.68,Medium
+ES-2015-RF19345120-42043,8/02/2022,11/02/2022,First Class,Corporate,Europe,Office Supplies,$281.88,High
+ES-2015-MC1810045-42043,8/02/2022,13/02/2022,Standard Class,Consumer,Europe,Office Supplies,$30.66,High
+ES-2015-RF19345120-42043,8/02/2022,11/02/2022,First Class,Corporate,Europe,Office Supplies,"$1,136.94",High
+IR-2015-AH19560-42044,9/02/2022,13/02/2022,Standard Class,Home Office,USCA,Office Supplies,$127.89,Medium
+MX-2015-MH1744031-42045,10/02/2022,14/02/2022,Standard Class,Corporate,LATAM,Office Supplies,$14.60,High
+MX-2015-MH1744031-42045,10/02/2022,14/02/2022,Standard Class,Corporate,LATAM,Office Supplies,$47.64,High
+MX-2015-MH1744031-42045,10/02/2022,14/02/2022,Standard Class,Corporate,LATAM,Furniture,$161.40,High
+US-2015-RO1978055-42045,10/02/2022,14/02/2022,Standard Class,Consumer,LATAM,Technology,$98.57,Medium
+US-2015-RO1978055-42045,10/02/2022,14/02/2022,Standard Class,Consumer,LATAM,Office Supplies,$22.68,Medium
+US-2015-DJ1363098-42045,10/02/2022,13/02/2022,First Class,Consumer,LATAM,Office Supplies,$27.24,Medium
+CA-2015-TP21415140-42045,10/02/2022,15/02/2022,Standard Class,Consumer,USCA,Furniture,$3.98,Medium
+CA-2015-TP21415140-42045,10/02/2022,15/02/2022,Standard Class,Consumer,USCA,Office Supplies,$12.99,Medium
+CA-2015-TP21415140-42045,10/02/2022,15/02/2022,Standard Class,Consumer,USCA,Technology,$127.98,Medium
+CA-2015-TP21415140-42045,10/02/2022,15/02/2022,Standard Class,Consumer,USCA,Office Supplies,$252.78,Medium
+ES-2015-AH10690120-42045,10/02/2022,14/02/2022,Standard Class,Corporate,Europe,Office Supplies,$6.00,Medium
+ES-2015-AH10690120-42045,10/02/2022,14/02/2022,Standard Class,Corporate,Europe,Office Supplies,$103.36,Medium
+ES-2015-IL1510034-42045,10/02/2022,13/02/2022,First Class,Consumer,Europe,Office Supplies,$49.77,Medium
+ES-2015-AH10690120-42045,10/02/2022,14/02/2022,Standard Class,Corporate,Europe,Office Supplies,$44.73,Medium
+ES-2015-AH10690120-42045,10/02/2022,14/02/2022,Standard Class,Corporate,Europe,Office Supplies,$139.56,Medium
+ES-2015-AH10690120-42045,10/02/2022,14/02/2022,Standard Class,Corporate,Europe,Technology,$88.47,Medium
+ES-2015-IL1510034-42045,10/02/2022,13/02/2022,First Class,Consumer,Europe,Furniture,$31.94,Medium
+ES-2015-AH10690120-42045,10/02/2022,14/02/2022,Standard Class,Corporate,Europe,Office Supplies,$152.28,Medium
+ES-2015-IL1510034-42045,10/02/2022,13/02/2022,First Class,Consumer,Europe,Furniture,$160.99,Medium
+ES-2015-AG10525139-42045,10/02/2022,11/02/2022,First Class,Corporate,Europe,Office Supplies,$79.29,High
+ES-2015-AH10690120-42045,10/02/2022,14/02/2022,Standard Class,Corporate,Europe,Technology,$450.60,Medium
+IT-2015-FG1426045-42045,10/02/2022,16/02/2022,Standard Class,Home Office,Europe,Technology,$482.49,Medium
+IN-2015-CS1249066-42045,10/02/2022,14/02/2022,Standard Class,Home Office,USCA,Office Supplies,$22.74,Medium
+IN-2015-DL133307-42045,10/02/2022,15/02/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$58.00,Medium
+IN-2015-CS1249066-42045,10/02/2022,14/02/2022,Standard Class,Home Office,USCA,Technology,$143.52,Medium
+IN-2015-LS1694559-42045,10/02/2022,14/02/2022,Standard Class,Home Office,USCA,Office Supplies,$71.22,High
+ID-2015-LT171107-42045,10/02/2022,14/02/2022,Second Class,Consumer,Asia Pacific,Furniture,$173.56,Medium
+ID-2015-LT171107-42045,10/02/2022,14/02/2022,Second Class,Consumer,Asia Pacific,Office Supplies,$60.59,Medium
+ID-2015-LT171107-42045,10/02/2022,14/02/2022,Second Class,Consumer,Asia Pacific,Office Supplies,$74.25,Medium
+IN-2015-AB10015144-42045,10/02/2022,14/02/2022,Standard Class,Consumer,Asia Pacific,Furniture,$185.60,Medium
+ID-2015-LT171107-42045,10/02/2022,14/02/2022,Second Class,Consumer,Asia Pacific,Furniture,$362.66,Medium
+IN-2015-LS1694559-42045,10/02/2022,14/02/2022,Standard Class,Home Office,USCA,Technology,$477.34,High
+IN-2015-AB10015144-42045,10/02/2022,14/02/2022,Standard Class,Consumer,Asia Pacific,Technology,$602.38,Medium
+IN-2015-LS1694559-42045,10/02/2022,14/02/2022,Standard Class,Home Office,USCA,Technology,"$1,584.39",High
+ID-2015-LT171107-42045,10/02/2022,14/02/2022,Second Class,Consumer,Asia Pacific,Technology,"$1,128.38",Medium
+ES-2015-KB1658545-42045,10/02/2022,16/02/2022,Standard Class,Corporate,Europe,Office Supplies,$83.40,Medium
+IN-2015-AB10015144-42045,10/02/2022,14/02/2022,Standard Class,Consumer,Asia Pacific,Technology,$123.65,Medium
+BN-2015-TH1111515-42045,10/02/2022,14/02/2022,Standard Class,Corporate,Africa,Technology,$319.98,Medium
+NI-2015-KM637595-42045,10/02/2022,17/02/2022,Standard Class,Home Office,Africa,Office Supplies,$8.47,Low
+CA-2015-ME772523-42046,11/02/2022,16/02/2022,Standard Class,Consumer,USCA,Office Supplies,$204.15,High
+CA-2015-DM352523-42046,11/02/2022,14/02/2022,First Class,Corporate,USCA,Office Supplies,$212.10,Critical
+CA-2015-DM352523-42046,11/02/2022,14/02/2022,First Class,Corporate,USCA,Office Supplies,$102.72,Critical
+CA-2015-DM352523-42046,11/02/2022,14/02/2022,First Class,Corporate,USCA,Office Supplies,$19.80,Critical
+CA-2015-MN17935140-42046,11/02/2022,14/02/2022,First Class,Consumer,USCA,Office Supplies,$23.12,High
+ES-2015-MG182058-42046,11/02/2022,13/02/2022,First Class,Corporate,Europe,Technology,$173.82,Medium
+ES-2015-BW11110120-42046,11/02/2022,15/02/2022,Standard Class,Corporate,Europe,Office Supplies,"$2,477.55",High
+ES-2015-DJ13510139-42046,11/02/2022,15/02/2022,Second Class,Corporate,Europe,Technology,$670.95,Medium
+BK-2015-RS987017-42046,11/02/2022,15/02/2022,Standard Class,Home Office,Europe,Office Supplies,$22.80,High
+ES-2015-BW11110120-42046,11/02/2022,15/02/2022,Standard Class,Corporate,Europe,Furniture,$688.74,High
+BK-2015-RS987017-42046,11/02/2022,15/02/2022,Standard Class,Home Office,Europe,Office Supplies,$47.10,High
+IT-2015-JC15340139-42046,11/02/2022,13/02/2022,First Class,Consumer,Europe,Office Supplies,$19.08,Critical
+BK-2015-RS987017-42046,11/02/2022,15/02/2022,Standard Class,Home Office,Europe,Office Supplies,$50.79,High
+IT-2015-GT14635124-42046,11/02/2022,16/02/2022,Standard Class,Corporate,Europe,Office Supplies,$210.69,Medium
+BK-2015-RS987017-42046,11/02/2022,15/02/2022,Standard Class,Home Office,Europe,Office Supplies,$124.68,High
+ES-2015-MG182058-42046,11/02/2022,13/02/2022,First Class,Corporate,Europe,Office Supplies,$411.93,Medium
+IN-2015-CR126257-42046,11/02/2022,14/02/2022,Second Class,Home Office,Asia Pacific,Office Supplies,$48.33,Medium
+ID-2015-HK148907-42046,11/02/2022,15/02/2022,Standard Class,Home Office,USCA,Office Supplies,$126.68,High
+IN-2015-RD196607-42046,11/02/2022,17/02/2022,Standard Class,Home Office,Asia Pacific,Office Supplies,$267.30,Medium
+IN-2015-CC125507-42046,11/02/2022,11/02/2022,Same Day,Consumer,Asia Pacific,Office Supplies,$68.18,Critical
+ID-2015-HK148907-42046,11/02/2022,15/02/2022,Standard Class,Home Office,USCA,Furniture,$363.38,High
+IN-2015-CC125507-42046,11/02/2022,11/02/2022,Same Day,Consumer,Asia Pacific,Technology,"$1,027.73",Critical
+IN-2015-CC125507-42046,11/02/2022,11/02/2022,Same Day,Consumer,Asia Pacific,Office Supplies,$52.73,Critical
+IT-2015-JC15340139-42046,11/02/2022,13/02/2022,First Class,Consumer,Europe,Office Supplies,$9.14,Critical
+IT-2015-JC15340139-42046,11/02/2022,13/02/2022,First Class,Consumer,Europe,Office Supplies,$93.18,Critical
+IT-2015-JC15340139-42046,11/02/2022,13/02/2022,First Class,Consumer,Europe,Technology,$262.14,Critical
+IT-2015-JC15340139-42046,11/02/2022,13/02/2022,First Class,Consumer,Europe,Office Supplies,$318.68,Critical
+BO-2015-MZ733513-42046,11/02/2022,15/02/2022,Second Class,Home Office,Europe,Furniture,"$2,757.78",High
+IN-2015-DM135257-42046,11/02/2022,15/02/2022,Standard Class,Corporate,Asia Pacific,Furniture,$104.71,Medium
+NI-2015-CM219095-42046,11/02/2022,16/02/2022,Standard Class,Consumer,Africa,Office Supplies,$3.15,Medium
+MO-2015-ST1053086-42046,11/02/2022,16/02/2022,Standard Class,Consumer,Africa,Furniture,$387.63,Medium
+NI-2015-CM219095-42046,11/02/2022,16/02/2022,Standard Class,Consumer,Africa,Technology,$464.13,Medium
+MO-2015-MT807086-42046,11/02/2022,15/02/2022,Standard Class,Home Office,Africa,Office Supplies,$29.01,Medium
+MO-2015-ST1053086-42046,11/02/2022,16/02/2022,Standard Class,Consumer,Africa,Office Supplies,$32.13,Medium
+AG-2015-DS31803-42046,11/02/2022,17/02/2022,Standard Class,Corporate,Africa,Office Supplies,$52.08,Low
+AG-2015-DS31803-42046,11/02/2022,17/02/2022,Standard Class,Corporate,Africa,Office Supplies,$5.04,Low
+AG-2015-DS31803-42046,11/02/2022,17/02/2022,Standard Class,Corporate,Africa,Office Supplies,$25.47,Low
+AG-2015-DS31803-42046,11/02/2022,17/02/2022,Standard Class,Corporate,Africa,Office Supplies,$49.44,Low
+AG-2015-DS31803-42046,11/02/2022,17/02/2022,Standard Class,Corporate,Africa,Office Supplies,$45.69,Low
+MX-2015-KM1666082-42047,12/02/2022,17/02/2022,Second Class,Consumer,LATAM,Furniture,$681.74,Medium
+MX-2015-PF1916582-42047,12/02/2022,16/02/2022,Standard Class,Consumer,LATAM,Office Supplies,$13.32,Medium
+US-2015-DJ13510140-42047,12/02/2022,16/02/2022,Standard Class,Corporate,USCA,Office Supplies,$20.70,High
+CA-2015-MM17260140-42047,12/02/2022,15/02/2022,First Class,Consumer,USCA,Furniture,$147.57,High
+BK-2015-PG882017-42047,12/02/2022,12/02/2022,Same Day,Consumer,Europe,Office Supplies,$36.24,Medium
+BK-2015-PG882017-42047,12/02/2022,12/02/2022,Same Day,Consumer,Europe,Office Supplies,$57.87,Medium
+BK-2015-PG882017-42047,12/02/2022,12/02/2022,Same Day,Consumer,Europe,Technology,$262.29,Medium
+ES-2015-AB1001545-42047,12/02/2022,16/02/2022,Standard Class,Consumer,Europe,Office Supplies,$12.00,Medium
+IN-2015-AM107057-42047,12/02/2022,14/02/2022,Second Class,Consumer,Asia Pacific,Office Supplies,$47.93,Medium
+IN-2015-GR145607-42047,12/02/2022,17/02/2022,Standard Class,Home Office,USCA,Office Supplies,$47.84,Medium
+IN-2015-GR145607-42047,12/02/2022,17/02/2022,Standard Class,Home Office,USCA,Furniture,$39.42,Medium
+IN-2015-AM107057-42047,12/02/2022,14/02/2022,Second Class,Consumer,Asia Pacific,Technology,$186.79,Medium
+IN-2015-AM107057-42047,12/02/2022,14/02/2022,Second Class,Consumer,Asia Pacific,Furniture,"$1,186.65",Medium
+IN-2015-AM107057-42047,12/02/2022,14/02/2022,Second Class,Consumer,Asia Pacific,Technology,"$2,074.73",Medium
+IN-2015-AM107057-42047,12/02/2022,14/02/2022,Second Class,Consumer,Asia Pacific,Office Supplies,$9.59,Medium
+IN-2015-GR145607-42047,12/02/2022,17/02/2022,Standard Class,Home Office,USCA,Office Supplies,$57.51,Medium
+IN-2015-GR145607-42047,12/02/2022,17/02/2022,Standard Class,Home Office,USCA,Office Supplies,$220.48,Medium
+ES-2015-CC1214596-42047,12/02/2022,13/02/2022,First Class,Consumer,Europe,Technology,$369.09,High
+ES-2015-AB1001545-42047,12/02/2022,16/02/2022,Standard Class,Consumer,Europe,Technology,"$1,822.54",Medium
+ID-2015-CJ1201059-42047,12/02/2022,16/02/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$60.17,Medium
+IN-2015-AM107057-42047,12/02/2022,14/02/2022,Second Class,Consumer,Asia Pacific,Technology,$655.45,Medium
+CG-2015-HP481533-42047,12/02/2022,18/02/2022,Standard Class,Home Office,Africa,Office Supplies,$20.16,Low
+CG-2015-LC688533-42047,12/02/2022,18/02/2022,Standard Class,Consumer,Africa,Office Supplies,$41.70,Medium
+CG-2015-HP481533-42047,12/02/2022,18/02/2022,Standard Class,Home Office,Africa,Office Supplies,$499.56,Low
+MX-2015-CD1228082-42048,13/02/2022,14/02/2022,First Class,Consumer,LATAM,Office Supplies,$105.18,High
+MX-2015-CD1228082-42048,13/02/2022,14/02/2022,First Class,Consumer,LATAM,Technology,$99.20,High
+BU-2015-KM637519-42048,13/02/2022,19/02/2022,Standard Class,Home Office,Europe,Technology,$118.68,Medium
+BU-2015-KM637519-42048,13/02/2022,19/02/2022,Standard Class,Home Office,Europe,Office Supplies,$211.65,Medium
+ES-2015-KB1660096-42048,13/02/2022,18/02/2022,Standard Class,Corporate,Europe,Technology,$334.68,Medium
+ID-2015-TB2152088-42048,13/02/2022,19/02/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$9.41,Medium
+IR-2015-CH207060-42048,13/02/2022,14/02/2022,First Class,Home Office,Asia Pacific,Furniture,"$1,198.56",High
+IN-2015-PG1889559-42048,13/02/2022,18/02/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$12.87,High
+IN-2015-ML1804092-42048,13/02/2022,18/02/2022,Standard Class,Home Office,USCA,Office Supplies,$26.76,Medium
+IN-2015-RW196907-42048,13/02/2022,19/02/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$40.91,Medium
+IN-2015-LC1693027-42048,13/02/2022,13/02/2022,Same Day,Home Office,USCA,Office Supplies,$22.26,Medium
+IN-2015-ML1804092-42048,13/02/2022,18/02/2022,Standard Class,Home Office,USCA,Furniture,$50.40,Medium
+IN-2015-PG1889559-42048,13/02/2022,18/02/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$53.04,High
+ID-2015-CT119957-42048,13/02/2022,17/02/2022,Standard Class,Consumer,Asia Pacific,Furniture,$124.09,High
+IN-2015-RW1963066-42048,13/02/2022,15/02/2022,First Class,Home Office,USCA,Office Supplies,$55.56,Medium
+IN-2015-RW196907-42048,13/02/2022,19/02/2022,Standard Class,Consumer,Asia Pacific,Technology,$195.05,Medium
+IN-2015-AG1030059-42048,13/02/2022,13/02/2022,Same Day,Home Office,USCA,Technology,$454.62,Medium
+IN-2015-RD198107-42048,13/02/2022,17/02/2022,Standard Class,Home Office,Asia Pacific,Technology,$248.29,High
+ID-2015-TB2152088-42048,13/02/2022,19/02/2022,Standard Class,Consumer,Asia Pacific,Technology,$274.47,Medium
+IN-2015-TB2162558-42048,13/02/2022,15/02/2022,First Class,Consumer,Asia Pacific,Technology,$153.90,High
+ID-2015-DM1334597-42048,13/02/2022,20/02/2022,Standard Class,Home Office,USCA,Office Supplies,$740.78,Medium
+IN-2015-KB16405102-42048,13/02/2022,14/02/2022,First Class,Home Office,Asia Pacific,Furniture,"$1,726.65",Medium
+IN-2015-ML1804092-42048,13/02/2022,18/02/2022,Standard Class,Home Office,USCA,Office Supplies,$27.18,Medium
+IN-2015-CL118907-42048,13/02/2022,18/02/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$35.75,Medium
+IN-2015-MS1798021-42048,13/02/2022,16/02/2022,Second Class,Home Office,USCA,Office Supplies,$11.61,High
+IN-2015-ED138857-42048,13/02/2022,19/02/2022,Standard Class,Home Office,Asia Pacific,Technology,$150.61,Medium
+IN-2015-RW196907-42048,13/02/2022,19/02/2022,Standard Class,Consumer,Asia Pacific,Furniture,$358.67,Medium
+IN-2015-KB16405102-42048,13/02/2022,14/02/2022,First Class,Home Office,Asia Pacific,Furniture,$259.04,Medium
+ID-2015-TB2152088-42048,13/02/2022,19/02/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$15.01,Medium
+ID-2015-TB2152088-42048,13/02/2022,19/02/2022,Standard Class,Consumer,Asia Pacific,Technology,$722.47,Medium
+IN-2015-RW1963066-42048,13/02/2022,15/02/2022,First Class,Home Office,USCA,Technology,$333.60,Medium
+IN-2015-PG1889559-42048,13/02/2022,18/02/2022,Standard Class,Consumer,Asia Pacific,Furniture,$681.15,High
+ID-2015-TB2152088-42048,13/02/2022,19/02/2022,Standard Class,Consumer,Asia Pacific,Technology,$109.95,Medium
+IN-2015-RW1963066-42048,13/02/2022,15/02/2022,First Class,Home Office,USCA,Furniture,$352.80,Medium
+NI-2015-SC1072595-42048,13/02/2022,17/02/2022,Standard Class,Consumer,Africa,Furniture,$276.44,Medium
+MX-2015-MG1814531-42049,14/02/2022,20/02/2022,Standard Class,Consumer,LATAM,Office Supplies,$32.28,Medium
+MX-2015-MM1805598-42049,14/02/2022,20/02/2022,Standard Class,Consumer,LATAM,Technology,$163.91,Medium
+CA-2015-MH17455140-42049,14/02/2022,18/02/2022,Standard Class,Consumer,USCA,Office Supplies,$90.64,High
+CA-2015-SV20785140-42049,14/02/2022,21/02/2022,Standard Class,Consumer,USCA,Office Supplies,$10.71,Medium
+CA-2015-SV20785140-42049,14/02/2022,21/02/2022,Standard Class,Consumer,USCA,Office Supplies,$25.02,Medium
+CA-2015-JP15460140-42049,14/02/2022,18/02/2022,Standard Class,Corporate,USCA,Office Supplies,$17.94,Medium
+ES-2015-SJ20125139-42049,14/02/2022,17/02/2022,Second Class,Home Office,Europe,Office Supplies,$79.29,High
+ES-2015-HM1498048-42049,14/02/2022,21/02/2022,Standard Class,Consumer,Europe,Office Supplies,$44.10,Medium
+ES-2015-LC1696064-42049,14/02/2022,18/02/2022,Standard Class,Home Office,Europe,Office Supplies,$55.92,High
+IT-2015-MC1763545-42049,14/02/2022,18/02/2022,Standard Class,Corporate,Europe,Office Supplies,$382.32,Medium
+ES-2015-HM1498048-42049,14/02/2022,21/02/2022,Standard Class,Consumer,Europe,Office Supplies,"$1,280.29",Medium
+ES-2015-LC1696064-42049,14/02/2022,18/02/2022,Standard Class,Home Office,Europe,Technology,$102.31,High
+ES-2015-LC1696064-42049,14/02/2022,18/02/2022,Standard Class,Home Office,Europe,Office Supplies,$28.80,High
+IT-2015-MC1763545-42049,14/02/2022,18/02/2022,Standard Class,Corporate,Europe,Technology,$225.47,Medium
+ES-2015-RB1964548-42049,14/02/2022,19/02/2022,Standard Class,Corporate,Europe,Office Supplies,$106.80,Medium
+ES-2015-RB1964548-42049,14/02/2022,19/02/2022,Standard Class,Corporate,Europe,Furniture,$126.45,Medium
+ES-2015-FW1439548-42049,14/02/2022,14/02/2022,Same Day,Corporate,Europe,Office Supplies,$106.27,Critical
+ES-2015-FW1439548-42049,14/02/2022,14/02/2022,Same Day,Corporate,Europe,Technology,$268.62,Critical
+ES-2015-HM1498048-42049,14/02/2022,21/02/2022,Standard Class,Consumer,Europe,Furniture,$447.88,Medium
+ES-2015-LC1696064-42049,14/02/2022,18/02/2022,Standard Class,Home Office,Europe,Furniture,"$1,235.25",High
+ES-2015-MB1808545-42049,14/02/2022,16/02/2022,First Class,Consumer,Europe,Office Supplies,$734.94,Critical
+IN-2015-DB13360118-42049,14/02/2022,20/02/2022,Standard Class,Home Office,Asia Pacific,Furniture,$27.36,Medium
+ID-2015-SG2047059-42049,14/02/2022,19/02/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$28.10,High
+IN-2015-KD1627027-42049,14/02/2022,17/02/2022,First Class,Consumer,Asia Pacific,Technology,$123.12,Medium
+IN-2015-AC1061527-42049,14/02/2022,16/02/2022,Second Class,Home Office,USCA,Furniture,$79.35,Medium
+IN-2015-AC1061527-42049,14/02/2022,16/02/2022,Second Class,Home Office,USCA,Office Supplies,$551.40,Medium
+IN-2015-AC1061527-42049,14/02/2022,16/02/2022,Second Class,Home Office,USCA,Furniture,$222.36,Medium
+IN-2015-AC1061527-42049,14/02/2022,16/02/2022,Second Class,Home Office,USCA,Technology,$346.92,Medium
+IN-2015-TB21400102-42049,14/02/2022,19/02/2022,Standard Class,Consumer,Asia Pacific,Furniture,"$1,051.72",Medium
+IN-2015-MA1799566-42049,14/02/2022,18/02/2022,Second Class,Home Office,Asia Pacific,Office Supplies,$21.60,High
+IN-2015-TB21400102-42049,14/02/2022,19/02/2022,Standard Class,Consumer,Asia Pacific,Furniture,$604.58,Medium
+IN-2015-AC1061527-42049,14/02/2022,16/02/2022,Second Class,Home Office,USCA,Furniture,$573.48,Medium
+IN-2015-AC1061527-42049,14/02/2022,16/02/2022,Second Class,Home Office,USCA,Technology,$410.22,Medium
+IN-2015-TB21400102-42049,14/02/2022,19/02/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$23.82,Medium
+IN-2015-TB21400102-42049,14/02/2022,19/02/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$87.91,Medium
+IN-2015-TB21400102-42049,14/02/2022,19/02/2022,Standard Class,Consumer,Asia Pacific,Furniture,$79.56,Medium
+ID-2015-MB17305144-42049,14/02/2022,16/02/2022,First Class,Consumer,Asia Pacific,Technology,$678.77,High
+ES-2015-RB1964548-42049,14/02/2022,19/02/2022,Standard Class,Corporate,Europe,Office Supplies,$35.55,Medium
+ES-2015-RB1964548-42049,14/02/2022,19/02/2022,Standard Class,Corporate,Europe,Office Supplies,$39.33,Medium
+MX-2015-TB2105518-42050,15/02/2022,22/02/2022,Standard Class,Consumer,LATAM,Furniture,$330.22,Medium
+ES-2015-CM1219045-42050,15/02/2022,20/02/2022,Standard Class,Consumer,Europe,Office Supplies,$82.95,Medium
+IT-2015-GH14665124-42050,15/02/2022,20/02/2022,Standard Class,Consumer,Europe,Office Supplies,$63.27,High
+IT-2015-RB1933062-42050,15/02/2022,18/02/2022,First Class,Consumer,Europe,Furniture,$248.27,Medium
+IN-2015-FC1424527-42050,15/02/2022,19/02/2022,Standard Class,Home Office,Asia Pacific,Office Supplies,$41.07,Medium
+IN-2015-EB141107-42050,15/02/2022,17/02/2022,Second Class,Consumer,Asia Pacific,Office Supplies,$80.43,Medium
+ID-2015-RA199457-42050,15/02/2022,18/02/2022,Second Class,Consumer,Asia Pacific,Furniture,$76.90,Medium
+IN-2015-EB141107-42050,15/02/2022,17/02/2022,Second Class,Consumer,Asia Pacific,Furniture,$118.94,Medium
+IN-2015-EB141107-42050,15/02/2022,17/02/2022,Second Class,Consumer,Asia Pacific,Office Supplies,$221.83,Medium
+IN-2015-FC1424527-42050,15/02/2022,19/02/2022,Standard Class,Home Office,Asia Pacific,Office Supplies,$323.46,Medium
+GB-2015-EH376546-42050,15/02/2022,21/02/2022,Standard Class,Corporate,Africa,Office Supplies,$29.64,Medium
+LI-2015-TH1123573-42050,15/02/2022,19/02/2022,Standard Class,Corporate,Africa,Furniture,$299.64,Medium
+LI-2015-TH1123573-42050,15/02/2022,19/02/2022,Standard Class,Corporate,Africa,Technology,$381.63,Medium
+LI-2015-TH1123573-42050,15/02/2022,19/02/2022,Standard Class,Corporate,Africa,Office Supplies,$308.16,Medium
+ES-2015-JK1562545-42051,16/02/2022,22/02/2022,Standard Class,Consumer,Europe,Technology,$216.72,Medium
+ES-2015-JK1562545-42051,16/02/2022,22/02/2022,Standard Class,Consumer,Europe,Office Supplies,$42.30,Medium
+CG-2015-HE480033-42051,16/02/2022,21/02/2022,Second Class,Corporate,Africa,Office Supplies,$8.94,Medium
+CG-2015-HE480033-42051,16/02/2022,21/02/2022,Second Class,Corporate,Africa,Technology,$144.42,Medium
+US-2015-SH1997555-42052,17/02/2022,23/02/2022,Standard Class,Corporate,LATAM,Office Supplies,$11.28,Medium
+US-2015-RB1957055-42052,17/02/2022,21/02/2022,Standard Class,Consumer,LATAM,Office Supplies,$43.86,High
+MX-2015-AP1091593-42052,17/02/2022,18/02/2022,First Class,Consumer,LATAM,Technology,$238.50,High
+CA-2015-JS16030140-42052,17/02/2022,22/02/2022,Standard Class,Consumer,USCA,Furniture,$600.56,Medium
+CA-2015-JS16030140-42052,17/02/2022,22/02/2022,Standard Class,Consumer,USCA,Office Supplies,$18.37,Medium
+CA-2015-JS16030140-42052,17/02/2022,22/02/2022,Standard Class,Consumer,USCA,Office Supplies,$50.35,Medium
+CA-2015-JS16030140-42052,17/02/2022,22/02/2022,Standard Class,Consumer,USCA,Furniture,$7.69,Medium
+CA-2015-JS16030140-42052,17/02/2022,22/02/2022,Standard Class,Consumer,USCA,Office Supplies,$28.03,Medium
+CA-2015-NG18355140-42052,17/02/2022,22/02/2022,Standard Class,Corporate,USCA,Technology,$14.99,Medium
+CA-2015-NG18355140-42052,17/02/2022,22/02/2022,Standard Class,Corporate,USCA,Office Supplies,$579.51,Medium
+CA-2015-LF17185140-42052,17/02/2022,21/02/2022,Standard Class,Consumer,USCA,Office Supplies,$37.94,Medium
+IT-2015-BT1144091-42052,17/02/2022,18/02/2022,First Class,Consumer,Europe,Office Supplies,$8.37,Medium
+EZ-2015-EM381032-42052,17/02/2022,23/02/2022,Standard Class,Corporate,Europe,Office Supplies,$6.00,Medium
+ES-2015-MV1748545-42052,17/02/2022,21/02/2022,Second Class,Consumer,Europe,Office Supplies,$44.94,High
+AU-2015-DH36758-42052,17/02/2022,20/02/2022,Second Class,Home Office,Europe,Technology,$249.18,High
+ES-2015-JS15940120-42052,17/02/2022,22/02/2022,Standard Class,Home Office,Europe,Technology,$574.02,Medium
+IT-2015-BT1144091-42052,17/02/2022,18/02/2022,First Class,Consumer,Europe,Technology,$735.39,Medium
+IT-2015-RP1985591-42052,17/02/2022,22/02/2022,Standard Class,Corporate,Europe,Office Supplies,$27.30,Medium
+EZ-2015-EM381032-42052,17/02/2022,23/02/2022,Standard Class,Corporate,Europe,Office Supplies,$17.40,Medium
+EZ-2015-EM381032-42052,17/02/2022,23/02/2022,Standard Class,Corporate,Europe,Furniture,$43.95,Medium
+RS-2015-SH10635108-42052,17/02/2022,22/02/2022,Standard Class,Corporate,Europe,Office Supplies,$14.04,Medium
+ES-2015-JS15940120-42052,17/02/2022,22/02/2022,Standard Class,Home Office,Europe,Office Supplies,$38.40,Medium
+RS-2015-SH10635108-42052,17/02/2022,22/02/2022,Standard Class,Corporate,Europe,Office Supplies,$48.51,Medium
+ES-2015-MV1748545-42052,17/02/2022,21/02/2022,Second Class,Consumer,Europe,Office Supplies,$86.35,High
+ES-2015-AA1037545-42052,17/02/2022,17/02/2022,Same Day,Consumer,Europe,Office Supplies,$90.48,High
+ES-2015-EH1394564-42052,17/02/2022,21/02/2022,Standard Class,Consumer,Europe,Office Supplies,$111.12,High
+ES-2015-JS15940120-42052,17/02/2022,22/02/2022,Standard Class,Home Office,Europe,Furniture,$342.51,Medium
+ES-2015-NS1850545-42052,17/02/2022,22/02/2022,Standard Class,Consumer,Europe,Furniture,$574.56,Medium
+ES-2015-DL1349548-42052,17/02/2022,19/02/2022,First Class,Corporate,Europe,Technology,"$1,071.84",High
+ES-2015-EH1394564-42052,17/02/2022,21/02/2022,Standard Class,Consumer,Europe,Office Supplies,$37.71,High
+ES-2015-MV1748545-42052,17/02/2022,21/02/2022,Second Class,Consumer,Europe,Technology,$273.56,High
+IT-2015-JK1532545-42052,17/02/2022,21/02/2022,Standard Class,Corporate,Europe,Furniture,"$1,630.80",High
+ID-2015-KH16510102-42052,17/02/2022,18/02/2022,First Class,Consumer,Asia Pacific,Furniture,$344.54,High
+ID-2015-KH16510102-42052,17/02/2022,18/02/2022,First Class,Consumer,Asia Pacific,Office Supplies,$25.07,High
+IN-2015-TP215657-42052,17/02/2022,22/02/2022,Standard Class,Home Office,USCA,Office Supplies,$6.78,Medium
+ID-2015-KH16510102-42052,17/02/2022,18/02/2022,First Class,Consumer,Asia Pacific,Office Supplies,$31.85,High
+IN-2015-NL18310130-42052,17/02/2022,17/02/2022,Same Day,Home Office,Asia Pacific,Office Supplies,$62.61,High
+ID-2015-KH16510102-42052,17/02/2022,18/02/2022,First Class,Consumer,Asia Pacific,Office Supplies,$46.51,High
+ID-2015-KH16510102-42052,17/02/2022,18/02/2022,First Class,Consumer,Asia Pacific,Office Supplies,$218.79,High
+ID-2015-KH16510102-42052,17/02/2022,18/02/2022,First Class,Consumer,Asia Pacific,Furniture,"$1,046.25",High
+RS-2015-SH10635108-42052,17/02/2022,22/02/2022,Standard Class,Corporate,Europe,Office Supplies,$47.04,Medium
+EZ-2015-EM381032-42052,17/02/2022,23/02/2022,Standard Class,Corporate,Europe,Office Supplies,$109.08,Medium
+IN-2015-NL18310130-42052,17/02/2022,17/02/2022,Same Day,Home Office,Asia Pacific,Furniture,$202.18,High
+NI-2015-PB921095-42052,17/02/2022,22/02/2022,Standard Class,Corporate,Africa,Office Supplies,$16.94,Medium
+GH-2015-KB624049-42052,17/02/2022,22/02/2022,Standard Class,Corporate,Africa,Office Supplies,$45.18,Medium
+NI-2015-PB921095-42052,17/02/2022,22/02/2022,Standard Class,Corporate,Africa,Furniture,$117.05,Medium
+GH-2015-KB624049-42052,17/02/2022,22/02/2022,Standard Class,Corporate,Africa,Technology,$74.52,Medium
+SF-2015-NP8700117-42052,17/02/2022,22/02/2022,Standard Class,Consumer,Africa,Technology,$350.58,Medium
+NI-2015-PB921095-42052,17/02/2022,22/02/2022,Standard Class,Corporate,Africa,Office Supplies,$3.74,Medium
+NI-2015-PB921095-42052,17/02/2022,22/02/2022,Standard Class,Corporate,Africa,Office Supplies,$4.64,Medium
+CA-2015-JK562523-42053,18/02/2022,23/02/2022,Second Class,Consumer,USCA,Office Supplies,$27.69,Medium
+CA-2015-JK562523-42053,18/02/2022,23/02/2022,Second Class,Consumer,USCA,Technology,"$1,539.36",Medium
+CA-2015-JK562523-42053,18/02/2022,23/02/2022,Second Class,Consumer,USCA,Office Supplies,$52.08,Medium
+CA-2015-JK562523-42053,18/02/2022,23/02/2022,Second Class,Consumer,USCA,Furniture,$137.16,Medium
+CA-2015-JK562523-42053,18/02/2022,23/02/2022,Second Class,Consumer,USCA,Technology,$508.32,Medium
+CA-2015-CR12820140-42053,18/02/2022,20/02/2022,First Class,Home Office,USCA,Office Supplies,$175.44,Medium
+CA-2015-CR12820140-42053,18/02/2022,20/02/2022,First Class,Home Office,USCA,Furniture,$89.07,Medium
+CA-2015-JK16120140-42053,18/02/2022,23/02/2022,Standard Class,Home Office,USCA,Furniture,$480.96,Medium
+CA-2015-JK16120140-42053,18/02/2022,23/02/2022,Standard Class,Home Office,USCA,Technology,$124.79,Medium
+CA-2015-CR12820140-42053,18/02/2022,20/02/2022,First Class,Home Office,USCA,Technology,$438.34,Medium
+CA-2015-CK12325140-42053,18/02/2022,21/02/2022,First Class,Home Office,USCA,Office Supplies,$5.72,High
+CA-2015-CK12325140-42053,18/02/2022,21/02/2022,First Class,Home Office,USCA,Technology,$57.59,High
+CA-2015-CK12325140-42053,18/02/2022,21/02/2022,First Class,Home Office,USCA,Furniture,$455.97,High
+CA-2015-CK12325140-42053,18/02/2022,21/02/2022,First Class,Home Office,USCA,Furniture,$30.14,High
+CA-2015-GH14410140-42053,18/02/2022,24/02/2022,Standard Class,Home Office,USCA,Office Supplies,$11.76,Medium
+CA-2015-GH14410140-42053,18/02/2022,24/02/2022,Standard Class,Home Office,USCA,Office Supplies,$166.45,Medium
+CA-2015-CK12325140-42053,18/02/2022,21/02/2022,First Class,Home Office,USCA,Furniture,$899.43,High
+US-2015-RB193305-42053,18/02/2022,25/02/2022,Standard Class,Consumer,LATAM,Office Supplies,$53.21,Low
+MX-2015-KC1654037-42053,18/02/2022,22/02/2022,Second Class,Corporate,USCA,Office Supplies,$280.92,Medium
+IN-2015-CM12160102-42053,18/02/2022,20/02/2022,First Class,Consumer,Asia Pacific,Office Supplies,$11.52,High
+IR-2015-DP339060-42053,18/02/2022,22/02/2022,Standard Class,Home Office,Asia Pacific,Office Supplies,$33.90,High
+IR-2015-DP339060-42053,18/02/2022,22/02/2022,Standard Class,Home Office,Asia Pacific,Office Supplies,$67.20,High
+IN-2015-CM12160102-42053,18/02/2022,20/02/2022,First Class,Consumer,Asia Pacific,Technology,$101.97,High
+ID-2015-CR1262559-42053,18/02/2022,21/02/2022,First Class,Home Office,Asia Pacific,Office Supplies,$155.75,Medium
+IN-2015-CM12160102-42053,18/02/2022,20/02/2022,First Class,Consumer,Asia Pacific,Technology,$127.89,High
+IN-2015-CM12160102-42053,18/02/2022,20/02/2022,First Class,Consumer,Asia Pacific,Furniture,$495.18,High
+US-2015-LL16840140-42053,18/02/2022,22/02/2022,Second Class,Consumer,USCA,Technology,$29.16,Medium
+IR-2015-DP339060-42053,18/02/2022,22/02/2022,Standard Class,Home Office,Asia Pacific,Office Supplies,$48.93,High
+ID-2015-CR1262559-42053,18/02/2022,21/02/2022,First Class,Home Office,Asia Pacific,Office Supplies,$33.96,Medium
+ID-2015-CR1262559-42053,18/02/2022,21/02/2022,First Class,Home Office,Asia Pacific,Technology,$951.84,Medium
+ID-2015-CR1262559-42053,18/02/2022,21/02/2022,First Class,Home Office,Asia Pacific,Office Supplies,$25.03,Medium
+IN-2015-CM12160102-42053,18/02/2022,20/02/2022,First Class,Consumer,Asia Pacific,Office Supplies,$27.27,High
+ID-2015-CR1262559-42053,18/02/2022,21/02/2022,First Class,Home Office,Asia Pacific,Technology,"$1,324.02",Medium
+IN-2015-CM12160102-42053,18/02/2022,20/02/2022,First Class,Consumer,Asia Pacific,Technology,$222.62,High
+ID-2015-CR1262559-42053,18/02/2022,21/02/2022,First Class,Home Office,Asia Pacific,Technology,$160.79,Medium
+ID-2015-CR1262559-42053,18/02/2022,21/02/2022,First Class,Home Office,Asia Pacific,Furniture,$250.40,Medium
+ID-2015-CR1262559-42053,18/02/2022,21/02/2022,First Class,Home Office,Asia Pacific,Technology,$74.65,Medium
+IV-2015-SF1020029-42053,18/02/2022,22/02/2022,Standard Class,Consumer,Africa,Technology,$115.44,Medium
+NI-2015-JC610595-42053,18/02/2022,24/02/2022,Standard Class,Corporate,Africa,Office Supplies,$61.25,Medium
+IV-2015-SF1020029-42053,18/02/2022,22/02/2022,Standard Class,Consumer,Africa,Furniture,$100.74,Medium
+US-2015-DO1343536-42054,19/02/2022,25/02/2022,Standard Class,Consumer,LATAM,Furniture,$92.30,Medium
+ES-2015-GT1471048-42054,19/02/2022,26/02/2022,Standard Class,Consumer,Europe,Office Supplies,$447.15,Medium
+IT-2015-CS1246048-42054,19/02/2022,23/02/2022,Standard Class,Consumer,Europe,Technology,"$1,072.08",High
+IT-2015-CS1246048-42054,19/02/2022,23/02/2022,Standard Class,Consumer,Europe,Furniture,$876.68,High
+MX-2015-AR1034518-42054,19/02/2022,25/02/2022,Standard Class,Corporate,LATAM,Office Supplies,$39.44,Medium
+MX-2015-AR1034518-42054,19/02/2022,25/02/2022,Standard Class,Corporate,LATAM,Furniture,$192.84,Medium
+MX-2015-CM1181528-42054,19/02/2022,21/02/2022,Second Class,Corporate,LATAM,Technology,$341.80,High
+MX-2015-CM1181528-42054,19/02/2022,21/02/2022,Second Class,Corporate,LATAM,Office Supplies,$337.20,High
+IT-2015-CS1246048-42054,19/02/2022,23/02/2022,Standard Class,Consumer,Europe,Office Supplies,$60.54,High
+IN-2015-TT210707-42054,19/02/2022,22/02/2022,Second Class,Consumer,Asia Pacific,Office Supplies,$28.92,Medium
+IN-2015-TT210707-42054,19/02/2022,22/02/2022,Second Class,Consumer,Asia Pacific,Office Supplies,$39.42,Medium
+IR-2015-SC1026060-42054,19/02/2022,25/02/2022,Standard Class,Home Office,USCA,Technology,$55.14,Medium
+ID-2015-MC17575130-42054,19/02/2022,23/02/2022,Standard Class,Consumer,Asia Pacific,Furniture,$154.38,High
+IN-2015-JK1537059-42054,19/02/2022,22/02/2022,Second Class,Consumer,Asia Pacific,Furniture,$342.00,High
+IR-2015-SC1026060-42054,19/02/2022,25/02/2022,Standard Class,Home Office,USCA,Technology,"$1,272.60",Medium
+IN-2015-TT210707-42054,19/02/2022,22/02/2022,Second Class,Consumer,Asia Pacific,Furniture,$153.17,Medium
+ID-2015-SC200507-42054,19/02/2022,23/02/2022,Standard Class,Home Office,Asia Pacific,Technology,$137.77,Medium
+ES-2015-GT1471048-42054,19/02/2022,26/02/2022,Standard Class,Consumer,Europe,Office Supplies,$20.16,Medium
+AO-2015-DC28504-42054,19/02/2022,23/02/2022,Standard Class,Consumer,Africa,Office Supplies,$568.32,Medium
+SF-2015-SM10905117-42054,19/02/2022,22/02/2022,Second Class,Consumer,Africa,Office Supplies,$95.04,High
+SF-2015-SM10905117-42054,19/02/2022,22/02/2022,Second Class,Consumer,Africa,Office Supplies,$102.90,High
+AO-2015-DC28504-42054,19/02/2022,23/02/2022,Standard Class,Consumer,Africa,Office Supplies,$18.66,Medium
+US-2015-EA1403555-42055,20/02/2022,25/02/2022,Standard Class,Corporate,LATAM,Technology,$218.59,Medium
+LH-2015-AA48075-42055,20/02/2022,23/02/2022,First Class,Consumer,Europe,Office Supplies,$16.02,Medium
+RS-2015-JP6135108-42055,20/02/2022,22/02/2022,First Class,Home Office,Europe,Office Supplies,$213.12,High
+ES-2015-VM2183548-42055,20/02/2022,23/02/2022,First Class,Consumer,Europe,Technology,$81.63,Critical
+ES-2015-JL1513045-42055,20/02/2022,22/02/2022,First Class,Consumer,Europe,Office Supplies,$27.36,High
+LH-2015-AA48075-42055,20/02/2022,23/02/2022,First Class,Consumer,Europe,Office Supplies,$7.91,Medium
+ES-2015-TM2149045-42055,20/02/2022,26/02/2022,Standard Class,Consumer,Europe,Office Supplies,$63.00,Low
+LH-2015-AA48075-42055,20/02/2022,23/02/2022,First Class,Consumer,Europe,Office Supplies,$49.84,Medium
+ES-2015-RD1966048-42055,20/02/2022,24/02/2022,Standard Class,Home Office,Europe,Furniture,$130.95,High
+ES-2015-TM2149045-42055,20/02/2022,26/02/2022,Standard Class,Consumer,Europe,Technology,$314.26,Low
+IT-2015-CM1181564-42055,20/02/2022,27/02/2022,Standard Class,Corporate,Europe,Technology,$724.25,Low
+CA-2015-NH18610140-42055,20/02/2022,22/02/2022,Second Class,Corporate,USCA,Office Supplies,"$1,245.86",High
+IN-2015-AB1060097-42055,20/02/2022,26/02/2022,Standard Class,Home Office,USCA,Furniture,"$2,042.54",Medium
+ES-2015-JL1513045-42055,20/02/2022,22/02/2022,First Class,Consumer,Europe,Office Supplies,$85.32,High
+KE-2015-CL189069-42055,20/02/2022,27/02/2022,Standard Class,Consumer,Africa,Office Supplies,$50.16,Low
+SF-2015-CD1920117-42055,20/02/2022,24/02/2022,Standard Class,Consumer,Africa,Technology,$301.38,High
+SF-2015-CD1920117-42055,20/02/2022,24/02/2022,Standard Class,Consumer,Africa,Office Supplies,$141.63,High
+SF-2015-CD1920117-42055,20/02/2022,24/02/2022,Standard Class,Consumer,Africa,Furniture,"$1,127.28",High
+MX-2015-TP2156582-42056,21/02/2022,25/02/2022,Standard Class,Corporate,LATAM,Office Supplies,$34.40,High
+US-2015-KW1657082-42056,21/02/2022,27/02/2022,Standard Class,Consumer,LATAM,Furniture,$48.16,Low
+MX-2015-TP2156582-42056,21/02/2022,25/02/2022,Standard Class,Corporate,LATAM,Office Supplies,$40.00,High
+MX-2015-TP2156582-42056,21/02/2022,25/02/2022,Standard Class,Corporate,LATAM,Office Supplies,$63.24,High
+MX-2015-JD1615082-42056,21/02/2022,25/02/2022,Standard Class,Corporate,LATAM,Office Supplies,$59.58,Medium
+CA-2015-JP16135140-42056,21/02/2022,26/02/2022,Standard Class,Home Office,USCA,Office Supplies,$6.56,Medium
+CA-2015-JP16135140-42056,21/02/2022,26/02/2022,Standard Class,Home Office,USCA,Office Supplies,$13.11,Medium
+IT-2015-TC2098045-42056,21/02/2022,25/02/2022,Standard Class,Corporate,Europe,Office Supplies,$167.75,High
+IT-2015-TC2098045-42056,21/02/2022,25/02/2022,Standard Class,Corporate,Europe,Office Supplies,$44.28,High
+IT-2015-TC2098045-42056,21/02/2022,25/02/2022,Standard Class,Corporate,Europe,Technology,"$1,299.68",High
+ES-2015-SR2074045-42056,21/02/2022,21/02/2022,Same Day,Home Office,Europe,Office Supplies,$29.01,Critical
+IT-2015-TC2098045-42056,21/02/2022,25/02/2022,Standard Class,Corporate,Europe,Technology,$114.30,High
+ID-2015-CW119057-42056,21/02/2022,27/02/2022,Standard Class,Home Office,Asia Pacific,Office Supplies,$805.90,Medium
+ID-2015-BF11080118-42056,21/02/2022,26/02/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$31.43,Medium
+IN-2015-JG15160118-42056,21/02/2022,28/02/2022,Standard Class,Consumer,Asia Pacific,Furniture,$246.48,Medium
+ID-2015-PC1874588-42056,21/02/2022,27/02/2022,Standard Class,Home Office,USCA,Technology,$315.25,Medium
+IN-2015-MO1780027-42056,21/02/2022,26/02/2022,Second Class,Home Office,Asia Pacific,Furniture,$412.20,Medium
+IN-2015-LP17095102-42056,21/02/2022,27/02/2022,Standard Class,Consumer,Asia Pacific,Technology,$364.30,Medium
+IN-2015-LP17095102-42056,21/02/2022,27/02/2022,Standard Class,Consumer,Asia Pacific,Furniture,$384.48,Medium
+ID-2015-PC1874588-42056,21/02/2022,27/02/2022,Standard Class,Home Office,USCA,Furniture,$426.55,Medium
+EG-2015-LR703538-42056,21/02/2022,26/02/2022,Standard Class,Corporate,Africa,Office Supplies,$69.84,High
+TZ-2015-BE1410129-42056,21/02/2022,23/02/2022,Second Class,Consumer,Africa,Office Supplies,$124.01,Critical
+TZ-2015-JL5835129-42056,21/02/2022,26/02/2022,Standard Class,Consumer,Africa,Furniture,$573.48,Medium
+CG-2015-MD735033-42056,21/02/2022,25/02/2022,Standard Class,Consumer,Africa,Office Supplies,$133.20,Medium
+TZ-2015-BE1410129-42056,21/02/2022,23/02/2022,Second Class,Consumer,Africa,Office Supplies,$735.05,Critical
+CG-2015-MD735033-42056,21/02/2022,25/02/2022,Standard Class,Consumer,Africa,Office Supplies,$83.46,Medium
+EG-2015-EL373538-42056,21/02/2022,25/02/2022,Standard Class,Home Office,Africa,Office Supplies,$66.93,Medium
+EG-2015-SR1042538-42056,21/02/2022,23/02/2022,Second Class,Home Office,Africa,Office Supplies,$60.60,High
+CA-2015-LW721523-42057,22/02/2022,27/02/2022,Standard Class,Consumer,USCA,Technology,$277.14,Medium
+CA-2015-LS697523-42057,22/02/2022,27/02/2022,Standard Class,Home Office,USCA,Office Supplies,$153.60,Medium
+CA-2015-LS697523-42057,22/02/2022,27/02/2022,Standard Class,Home Office,USCA,Office Supplies,$139.50,Medium
+CA-2015-LS697523-42057,22/02/2022,27/02/2022,Standard Class,Home Office,USCA,Office Supplies,$33.96,Medium
+CA-2015-LS697523-42057,22/02/2022,27/02/2022,Standard Class,Home Office,USCA,Technology,$123.12,Medium
+MX-2015-SS2087531-42057,22/02/2022,27/02/2022,Standard Class,Consumer,LATAM,Furniture,$552.36,Medium
+MX-2015-SS2087531-42057,22/02/2022,27/02/2022,Standard Class,Consumer,LATAM,Technology,$76.44,Medium
+CA-2015-DK13090140-42057,22/02/2022,27/02/2022,Standard Class,Consumer,USCA,Technology,$47.90,Medium
+ES-2015-AH1012045-42057,22/02/2022,22/02/2022,Same Day,Home Office,Europe,Office Supplies,$120.37,High
+ES-2015-AH1012045-42057,22/02/2022,22/02/2022,Same Day,Home Office,Europe,Office Supplies,$23.10,High
+ES-2015-TG21310139-42057,22/02/2022,26/02/2022,Second Class,Consumer,Europe,Office Supplies,$94.65,High
+ES-2015-AH1012045-42057,22/02/2022,22/02/2022,Same Day,Home Office,Europe,Office Supplies,$886.41,High
+ES-2015-DS1303045-42057,22/02/2022,26/02/2022,Standard Class,Home Office,Europe,Office Supplies,$54.78,Medium
+SO-2015-KL6555116-42057,22/02/2022,26/02/2022,Standard Class,Corporate,Africa,Office Supplies,$49.74,High
+MO-2015-GG465086-42057,22/02/2022,1/03/2022,Standard Class,Corporate,Africa,Office Supplies,$26.01,Medium
+SO-2015-KL6555116-42057,22/02/2022,26/02/2022,Standard Class,Corporate,Africa,Office Supplies,$11.16,High
+SO-2015-KL6555116-42057,22/02/2022,26/02/2022,Standard Class,Corporate,Africa,Office Supplies,$14.70,High
+ES-2015-LC1696064-42058,23/02/2022,27/02/2022,Standard Class,Home Office,Europe,Office Supplies,$112.50,Medium
+PL-2015-KB6315103-42058,23/02/2022,25/02/2022,First Class,Consumer,Europe,Office Supplies,$13.65,Critical
+PL-2015-KB6315103-42058,23/02/2022,25/02/2022,First Class,Consumer,Europe,Office Supplies,$147.84,Critical
+PL-2015-KB6315103-42058,23/02/2022,25/02/2022,First Class,Consumer,Europe,Furniture,$445.62,Critical
+ID-2015-MC175757-42058,23/02/2022,23/02/2022,Same Day,Consumer,Asia Pacific,Office Supplies,$34.10,Critical
+MX-2015-TS2108536-42059,24/02/2022,2/03/2022,Standard Class,Consumer,LATAM,Office Supplies,$27.76,Medium
+MX-2015-SS2087582-42059,24/02/2022,27/02/2022,First Class,Consumer,LATAM,Technology,$187.74,High
+ES-2015-JP1546045-42059,24/02/2022,3/03/2022,Standard Class,Corporate,Europe,Office Supplies,$161.91,Low
+US-2015-TS2108518-42059,24/02/2022,2/03/2022,Standard Class,Consumer,LATAM,Office Supplies,$13.88,Medium
+MX-2015-NS1850528-42059,24/02/2022,27/02/2022,First Class,Consumer,LATAM,Technology,$26.36,High
+MX-2015-NS1850528-42059,24/02/2022,27/02/2022,First Class,Consumer,LATAM,Technology,"$1,655.96",High
+IT-2015-AG1033048-42059,24/02/2022,1/03/2022,Second Class,Consumer,Europe,Furniture,$50.58,Medium
+ES-2015-JP1546045-42059,24/02/2022,3/03/2022,Standard Class,Corporate,Europe,Office Supplies,$75.84,Low
+ES-2015-KW16570139-42059,24/02/2022,26/02/2022,Second Class,Consumer,Europe,Office Supplies,$17.73,Critical
+ES-2015-KW16570139-42059,24/02/2022,26/02/2022,Second Class,Consumer,Europe,Technology,$83.46,Critical
+ES-2015-JP1546045-42059,24/02/2022,3/03/2022,Standard Class,Corporate,Europe,Office Supplies,$896.89,Low
+ES-2015-JP1546045-42059,24/02/2022,3/03/2022,Standard Class,Corporate,Europe,Office Supplies,$162.54,Low
+IT-2015-MH1745591-42059,24/02/2022,1/03/2022,Standard Class,Consumer,Europe,Furniture,$224.01,Medium
+IT-2015-LD17005139-42059,24/02/2022,27/02/2022,Second Class,Consumer,Europe,Office Supplies,$128.85,High
+IT-2015-AG1033048-42059,24/02/2022,1/03/2022,Second Class,Consumer,Europe,Furniture,$134.08,Medium
+RS-2015-CM2115108-42059,24/02/2022,26/02/2022,Second Class,Consumer,Europe,Office Supplies,$207.81,High
+ES-2015-LT16765120-42059,24/02/2022,28/02/2022,Standard Class,Consumer,Europe,Technology,$636.77,Medium
+IT-2015-AG1033048-42059,24/02/2022,1/03/2022,Second Class,Consumer,Europe,Technology,$528.66,Medium
+RS-2015-CM2115108-42059,24/02/2022,26/02/2022,Second Class,Consumer,Europe,Office Supplies,$395.82,High
+ES-2015-KW16570139-42059,24/02/2022,26/02/2022,Second Class,Consumer,Europe,Furniture,$471.00,Critical
+ES-2015-KW16570139-42059,24/02/2022,26/02/2022,Second Class,Consumer,Europe,Office Supplies,$16.62,Critical
+IN-2015-CC1261027-42059,24/02/2022,28/02/2022,Standard Class,Home Office,USCA,Office Supplies,$24.12,Medium
+IN-2015-JS158807-42059,24/02/2022,27/02/2022,First Class,Consumer,Asia Pacific,Office Supplies,$13.10,Critical
+IN-2015-CC1261027-42059,24/02/2022,28/02/2022,Standard Class,Home Office,USCA,Technology,$997.29,Medium
+ID-2015-RB19705102-42059,24/02/2022,28/02/2022,Standard Class,Home Office,Asia Pacific,Technology,$157.87,High
+IN-2015-CC1261027-42059,24/02/2022,28/02/2022,Standard Class,Home Office,USCA,Technology,$83.58,Medium
+ID-2015-KE164207-42059,24/02/2022,25/02/2022,First Class,Home Office,USCA,Office Supplies,$64.80,Critical
+ID-2015-RB19705102-42059,24/02/2022,28/02/2022,Standard Class,Home Office,Asia Pacific,Office Supplies,$14.36,High
+MO-2015-MZ733586-42059,24/02/2022,28/02/2022,Standard Class,Home Office,Africa,Office Supplies,$30.45,Medium
+MO-2015-MZ733586-42059,24/02/2022,28/02/2022,Standard Class,Home Office,Africa,Office Supplies,$30.21,Medium
+SF-2015-HJ4875117-42059,24/02/2022,26/02/2022,Second Class,Home Office,Africa,Office Supplies,$48.96,Critical
+MO-2015-MZ733586-42059,24/02/2022,28/02/2022,Standard Class,Home Office,Africa,Office Supplies,$99.00,Medium
+MO-2015-MZ733586-42059,24/02/2022,28/02/2022,Standard Class,Home Office,Africa,Office Supplies,$21.30,Medium
+SG-2015-JM5655111-42059,24/02/2022,27/02/2022,Second Class,Corporate,Africa,Technology,$123.24,High
+SG-2015-JM5655111-42059,24/02/2022,27/02/2022,Second Class,Corporate,Africa,Furniture,$90.30,High
+CA-2015-ES14080140-42060,25/02/2022,1/03/2022,Standard Class,Corporate,USCA,Office Supplies,$123.92,Medium
+CA-2015-ES14080140-42060,25/02/2022,1/03/2022,Standard Class,Corporate,USCA,Technology,"$1,319.80",Medium
+CA-2015-CB12415140-42060,25/02/2022,1/03/2022,Standard Class,Consumer,USCA,Office Supplies,$4.96,High
+ES-2015-GZ1447048-42060,25/02/2022,3/03/2022,Standard Class,Consumer,Europe,Office Supplies,$54.18,Medium
+ES-2015-PB19210139-42060,25/02/2022,2/03/2022,Standard Class,Corporate,Europe,Office Supplies,$94.35,High
+ES-2015-GZ1447048-42060,25/02/2022,3/03/2022,Standard Class,Consumer,Europe,Office Supplies,$237.60,Medium
+ES-2015-BB1099048-42060,25/02/2022,28/02/2022,First Class,Corporate,Europe,Technology,$672.48,Medium
+ES-2015-PB19210139-42060,25/02/2022,2/03/2022,Standard Class,Corporate,Europe,Office Supplies,$64.56,High
+ES-2015-BB1099048-42060,25/02/2022,28/02/2022,First Class,Corporate,Europe,Office Supplies,$233.70,Medium
+IT-2015-OT18730139-42060,25/02/2022,27/02/2022,Second Class,Consumer,Europe,Technology,$268.62,Medium
+IN-2015-MJ1774027-42060,25/02/2022,27/02/2022,Second Class,Consumer,Asia Pacific,Office Supplies,$155.34,Medium
+IN-2015-MJ1774027-42060,25/02/2022,27/02/2022,Second Class,Consumer,Asia Pacific,Office Supplies,$84.18,Medium
+ES-2015-GZ1447048-42060,25/02/2022,3/03/2022,Standard Class,Consumer,Europe,Furniture,"$1,652.40",Medium
+ES-2015-JB1540045-42060,25/02/2022,28/02/2022,Second Class,Corporate,Europe,Technology,$918.46,High
+EG-2015-NF838538-42060,25/02/2022,1/03/2022,Standard Class,Consumer,Africa,Furniture,$31.56,High
+SF-2015-ML7755117-42060,25/02/2022,2/03/2022,Standard Class,Home Office,Africa,Office Supplies,$35.85,High
+SF-2015-ML7755117-42060,25/02/2022,2/03/2022,Standard Class,Home Office,Africa,Furniture,$61.62,High
+SF-2015-ML7755117-42060,25/02/2022,2/03/2022,Standard Class,Home Office,Africa,Technology,$158.58,High
+MX-2015-ME1772582-42061,26/02/2022,3/03/2022,Second Class,Consumer,LATAM,Office Supplies,$103.08,Medium
+MX-2015-ME1772582-42061,26/02/2022,3/03/2022,Second Class,Consumer,LATAM,Office Supplies,$146.60,Medium
+MX-2015-DE1325593-42061,26/02/2022,3/03/2022,Standard Class,Home Office,LATAM,Furniture,$297.96,Medium
+MX-2015-AG1076593-42061,26/02/2022,5/03/2022,Standard Class,Home Office,LATAM,Furniture,"$1,918.98",Medium
+CA-2015-MH18025140-42061,26/02/2022,3/03/2022,Standard Class,Consumer,USCA,Office Supplies,$1.79,High
+ES-2015-CS12355139-42061,26/02/2022,4/03/2022,Standard Class,Consumer,Europe,Office Supplies,$26.82,Medium
+IT-2015-MF1825091-42061,26/02/2022,3/03/2022,Second Class,Corporate,Europe,Office Supplies,$46.74,High
+IT-2015-RK1930045-42061,26/02/2022,4/03/2022,Standard Class,Consumer,Europe,Technology,$332.42,Medium
+ES-2015-PT190908-42061,26/02/2022,3/03/2022,Standard Class,Consumer,Europe,Office Supplies,$145.35,High
+ES-2015-PN1877548-42061,26/02/2022,28/02/2022,Second Class,Home Office,Europe,Office Supplies,$38.40,Medium
+IN-2015-CM1244566-42061,26/02/2022,2/03/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$53.97,High
+US-2015-SW20245140-42061,26/02/2022,2/03/2022,Standard Class,Consumer,USCA,Furniture,$196.78,Medium
+US-2015-SW20245140-42061,26/02/2022,2/03/2022,Standard Class,Consumer,USCA,Furniture,$231.92,Medium
+ID-2015-CJ118757-42061,26/02/2022,1/03/2022,First Class,Home Office,USCA,Office Supplies,$53.57,High
+ID-2015-CJ118757-42061,26/02/2022,1/03/2022,First Class,Home Office,USCA,Furniture,$190.84,High
+ID-2015-KW165707-42061,26/02/2022,5/03/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$58.68,Low
+ID-2015-AI1085559-42061,26/02/2022,4/03/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$47.57,Medium
+ID-2015-AI1085559-42061,26/02/2022,4/03/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$123.94,Medium
+TZ-2015-DR2940129-42061,26/02/2022,1/03/2022,First Class,Home Office,Africa,Office Supplies,$50.88,High
+ZA-2015-SW10350146-42061,26/02/2022,3/03/2022,Standard Class,Home Office,Africa,Technology,$189.69,Medium
+ZA-2015-SW10350146-42061,26/02/2022,3/03/2022,Standard Class,Home Office,Africa,Technology,$318.12,Medium
+ES-2015-SC2023064-42062,27/02/2022,6/03/2022,Standard Class,Corporate,Europe,Office Supplies,$56.64,Low
+ES-2015-AS10090139-42062,27/02/2022,3/03/2022,Standard Class,Consumer,Europe,Technology,$154.08,High
+ES-2015-HA1490564-42062,27/02/2022,4/03/2022,Standard Class,Consumer,Europe,Technology,$757.32,Medium
+ES-2015-AS10090139-42062,27/02/2022,3/03/2022,Standard Class,Consumer,Europe,Technology,$454.80,High
+ES-2015-ER1385545-42062,27/02/2022,1/03/2022,First Class,Corporate,Europe,Office Supplies,$5.04,High
+ES-2015-AS10090139-42062,27/02/2022,3/03/2022,Standard Class,Consumer,Europe,Office Supplies,"$1,699.83",High
+ID-2015-LS172007-42062,27/02/2022,3/03/2022,Standard Class,Home Office,USCA,Office Supplies,$36.58,Medium
+IN-2015-ZC219107-42062,27/02/2022,5/03/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$15.48,Medium
+IN-2015-PO188507-42062,27/02/2022,3/03/2022,Standard Class,Consumer,Asia Pacific,Technology,$385.40,High
+IN-2015-PO188507-42062,27/02/2022,3/03/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$12.61,High
+SG-2015-QJ9255111-42062,27/02/2022,5/03/2022,Standard Class,Corporate,Africa,Office Supplies,$16.65,Low
+ZA-2015-TS11205146-42062,27/02/2022,3/03/2022,Second Class,Corporate,Africa,Technology,$246.42,Medium
+ZA-2015-TS11205146-42062,27/02/2022,3/03/2022,Second Class,Corporate,Africa,Furniture,$337.92,Medium
+SG-2015-QJ9255111-42062,27/02/2022,5/03/2022,Standard Class,Corporate,Africa,Office Supplies,$10.53,Low
+SG-2015-QJ9255111-42062,27/02/2022,5/03/2022,Standard Class,Corporate,Africa,Office Supplies,$28.08,Low
+SG-2015-QJ9255111-42062,27/02/2022,5/03/2022,Standard Class,Corporate,Africa,Office Supplies,$95.16,Low
+CA-2015-CR262523-42063,28/02/2022,5/03/2022,Standard Class,Home Office,USCA,Office Supplies,$15.60,Medium
+CA-2015-CR262523-42063,28/02/2022,5/03/2022,Standard Class,Home Office,USCA,Office Supplies,$20.16,Medium
+CA-2015-CR262523-42063,28/02/2022,5/03/2022,Standard Class,Home Office,USCA,Office Supplies,$16.05,Medium
+CA-2015-CR262523-42063,28/02/2022,5/03/2022,Standard Class,Home Office,USCA,Office Supplies,$48.39,Medium
+MX-2015-KS1630031-42063,28/02/2022,6/03/2022,Standard Class,Corporate,LATAM,Office Supplies,$45.28,Medium
+MX-2015-KS1630031-42063,28/02/2022,6/03/2022,Standard Class,Corporate,LATAM,Office Supplies,$52.00,Medium
+MX-2015-KS1630031-42063,28/02/2022,6/03/2022,Standard Class,Corporate,LATAM,Technology,$287.24,Medium
+MX-2015-KS1630031-42063,28/02/2022,6/03/2022,Standard Class,Corporate,LATAM,Office Supplies,$26.32,Medium
+MX-2015-AH1012039-42063,28/02/2022,2/03/2022,First Class,Home Office,LATAM,Office Supplies,$205.92,Medium
+MX-2015-BF1108082-42063,28/02/2022,2/03/2022,First Class,Consumer,LATAM,Furniture,$146.56,Critical
+ES-2015-IM1505545-42063,28/02/2022,4/03/2022,Standard Class,Consumer,Europe,Office Supplies,$43.65,Medium
+IT-2015-DB13555139-42063,28/02/2022,4/03/2022,Standard Class,Corporate,Europe,Office Supplies,$17.09,Medium
+EZ-2015-CH207032-42063,28/02/2022,4/03/2022,Standard Class,Home Office,Europe,Office Supplies,$17.49,Medium
+ES-2015-SP2092048-42063,28/02/2022,4/03/2022,Standard Class,Consumer,Europe,Office Supplies,$41.94,Medium
+IT-2015-DB13555139-42063,28/02/2022,4/03/2022,Standard Class,Corporate,Europe,Office Supplies,$63.07,Medium
+RO-2015-LA6780107-42063,28/02/2022,2/03/2022,Second Class,Corporate,Europe,Technology,$163.50,Medium
+EZ-2015-CH207032-42063,28/02/2022,4/03/2022,Standard Class,Home Office,Europe,Technology,$277.14,Medium
+IT-2015-DB13555139-42063,28/02/2022,4/03/2022,Standard Class,Corporate,Europe,Office Supplies,$41.93,Medium
+EZ-2015-CH207032-42063,28/02/2022,4/03/2022,Standard Class,Home Office,Europe,Office Supplies,$32.13,Medium
+ES-2015-IM1505545-42063,28/02/2022,4/03/2022,Standard Class,Consumer,Europe,Office Supplies,$59.34,Medium
+EZ-2015-CH207032-42063,28/02/2022,4/03/2022,Standard Class,Home Office,Europe,Office Supplies,$76.56,Medium
+ES-2015-RP19855139-42063,28/02/2022,2/03/2022,Second Class,Corporate,Europe,Office Supplies,$183.60,High
+ES-2015-SP2092048-42063,28/02/2022,4/03/2022,Standard Class,Consumer,Europe,Technology,$332.01,Medium
+EZ-2015-CH207032-42063,28/02/2022,4/03/2022,Standard Class,Home Office,Europe,Technology,$643.98,Medium
+ES-2015-RP19855139-42063,28/02/2022,2/03/2022,Second Class,Corporate,Europe,Office Supplies,$271.05,High
+EZ-2015-CH207032-42063,28/02/2022,4/03/2022,Standard Class,Home Office,Europe,Office Supplies,$4.89,Medium
+EZ-2015-CH207032-42063,28/02/2022,4/03/2022,Standard Class,Home Office,Europe,Office Supplies,$25.74,Medium
+ES-2015-RP19855139-42063,28/02/2022,2/03/2022,Second Class,Corporate,Europe,Office Supplies,$31.92,High
+ES-2015-RP19855139-42063,28/02/2022,2/03/2022,Second Class,Corporate,Europe,Office Supplies,$80.64,High
+IT-2015-DB13555139-42063,28/02/2022,4/03/2022,Standard Class,Corporate,Europe,Furniture,$62.10,Medium
+EZ-2015-CH207032-42063,28/02/2022,4/03/2022,Standard Class,Home Office,Europe,Office Supplies,$71.10,Medium
+IT-2015-DB13555139-42063,28/02/2022,4/03/2022,Standard Class,Corporate,Europe,Technology,$171.45,Medium
+ES-2015-KD16345139-42063,28/02/2022,1/03/2022,First Class,Consumer,Europe,Office Supplies,$92.56,Medium
+RO-2015-LA6780107-42063,28/02/2022,2/03/2022,Second Class,Corporate,Europe,Technology,"$1,272.42",Medium
+ES-2015-RP19855139-42063,28/02/2022,2/03/2022,Second Class,Corporate,Europe,Office Supplies,$33.60,High
+ES-2015-RP19855139-42063,28/02/2022,2/03/2022,Second Class,Corporate,Europe,Office Supplies,$56.97,High
+ES-2015-SP2092048-42063,28/02/2022,4/03/2022,Standard Class,Consumer,Europe,Office Supplies,$110.03,Medium
+ES-2015-KD16345139-42063,28/02/2022,1/03/2022,First Class,Consumer,Europe,Office Supplies,$51.57,Medium
+EZ-2015-CH207032-42063,28/02/2022,4/03/2022,Standard Class,Home Office,Europe,Office Supplies,$141.60,Medium
+IT-2015-DB13555139-42063,28/02/2022,4/03/2022,Standard Class,Corporate,Europe,Office Supplies,$204.66,Medium
+EZ-2015-CH207032-42063,28/02/2022,4/03/2022,Standard Class,Home Office,Europe,Office Supplies,$372.96,Medium
+IR-2015-SW1045560-42063,28/02/2022,6/03/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$6.81,Medium
+IR-2015-SW1045560-42063,28/02/2022,6/03/2022,Standard Class,Consumer,Asia Pacific,Technology,$217.98,Medium
+IR-2015-SW1045560-42063,28/02/2022,6/03/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$308.70,Medium
+IN-2015-LD170057-42063,28/02/2022,4/03/2022,Second Class,Consumer,Asia Pacific,Furniture,$545.40,High
+IN-2015-JB1592511-42063,28/02/2022,5/03/2022,Standard Class,Consumer,Asia Pacific,Furniture,$486.09,High
+ID-2015-MO17800102-42063,28/02/2022,5/03/2022,Standard Class,Home Office,Asia Pacific,Technology,$743.03,Medium
+IR-2015-SW1045560-42063,28/02/2022,6/03/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$27.30,Medium
+IN-2015-TW2102578-42063,28/02/2022,5/03/2022,Standard Class,Home Office,Asia Pacific,Office Supplies,$121.50,Medium
+IN-2015-LD170057-42063,28/02/2022,4/03/2022,Second Class,Consumer,Asia Pacific,Office Supplies,$95.90,High
+IN-2015-JB1592511-42063,28/02/2022,5/03/2022,Standard Class,Consumer,Asia Pacific,Office Supplies,$170.28,High
+IN-2015-AC1042027-42063,28/02/2022,5/03/2022,Standard Class,Corporate,Asia Pacific,Furniture,$415.44,Medium
+BN-2015-TB1135515-42063,28/02/2022,4/03/2022,Standard Class,Corporate,Africa,Office Supplies,$17.52,Medium
+NI-2015-LH690095-42063,28/02/2022,5/03/2022,Standard Class,Consumer,Africa,Furniture,$179.35,High
