@@ -80,3 +80,7 @@ DROP TABLE follows_mod;
 -- Comments Data
 INSERT INTO comments(comment_text, user_id, photo_id) SELECT * FROM comments_mod;
 DROP TABLE comments_mod;
+
+-- Likes Data
+INSERT INTO likes(user_id,photo_id) SELECT * FROM likes_mod;
+DROP TABLE likes_mod;
