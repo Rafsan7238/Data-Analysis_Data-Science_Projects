@@ -14,6 +14,4 @@ The Data Analyst job market is predicted to grow by 23% between now and 2031 acc
 
 ## Projects
 
-And one of the most important things that can help someone deal with this is.... yep, you guessed it right - **building portfolio projects** - and that too on topics that have real world value using tools that are widely used by professionals in this field. With that in mind, here are some of my portfolio projects that I have built to gain experience in Data Analytics. 
-
-### Excel Projects:
+And one of the most important things that can help someone deal with this is.... yep, you guessed it right - **building portfolio projects** - and that too on topics that have real world value using tools that are widely used by professionals in this field. With that in mind, here are some of my portfolio projects that I have built to gain experience in Data Analytics that you can find in this repository. 
