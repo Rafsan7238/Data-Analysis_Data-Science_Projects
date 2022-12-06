@@ -34,7 +34,7 @@ The datasets contained 30 rows of data across 10 columns as follows:
 |	# of Searches	|	Number of users who performed searches on the website 	|
 |	# of View Content	|	Number of users who viewed content and products on the website	|
 |	# of Add to Cart	|	Number of users who added products to the cart	|
-|	# of Purchase	|	| 	Number of users who made purchases	|
+|	# of Purchase	| 	Number of users who made purchases	|
 
 ## Final Findings:
 
