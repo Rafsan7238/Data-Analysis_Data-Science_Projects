@@ -241,3 +241,9 @@ INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Comedy');
 INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Alternative');
 INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Classical');
 INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Opera');
+
+INSERT INTO [dbo].[MediaType] ([Name]) VALUES (N'MPEG audio file');
+INSERT INTO [dbo].[MediaType] ([Name]) VALUES (N'Protected AAC audio file');
+INSERT INTO [dbo].[MediaType] ([Name]) VALUES (N'Protected MPEG-4 video file');
+INSERT INTO [dbo].[MediaType] ([Name]) VALUES (N'Purchased AAC audio file');
+INSERT INTO [dbo].[MediaType] ([Name]) VALUES (N'AAC audio file');
