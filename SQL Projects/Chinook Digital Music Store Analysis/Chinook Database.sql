@@ -84,3 +84,10 @@ CREATE TABLE [dbo].[Employee]
     CONSTRAINT [PK_Employee] PRIMARY KEY CLUSTERED ([EmployeeId])
 );
 GO
+CREATE TABLE [dbo].[Genre]
+(
+    [GenreId] INT NOT NULL IDENTITY,
+    [Name] NVARCHAR(120),
+    CONSTRAINT [PK_Genre] PRIMARY KEY CLUSTERED ([GenreId])
+);
+GO
