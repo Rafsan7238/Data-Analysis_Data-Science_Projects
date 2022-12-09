@@ -27,3 +27,15 @@ GO
 
 USE [Chinook];
 GO
+
+/*******************************************************************************
+   Create Tables
+********************************************************************************/
+CREATE TABLE [dbo].[Album]
+(
+    [AlbumId] INT NOT NULL IDENTITY,
+    [Title] NVARCHAR(160) NOT NULL,
+    [ArtistId] INT NOT NULL,
+    CONSTRAINT [PK_Album] PRIMARY KEY CLUSTERED ([AlbumId])
+);
+GO
