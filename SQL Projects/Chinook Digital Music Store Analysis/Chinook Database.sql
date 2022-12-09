@@ -122,3 +122,10 @@ CREATE TABLE [dbo].[MediaType]
     CONSTRAINT [PK_MediaType] PRIMARY KEY CLUSTERED ([MediaTypeId])
 );
 GO
+CREATE TABLE [dbo].[Playlist]
+(
+    [PlaylistId] INT NOT NULL IDENTITY,
+    [Name] NVARCHAR(120),
+    CONSTRAINT [PK_Playlist] PRIMARY KEY CLUSTERED ([PlaylistId])
+);
+GO
