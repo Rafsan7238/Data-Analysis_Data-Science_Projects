@@ -105,3 +105,13 @@ CREATE TABLE [dbo].[Invoice]
     CONSTRAINT [PK_Invoice] PRIMARY KEY CLUSTERED ([InvoiceId])
 );
 GO
+CREATE TABLE [dbo].[InvoiceLine]
+(
+    [InvoiceLineId] INT NOT NULL IDENTITY,
+    [InvoiceId] INT NOT NULL,
+    [TrackId] INT NOT NULL,
+    [UnitPrice] NUMERIC(10,2) NOT NULL,
+    [Quantity] INT NOT NULL,
+    CONSTRAINT [PK_InvoiceLine] PRIMARY KEY CLUSTERED ([InvoiceLineId])
+);
+GO
