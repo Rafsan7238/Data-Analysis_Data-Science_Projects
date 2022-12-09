@@ -136,3 +136,17 @@ CREATE TABLE [dbo].[PlaylistTrack]
     CONSTRAINT [PK_PlaylistTrack] PRIMARY KEY NONCLUSTERED ([PlaylistId], [TrackId])
 );
 GO
+CREATE TABLE [dbo].[Track]
+(
+    [TrackId] INT NOT NULL IDENTITY,
+    [Name] NVARCHAR(200) NOT NULL,
+    [AlbumId] INT,
+    [MediaTypeId] INT NOT NULL,
+    [GenreId] INT,
+    [Composer] NVARCHAR(220),
+    [Milliseconds] INT NOT NULL,
+    [Bytes] INT,
+    [UnitPrice] NUMERIC(10,2) NOT NULL,
+    CONSTRAINT [PK_Track] PRIMARY KEY CLUSTERED ([TrackId])
+);
+GO
