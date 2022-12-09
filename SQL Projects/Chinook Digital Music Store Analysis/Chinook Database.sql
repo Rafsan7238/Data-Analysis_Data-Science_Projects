@@ -211,3 +211,33 @@ ALTER TABLE [dbo].[Track] ADD CONSTRAINT [FK_TrackMediaTypeId]
 GO
 CREATE INDEX [IFK_TrackMediaTypeId] ON [dbo].[Track] ([MediaTypeId]);
 GO
+
+
+/*******************************************************************************
+   Populate Tables
+********************************************************************************/
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Rock');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Jazz');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Metal');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Alternative & Punk');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Rock And Roll');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Blues');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Latin');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Reggae');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Pop');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Soundtrack');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Bossa Nova');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Easy Listening');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Heavy Metal');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'R&B/Soul');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Electronica/Dance');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'World');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Hip Hop/Rap');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Science Fiction');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'TV Shows');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Sci Fi & Fantasy');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Drama');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Comedy');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Alternative');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Classical');
+INSERT INTO [dbo].[Genre] ([Name]) VALUES (N'Opera');
