@@ -7098,3 +7098,22 @@ INSERT INTO [dbo].[InvoiceLine] ([InvoiceId], [TrackId], [UnitPrice], [Quantity]
 INSERT INTO [dbo].[InvoiceLine] ([InvoiceId], [TrackId], [UnitPrice], [Quantity]) VALUES (411, 3154, 0.99, 1);
 INSERT INTO [dbo].[InvoiceLine] ([InvoiceId], [TrackId], [UnitPrice], [Quantity]) VALUES (411, 3163, 0.99, 1);
 INSERT INTO [dbo].[InvoiceLine] ([InvoiceId], [TrackId], [UnitPrice], [Quantity]) VALUES (412, 3177, 1.99, 1);
+
+INSERT INTO [dbo].[Playlist] ([Name]) VALUES (N'Music');
+INSERT INTO [dbo].[Playlist] ([Name]) VALUES (N'Movies');
+INSERT INTO [dbo].[Playlist] ([Name]) VALUES (N'TV Shows');
+INSERT INTO [dbo].[Playlist] ([Name]) VALUES (N'Audiobooks');
+INSERT INTO [dbo].[Playlist] ([Name]) VALUES (N'90’s Music');
+INSERT INTO [dbo].[Playlist] ([Name]) VALUES (N'Audiobooks');
+INSERT INTO [dbo].[Playlist] ([Name]) VALUES (N'Movies');
+INSERT INTO [dbo].[Playlist] ([Name]) VALUES (N'Music');
+INSERT INTO [dbo].[Playlist] ([Name]) VALUES (N'Music Videos');
+INSERT INTO [dbo].[Playlist] ([Name]) VALUES (N'TV Shows');
+INSERT INTO [dbo].[Playlist] ([Name]) VALUES (N'Brazilian Music');
+INSERT INTO [dbo].[Playlist] ([Name]) VALUES (N'Classical');
+INSERT INTO [dbo].[Playlist] ([Name]) VALUES (N'Classical 101 - Deep Cuts');
+INSERT INTO [dbo].[Playlist] ([Name]) VALUES (N'Classical 101 - Next Steps');
+INSERT INTO [dbo].[Playlist] ([Name]) VALUES (N'Classical 101 - The Basics');
+INSERT INTO [dbo].[Playlist] ([Name]) VALUES (N'Grunge');
+INSERT INTO [dbo].[Playlist] ([Name]) VALUES (N'Heavy Metal Classic');
+INSERT INTO [dbo].[Playlist] ([Name]) VALUES (N'On-The-Go 1');
