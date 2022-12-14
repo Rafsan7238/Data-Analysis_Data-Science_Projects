@@ -11,4 +11,4 @@ The customer distribution has been segregated by region, balance groups, age gro
 Click <a href="https://public.tableau.com/app/profile/rafsan.al.mamun/viz/CustomerSegmentationofaBankinDifferentRegionsofUK/CustomerSegmentationinDifferentRegionsofUK">here</a> for the complete visualisation.
 
 **Sneek Peek:**
-<img src="Stoyboard.png">
+<img src="Storyboard.png">
