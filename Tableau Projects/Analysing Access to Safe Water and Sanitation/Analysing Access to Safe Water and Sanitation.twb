@@ -1299,6 +1299,166 @@
         </objects>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
+    <datasource caption='Income Class' inline='true' name='federated.0aulq8a08e0h3g14vwhcd19ucw1e' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='CLASS' name='excel-direct.1qkczul15xwoq11ghla1f0dh9cwh'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/rafsanalmamun/Downloads/Data-Analysis_Data-Science_Projects/Tableau Projects/Analysing Access to Safe Water and Sanitation/CLASS.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1qkczul15xwoq11ghla1f0dh9cwh' name='List of economies' table='[&apos;List of economies$&apos;]' type='table'>
+          <columns gridOrigin='A1:C266:no:A1:C266:0' header='yes' outcome='2'>
+            <column datatype='string' name='Economy' ordinal='0' />
+            <column datatype='string' name='Code' ordinal='1' />
+            <column datatype='string' name='Income group' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1qkczul15xwoq11ghla1f0dh9cwh' name='List of economies' table='[&apos;List of economies$&apos;]' type='table'>
+          <columns gridOrigin='A1:C266:no:A1:C266:0' header='yes' outcome='2'>
+            <column datatype='string' name='Economy' ordinal='0' />
+            <column datatype='string' name='Code' ordinal='1' />
+            <column datatype='string' name='Income group' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[List of economies]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:C266:no:A1:C266:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Economy</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Economy]</local-name>
+            <parent-name>[List of economies]</parent-name>
+            <remote-alias>Economy</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[List of economies_A4F73D996E2E4291B5485094DE154C2F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Code]</local-name>
+            <parent-name>[List of economies]</parent-name>
+            <remote-alias>Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[List of economies_A4F73D996E2E4291B5485094DE154C2F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Income group</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Income group]</local-name>
+            <parent-name>[List of economies]</parent-name>
+            <remote-alias>Income group</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[List of economies_A4F73D996E2E4291B5485094DE154C2F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Country' datatype='string' name='[Economy]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='List of economies' datatype='table' name='[__tableau_internal_object_id__].[List of economies_A4F73D996E2E4291B5485094DE154C2F]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <filter class='categorical' column='[Economy]' filter-group='2'>
+        <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+          <groupfilter function='member' level='[Economy]' member='&quot;Afghanistan&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Armenia&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Azerbaijan&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Bahrain&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Bangladesh&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Bhutan&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Brunei Darussalam&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Cambodia&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;China&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Cyprus&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Georgia&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;India&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Indonesia&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Iran, Islamic Rep.&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Iraq&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Israel&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Japan&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Jordan&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Kazakhstan&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Korea, Dem. People&apos;s Rep.&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Korea, Rep.&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Kuwait&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Kyrgyz Republic&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Lao PDR&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Lebanon&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Malaysia&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Maldives&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Mongolia&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Myanmar&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Nepal&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Oman&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Pakistan&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Philippines&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Qatar&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Saudi Arabia&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Singapore&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Sri Lanka&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Syrian Arab Republic&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Tajikistan&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Thailand&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Timor-Leste&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Turkiye&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Turkmenistan&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;United Arab Emirates&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Uzbekistan&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Vietnam&quot;' />
+          <groupfilter function='member' level='[Economy]' member='&quot;Yemen, Rep.&quot;' />
+        </groupfilter>
+      </filter>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='List of economies' id='List of economies_A4F73D996E2E4291B5485094DE154C2F'>
+            <properties context=''>
+              <relation connection='excel-direct.1qkczul15xwoq11ghla1f0dh9cwh' name='List of economies' table='[&apos;List of economies$&apos;]' type='table'>
+                <columns gridOrigin='A1:C266:no:A1:C266:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Economy' ordinal='0' />
+                  <column datatype='string' name='Code' ordinal='1' />
+                  <column datatype='string' name='Income group' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
   </datasources>
   <worksheets>
     <worksheet name='Sheet 1'>
