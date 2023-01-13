@@ -7,6 +7,7 @@
     <_.fcp.MarkAnimation.true...MarkAnimation />
     <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
     <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.ParameterDefaultValues.true...ParameterDefaultValues />
     <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
     <SheetIdentifierTracking />
     <WindowsPersistSimpleIdentifiers />
@@ -21,6 +22,12 @@
     </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
   </_.fcp.AnimationOnByDefault.false...style>
   <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column _.fcp.ParameterDefaultValues.true...default-value-field='[federated.014m1nu03iqs6f1538ywz02oziox].[Calculation_6245155728950677504]' caption='Max Date Received' datatype='date' name='[Parameter 1]' param-domain-type='any' role='measure' type='quantitative' value='#2021-04-10#'>
+        <calculation class='tableau' formula='#2021-04-10#' />
+      </column>
+    </datasource>
     <datasource caption='Complaints' inline='true' name='federated.014m1nu03iqs6f1538ywz02oziox' version='18.1'>
       <connection class='federated'>
         <named-connections>
