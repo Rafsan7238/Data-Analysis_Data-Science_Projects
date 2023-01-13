@@ -477,6 +477,9 @@
       <column caption='Rolling 12 Month Filter' datatype='boolean' name='[Calculation_6245155728951631873]' role='dimension' type='nominal'>
         <calculation class='tableau' formula='DATEDIFF(&apos;month&apos;, DATETRUNC(&apos;month&apos;, [Date received]), DATETRUNC(&apos;month&apos;, [Parameters].[Parameter 1]))&lt;12' />
       </column>
+      <column caption='Rolling 12 Month Compaints' datatype='integer' name='[Calculation_6245155728953671683]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(IF [Calculation_6245155728951631873] = TRUE THEN [Number of Records] END)' />
+      </column>
       <column caption='Complaint Category' datatype='string' name='[Complaint Category ]' role='dimension' type='nominal' />
       <column datatype='integer' name='[Complaint ID]' role='dimension' type='ordinal' />
       <column datatype='string' hidden='true' name='[Product]' role='dimension' type='nominal' />
