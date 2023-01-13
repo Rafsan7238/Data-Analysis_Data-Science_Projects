@@ -466,10 +466,15 @@
       <column caption='Avg No of days' datatype='integer' name='[Avg No of days ]' role='measure' type='quantitative' />
       <column caption='Complaint Category' datatype='string' name='[Complaint Category ]' role='dimension' type='nominal' />
       <column datatype='integer' name='[Complaint ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' hidden='true' name='[Number of Records]' role='measure' type='quantitative' />
+      <column datatype='string' hidden='true' name='[Product]' role='dimension' type='nominal' />
       <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='string' hidden='true' name='[Sub-issue]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Sub-product]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Table Name]' role='dimension' type='nominal' />
       <column aggregation='Sum' datatype='integer' default-format='*00000' name='[ZIP code]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
       <_.fcp.ObjectModelTableType.true...column caption='Complaints Data' datatype='table' name='[__tableau_internal_object_id__].[dataset.csv_8ACC6B472F7F4891A3F98A0C2DD7A64C]' role='measure' type='quantitative' />
-      <column caption='Donut' datatype='integer' name='[donut]' role='measure' type='quantitative' />
+      <column caption='Donut' datatype='integer' hidden='true' name='[donut]' role='measure' type='quantitative' />
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
