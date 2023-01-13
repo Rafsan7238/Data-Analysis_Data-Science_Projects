@@ -33,7 +33,7 @@ Furthermore, it was seen that a 1 standard deviation increase in Age, Pets and D
 It could be interpreted that as a person becomes old (or senior), he/she has a higher responsibility at work and chooses to be absent less frequently. In case of pets, when someone has a lot of pets, he/she might have hire someone to take care of them for which they don't have to miss work if the pets need to visit the vet. Also, as we enter into a new week, people might take an extended weekend and be absent, but as we progress towards the middle of the week, absence is less frequent.
 
 **Sample Dashboard:**
-<img src="/Visualisation/Absenteeism Project_ Factors Affecting Excessive Absence at Workplace.png">
+<img src="Visualisation/Absenteeism Project_ Factors Affecting Excessive Absence at Workplace.png">
 
 The complete Tableau visualisation is available <a href="https://public.tableau.com/app/profile/rafsan.al.mamun/viz/AbsenteeismVisualisation_16686128369310/AbsenteeismProjectFactorsAffectingExcessiveAbsenceatWorkplace" target="_blank">here</a>.
 
