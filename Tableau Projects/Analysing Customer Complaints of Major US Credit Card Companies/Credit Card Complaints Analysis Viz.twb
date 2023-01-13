@@ -474,8 +474,8 @@
       <column caption='Max Date Received' datatype='date' name='[Calculation_6245155728950677504]' role='dimension' type='ordinal'>
         <calculation class='tableau' formula='{MAX([Date received])}' />
       </column>
-      <column caption='Rolling 12 Month Filter' datatype='integer' name='[Calculation_6245155728951631873]' role='measure' type='quantitative'>
-        <calculation class='tableau' formula='DATEDIFF(&apos;month&apos;, DATETRUNC(&apos;month&apos;, [Date received]), DATETRUNC(&apos;month&apos;, [Parameters].[Parameter 1]))' />
+      <column caption='Rolling 12 Month Filter' datatype='boolean' name='[Calculation_6245155728951631873]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='DATEDIFF(&apos;month&apos;, DATETRUNC(&apos;month&apos;, [Date received]), DATETRUNC(&apos;month&apos;, [Parameters].[Parameter 1]))&lt;12' />
       </column>
       <column caption='Complaint Category' datatype='string' name='[Complaint Category ]' role='dimension' type='nominal' />
       <column datatype='integer' name='[Complaint ID]' role='dimension' type='ordinal' />
@@ -556,6 +556,12 @@
               <breakdown value='auto' />
             </view>
             <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
           </pane>
         </panes>
         <rows>[federated.014m1nu03iqs6f1538ywz02oziox].[tmn:Date received:ok]</rows>
