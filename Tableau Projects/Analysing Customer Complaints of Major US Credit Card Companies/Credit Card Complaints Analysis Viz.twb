@@ -474,6 +474,9 @@
       <column caption='Max Date Received' datatype='date' name='[Calculation_6245155728950677504]' role='dimension' type='ordinal'>
         <calculation class='tableau' formula='{MAX([Date received])}' />
       </column>
+      <column caption='Rolling 12 Month Filter' datatype='integer' name='[Calculation_6245155728951631873]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='DATEDIFF(&apos;month&apos;, DATETRUNC(&apos;month&apos;, [Date received]), DATETRUNC(&apos;month&apos;, [Parameters].[Parameter 1]))' />
+      </column>
       <column caption='Complaint Category' datatype='string' name='[Complaint Category ]' role='dimension' type='nominal' />
       <column datatype='integer' name='[Complaint ID]' role='dimension' type='ordinal' />
       <column datatype='integer' hidden='true' name='[Number of Records]' role='measure' type='quantitative' />
@@ -489,6 +492,11 @@
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
+      <datasource-dependencies datasource='Parameters'>
+        <column _.fcp.ParameterDefaultValues.true...default-value-field='[federated.014m1nu03iqs6f1538ywz02oziox].[Calculation_6245155728950677504]' caption='Max Date Received' datatype='date' name='[Parameter 1]' param-domain-type='any' role='measure' type='quantitative' value='#2021-04-10#'>
+          <calculation class='tableau' formula='#2021-04-10#' />
+        </column>
+      </datasource-dependencies>
       <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
         <objects>
           <object caption='Complaints Data' id='dataset.csv_8ACC6B472F7F4891A3F98A0C2DD7A64C'>
