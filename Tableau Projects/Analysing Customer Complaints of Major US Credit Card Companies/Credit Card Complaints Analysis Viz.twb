@@ -21,7 +21,7 @@
     </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
   </_.fcp.AnimationOnByDefault.false...style>
   <datasources>
-    <datasource caption='dataset' inline='true' name='federated.014m1nu03iqs6f1538ywz02oziox' version='18.1'>
+    <datasource caption='Complaints' inline='true' name='federated.014m1nu03iqs6f1538ywz02oziox' version='18.1'>
       <connection class='federated'>
         <named-connections>
           <named-connection caption='dataset' name='textscan.1dtwrde08e8wt51712hti19i7b2n'>
@@ -468,7 +468,7 @@
       <column datatype='integer' name='[Complaint ID]' role='dimension' type='ordinal' />
       <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
       <column aggregation='Sum' datatype='integer' default-format='*00000' name='[ZIP code]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
-      <_.fcp.ObjectModelTableType.true...column caption='dataset.csv' datatype='table' name='[__tableau_internal_object_id__].[dataset.csv_8ACC6B472F7F4891A3F98A0C2DD7A64C]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Complaints Data' datatype='table' name='[__tableau_internal_object_id__].[dataset.csv_8ACC6B472F7F4891A3F98A0C2DD7A64C]' role='measure' type='quantitative' />
       <column caption='Donut' datatype='integer' name='[donut]' role='measure' type='quantitative' />
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
       <semantic-values>
@@ -476,7 +476,7 @@
       </semantic-values>
       <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
         <objects>
-          <object caption='dataset.csv' id='dataset.csv_8ACC6B472F7F4891A3F98A0C2DD7A64C'>
+          <object caption='Complaints Data' id='dataset.csv_8ACC6B472F7F4891A3F98A0C2DD7A64C'>
             <properties context=''>
               <relation connection='textscan.1dtwrde08e8wt51712hti19i7b2n' name='dataset.csv' table='[dataset#csv]' type='table'>
                 <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
