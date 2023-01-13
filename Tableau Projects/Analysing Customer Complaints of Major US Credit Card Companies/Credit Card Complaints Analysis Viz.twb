@@ -487,7 +487,7 @@
         <calculation class='tableau' formula='SUM([Calculation_6245155728956207108]) / SUM([Number of Records])' />
       </column>
       <column caption='In Progress Complaints' datatype='integer' name='[Calculation_6245155728959447048]' role='measure' type='quantitative'>
-        <calculation class='tableau' formula='IF [Company response to consumer] = &apos;In Progress&apos; THEN [Number of Records] END' />
+        <calculation class='tableau' formula='IF [Company response to consumer] = &apos;In progress&apos; THEN [Number of Records] END' />
       </column>
       <column caption='Complaint Category' datatype='string' name='[Complaint Category ]' role='dimension' type='nominal' />
       <column datatype='integer' name='[Complaint ID]' role='dimension' type='ordinal' />
@@ -741,7 +741,17 @@
     <worksheet name='In Progress Complaints'>
       <table>
         <view>
-          <datasources />
+          <datasources>
+            <datasource caption='Complaints' name='federated.014m1nu03iqs6f1538ywz02oziox' />
+          </datasources>
+          <datasource-dependencies datasource='federated.014m1nu03iqs6f1538ywz02oziox'>
+            <column caption='In Progress Complaints' datatype='integer' name='[Calculation_6245155728959447048]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Company response to consumer] = &apos;In progress&apos; THEN [Number of Records] END' />
+            </column>
+            <column datatype='string' name='[Company response to consumer]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_6245155728959447048]' derivation='Sum' name='[sum:Calculation_6245155728959447048:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
           <aggregation value='true' />
         </view>
         <style />
@@ -751,6 +761,15 @@
               <breakdown value='auto' />
             </view>
             <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.014m1nu03iqs6f1538ywz02oziox].[sum:Calculation_6245155728959447048:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
           </pane>
         </panes>
         <rows />
@@ -1354,34 +1373,38 @@
       AABAKQIAAJQiAABAKQIAAJQiAABAKQIAAJQiAABAKQIAAJQiAABAKQIAAJQiAABAqf8Bz4MN
       +xlzaBsAAAAASUVORK5CYII=
     </thumbnail>
-    <thumbnail height='384' name='In Progress Complaints' width='384'>
-      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
-      AAAFXUlEQVR4nO3VMQEAIAzAMMC/5yFjRxMF/XpnZg4AOW87AIAdBgAQZQAAUQYAEGUAAFEG
-      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
-      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
-      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
-      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
-      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
-      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
-      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
-      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
-      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
-      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
-      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
-      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
-      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
-      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
-      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
-      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
-      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
-      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
-      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
-      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
-      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
-      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
-      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
-      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
-      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEfFxoG/IiMv0YAAAAASUVORK5CYII=
+    <thumbnail height='48' name='In Progress Complaints' width='128'>
+      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
+      FEDn/AHfVp7wsdVVRAAAAABJRU5ErkJggg==
     </thumbnail>
     <thumbnail height='384' name='Rolling 12 Months' width='384'>
       iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
