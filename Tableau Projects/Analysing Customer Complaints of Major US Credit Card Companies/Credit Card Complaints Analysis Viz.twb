@@ -484,7 +484,7 @@
         <calculation class='tableau' formula='IF [Timely response?] = &apos;Yes&apos; THEN 1&#10;ELSE 0&#10;END' />
       </column>
       <column caption='Closed %' datatype='real' name='[Calculation_6245155728956772357]' role='measure' type='quantitative'>
-        <calculation class='tableau' formula='SUM([Calculation_6245155728956207108]/[Number of Records])' />
+        <calculation class='tableau' formula='SUM([Calculation_6245155728956207108]) / SUM([Number of Records])' />
       </column>
       <column caption='Complaint Category' datatype='string' name='[Complaint Category ]' role='dimension' type='nominal' />
       <column datatype='integer' name='[Complaint ID]' role='dimension' type='ordinal' />
@@ -548,16 +548,42 @@
     <worksheet name='Closed %'>
       <table>
         <view>
-          <datasources />
+          <datasources>
+            <datasource caption='Complaints' name='federated.014m1nu03iqs6f1538ywz02oziox' />
+          </datasources>
+          <datasource-dependencies datasource='federated.014m1nu03iqs6f1538ywz02oziox'>
+            <column caption='Timely Response Binary' datatype='integer' name='[Calculation_6245155728956207108]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Timely response?] = &apos;Yes&apos; THEN 1&#10;ELSE 0&#10;END' />
+            </column>
+            <column caption='Closed %' datatype='real' name='[Calculation_6245155728956772357]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_6245155728956207108]) / SUM([Number of Records])' />
+            </column>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Timely response?]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_6245155728956772357]' derivation='User' name='[usr:Calculation_6245155728956772357:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
           <aggregation value='true' />
         </view>
-        <style />
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.014m1nu03iqs6f1538ywz02oziox].[usr:Calculation_6245155728956772357:qk]' value='p0.0%' />
+          </style-rule>
+        </style>
         <panes>
           <pane selection-relaxation-option='selection-relaxation-allow'>
             <view>
               <breakdown value='auto' />
             </view>
             <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.014m1nu03iqs6f1538ywz02oziox].[usr:Calculation_6245155728956772357:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
           </pane>
         </panes>
         <rows />
@@ -935,34 +961,48 @@
     </window>
   </windows>
   <thumbnails>
-    <thumbnail height='384' name='Closed %' width='384'>
-      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
-      AAAFXUlEQVR4nO3VMQEAIAzAMMC/5yFjRxMF/XpnZg4AOW87AIAdBgAQZQAAUQYAEGUAAFEG
-      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
-      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
-      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
-      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
-      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
-      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
-      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
-      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
-      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
-      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
-      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
-      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
-      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
-      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
-      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
-      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
-      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
-      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
-      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
-      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
-      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
-      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
-      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
-      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
-      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEfFxoG/IiMv0YAAAAASUVORK5CYII=
+    <thumbnail height='48' name='Closed %' width='128'>
+      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
+      uIYxAM35G7ycnlCxWZpxAAAAAElFTkSuQmCC
     </thumbnail>
     <thumbnail height='384' name='Complaints Sparkline' width='384'>
       iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
