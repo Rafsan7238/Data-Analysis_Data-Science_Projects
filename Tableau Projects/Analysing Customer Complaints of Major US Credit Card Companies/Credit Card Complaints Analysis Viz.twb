@@ -1471,8 +1471,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='800' minheight='800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='68' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97866' id='67' param='vert' type-v2='layout-flow' w='98770' x='615' y='1067'>
+            <zone h='100000' id='70' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97866' id='69' param='vert' type-v2='layout-flow' w='98770' x='615' y='1067'>
                 <zone forceUpdate='true' h='6474' id='7' type-v2='text' w='85812' x='615' y='1067'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#000000' fontname='Tableau Bold' fontsize='20'>CREDIT CARD COMPLAINTS ANALYSIS DASHBOARD</run>
