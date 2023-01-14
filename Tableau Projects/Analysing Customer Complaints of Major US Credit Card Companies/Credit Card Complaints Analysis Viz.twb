@@ -538,6 +538,7 @@
       <column caption='Map Filter' datatype='string' name='[Calculation_6924214110604718081]' role='dimension' type='nominal'>
         <calculation class='tableau' formula='[Parameters].[Parameter 3]' />
       </column>
+      <column datatype='string' name='[Company response to consumer]' role='dimension' type='nominal' />
       <column caption='Complaint Category' datatype='string' name='[Complaint Category ]' role='dimension' type='nominal' />
       <column datatype='integer' name='[Complaint ID]' role='dimension' type='ordinal' />
       <column datatype='string' name='[Issue]' role='dimension' type='nominal' />
@@ -557,6 +558,11 @@
         <table-calc ordering-type='Columns' type='PctTotal' />
       </column-instance>
       <column-instance column='[Calculation_6245155728956772357]' derivation='User' name='[usr:Calculation_6245155728956772357:qk]' pivot='key' type='quantitative' />
+      <group caption='Action (Company response to consumer)' hidden='true' name='[Action (Company response to consumer)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Company response to consumer]' />
+        </groupfilter>
+      </group>
       <group caption='Action (Issue)' hidden='true' name='[Action (Issue)]' name-style='unqualified' user:auto-column='sheet_link'>
         <groupfilter function='crossjoin'>
           <groupfilter function='level-members' level='[Issue]' />
@@ -708,7 +714,16 @@
       <activation auto-clear='true' type='on-select' />
       <source dashboard='Dashboard 1' type='sheet' worksheet='Top Issue' />
       <command command='tsc:tsl-filter'>
-        <param name='exclude' value='In Progress Sparkline,In Progress Complaints,In Progress %' />
+        <param name='exclude' value='In Progress Sparkline,In Progress Complaints,In Progress %,In Progress Complaints,In Progress %,In Progress Sparkline' />
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 1 (generated)' name='[Action2_F21F9B8FD88F4F32A7E3B0D1191CCA21]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Company Response' />
+      <command command='tsc:tsl-filter'>
+        <param name='exclude' value='In Progress Complaints,In Progress %,In Progress Sparkline' />
         <param name='special-fields' value='all' />
         <param name='target' value='Dashboard 1' />
       </command>
@@ -728,6 +743,7 @@
             <column caption='Closed %' datatype='real' name='[Calculation_6245155728956772357]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='SUM([Calculation_6245155728956207108]) / SUM([Number of Records])' />
             </column>
+            <column datatype='string' name='[Company response to consumer]' role='dimension' type='nominal' />
             <column datatype='string' name='[Company]' role='dimension' type='nominal' />
             <column datatype='date' name='[Date received]' role='dimension' type='ordinal' />
             <column datatype='string' name='[Issue]' role='dimension' type='nominal' />
@@ -739,6 +755,9 @@
             <column-instance column='[Calculation_6245155728956772357]' derivation='User' name='[usr:Calculation_6245155728956772357:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Date received]' derivation='Year' name='[yr:Date received:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
+          <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]'>
+            <groupfilter function='level-members' level='[Company response to consumer]' user:ui-action-filter='[Action2_F21F9B8FD88F4F32A7E3B0D1191CCA21]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
           <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Issue)]'>
             <groupfilter function='level-members' level='[Issue]' user:ui-action-filter='[Action1_D595E88B2FE94E3D902B545E86AC98ED]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
@@ -747,6 +766,7 @@
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:Company:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:State:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Issue)]</column>
+            <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -806,6 +826,7 @@
             <column caption='AVG(1)' datatype='real' name='[Calculation_6245155728958136327]' role='measure' type='quantitative' user:unnamed='Closed Progress'>
               <calculation class='tableau' formula='AVG(1)' />
             </column>
+            <column datatype='string' name='[Company response to consumer]' role='dimension' type='nominal' />
             <column datatype='string' name='[Company]' role='dimension' type='nominal' />
             <column datatype='date' name='[Date received]' role='dimension' type='ordinal' />
             <column datatype='string' name='[Issue]' role='dimension' type='nominal' />
@@ -818,6 +839,9 @@
             <column-instance column='[Calculation_6245155728958136327]' derivation='User' name='[usr:Calculation_6245155728958136327:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Date received]' derivation='Year' name='[yr:Date received:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
+          <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]'>
+            <groupfilter function='level-members' level='[Company response to consumer]' user:ui-action-filter='[Action2_F21F9B8FD88F4F32A7E3B0D1191CCA21]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
           <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Issue)]'>
             <groupfilter function='level-members' level='[Issue]' user:ui-action-filter='[Action1_D595E88B2FE94E3D902B545E86AC98ED]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
@@ -826,6 +850,7 @@
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:Company:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:State:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Issue)]</column>
+            <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -1016,6 +1041,7 @@
             <datasource caption='Complaints' name='federated.014m1nu03iqs6f1538ywz02oziox' />
           </datasources>
           <datasource-dependencies datasource='federated.014m1nu03iqs6f1538ywz02oziox'>
+            <column datatype='string' name='[Company response to consumer]' role='dimension' type='nominal' />
             <column datatype='string' name='[Company]' role='dimension' type='nominal' />
             <column datatype='date' name='[Date received]' role='dimension' type='ordinal' />
             <column datatype='string' name='[Issue]' role='dimension' type='nominal' />
@@ -1027,6 +1053,9 @@
             <column-instance column='[Date received]' derivation='Month-Trunc' name='[tmn:Date received:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Date received]' derivation='Year' name='[yr:Date received:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
+          <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]'>
+            <groupfilter function='level-members' level='[Company response to consumer]' user:ui-action-filter='[Action2_F21F9B8FD88F4F32A7E3B0D1191CCA21]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
           <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Issue)]'>
             <groupfilter function='level-members' level='[Issue]' user:ui-action-filter='[Action1_D595E88B2FE94E3D902B545E86AC98ED]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
@@ -1035,6 +1064,7 @@
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:Company:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:State:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Issue)]</column>
+            <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -1136,6 +1166,7 @@
             <datasource caption='Complaints' name='federated.014m1nu03iqs6f1538ywz02oziox' />
           </datasources>
           <datasource-dependencies datasource='federated.014m1nu03iqs6f1538ywz02oziox'>
+            <column datatype='string' name='[Company response to consumer]' role='dimension' type='nominal' />
             <column datatype='string' name='[Company]' role='dimension' type='nominal' />
             <column datatype='date' name='[Date received]' role='dimension' type='ordinal' />
             <column datatype='string' name='[Issue]' role='dimension' type='nominal' />
@@ -1150,6 +1181,9 @@
             <column-instance column='[Date received]' derivation='Week' name='[wk:Date received:ok]' pivot='key' type='ordinal' />
             <column-instance column='[Date received]' derivation='Year' name='[yr:Date received:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
+          <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]'>
+            <groupfilter function='level-members' level='[Company response to consumer]' user:ui-action-filter='[Action2_F21F9B8FD88F4F32A7E3B0D1191CCA21]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
           <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Issue)]'>
             <groupfilter function='level-members' level='[Issue]' user:ui-action-filter='[Action1_D595E88B2FE94E3D902B545E86AC98ED]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
@@ -1162,6 +1196,7 @@
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:Company:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:State:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Issue)]</column>
+            <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -1232,6 +1267,7 @@
             <column caption='Map Filter' datatype='string' name='[Calculation_6924214110604718081]' role='dimension' type='nominal'>
               <calculation class='tableau' formula='[Parameters].[Parameter 3]' />
             </column>
+            <column datatype='string' name='[Company response to consumer]' role='dimension' type='nominal' />
             <column datatype='string' name='[Company]' role='dimension' type='nominal' />
             <column datatype='date' name='[Date received]' role='dimension' type='ordinal' />
             <column datatype='string' name='[Issue]' role='dimension' type='nominal' />
@@ -1243,6 +1279,9 @@
             <column-instance column='[ZIP code]' derivation='None' name='[none:ZIP code:ok]' pivot='key' type='ordinal' />
             <column-instance column='[Date received]' derivation='Year' name='[yr:Date received:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
+          <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]'>
+            <groupfilter function='level-members' level='[Company response to consumer]' user:ui-action-filter='[Action2_F21F9B8FD88F4F32A7E3B0D1191CCA21]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
           <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Issue)]'>
             <groupfilter function='level-members' level='[Issue]' user:ui-action-filter='[Action1_D595E88B2FE94E3D902B545E86AC98ED]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
@@ -1308,6 +1347,7 @@
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:Company:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:State:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Issue)]</column>
+            <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -1392,6 +1432,7 @@
             <column caption='Map Filter' datatype='string' name='[Calculation_6924214110604718081]' role='dimension' type='nominal'>
               <calculation class='tableau' formula='[Parameters].[Parameter 3]' />
             </column>
+            <column datatype='string' name='[Company response to consumer]' role='dimension' type='nominal' />
             <column datatype='string' name='[Company]' role='dimension' type='nominal' />
             <column datatype='date' name='[Date received]' role='dimension' type='ordinal' />
             <column datatype='string' name='[Issue]' role='dimension' type='nominal' />
@@ -1403,6 +1444,9 @@
             <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Date received]' derivation='Year' name='[yr:Date received:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
+          <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]'>
+            <groupfilter function='level-members' level='[Company response to consumer]' user:ui-action-filter='[Action2_F21F9B8FD88F4F32A7E3B0D1191CCA21]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
           <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Issue)]'>
             <groupfilter function='level-members' level='[Issue]' user:ui-action-filter='[Action1_D595E88B2FE94E3D902B545E86AC98ED]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
@@ -1415,6 +1459,7 @@
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:Company:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:State:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Issue)]</column>
+            <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -1747,6 +1792,7 @@
             <column caption='Rolling 12 Month Compaints' datatype='integer' name='[Calculation_6245155728953671683]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='SUM(IF [Calculation_6245155728951631873] = TRUE THEN [Number of Records] END)' />
             </column>
+            <column datatype='string' name='[Company response to consumer]' role='dimension' type='nominal' />
             <column datatype='string' name='[Company]' role='dimension' type='nominal' />
             <column datatype='date' name='[Date received]' role='dimension' type='ordinal' />
             <column datatype='string' name='[Issue]' role='dimension' type='nominal' />
@@ -1757,6 +1803,9 @@
             <column-instance column='[Calculation_6245155728953671683]' derivation='User' name='[usr:Calculation_6245155728953671683:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Date received]' derivation='Year' name='[yr:Date received:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
+          <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]'>
+            <groupfilter function='level-members' level='[Company response to consumer]' user:ui-action-filter='[Action2_F21F9B8FD88F4F32A7E3B0D1191CCA21]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
           <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Issue)]'>
             <groupfilter function='level-members' level='[Issue]' user:ui-action-filter='[Action1_D595E88B2FE94E3D902B545E86AC98ED]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
@@ -1765,6 +1814,7 @@
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:Company:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:State:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Issue)]</column>
+            <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -1819,6 +1869,7 @@
             <datasource caption='Complaints' name='federated.014m1nu03iqs6f1538ywz02oziox' />
           </datasources>
           <datasource-dependencies datasource='federated.014m1nu03iqs6f1538ywz02oziox'>
+            <column datatype='string' name='[Company response to consumer]' role='dimension' type='nominal' />
             <column datatype='string' name='[Company]' role='dimension' type='nominal' />
             <column datatype='date' name='[Date received]' role='dimension' type='ordinal' />
             <column datatype='string' name='[Issue]' role='dimension' type='nominal' />
@@ -1834,6 +1885,9 @@
             <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Date received]' derivation='Year' name='[yr:Date received:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
+          <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]'>
+            <groupfilter function='level-members' level='[Company response to consumer]' user:ui-action-filter='[Action2_F21F9B8FD88F4F32A7E3B0D1191CCA21]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
           <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Issue)]'>
             <groupfilter function='level-members' level='[Issue]' user:ui-action-filter='[Action1_D595E88B2FE94E3D902B545E86AC98ED]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
@@ -1850,6 +1904,7 @@
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:Company:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:State:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Issue)]</column>
+            <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -1903,6 +1958,7 @@
             <column caption='Timely Response Binary' datatype='integer' name='[Calculation_6245155728956207108]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='IF [Timely response?] = &apos;Yes&apos; THEN 1&#10;ELSE 0&#10;END' />
             </column>
+            <column datatype='string' name='[Company response to consumer]' role='dimension' type='nominal' />
             <column datatype='string' name='[Company]' role='dimension' type='nominal' />
             <column datatype='date' name='[Date received]' role='dimension' type='ordinal' />
             <column datatype='string' name='[Issue]' role='dimension' type='nominal' />
@@ -1913,6 +1969,9 @@
             <column-instance column='[Calculation_6245155728956207108]' derivation='Sum' name='[sum:Calculation_6245155728956207108:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Date received]' derivation='Year' name='[yr:Date received:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
+          <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]'>
+            <groupfilter function='level-members' level='[Company response to consumer]' user:ui-action-filter='[Action2_F21F9B8FD88F4F32A7E3B0D1191CCA21]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
           <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Issue)]'>
             <groupfilter function='level-members' level='[Issue]' user:ui-action-filter='[Action1_D595E88B2FE94E3D902B545E86AC98ED]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
@@ -1921,6 +1980,7 @@
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:Company:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:State:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Issue)]</column>
+            <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -1975,6 +2035,7 @@
             <datasource caption='Complaints' name='federated.014m1nu03iqs6f1538ywz02oziox' />
           </datasources>
           <datasource-dependencies datasource='federated.014m1nu03iqs6f1538ywz02oziox'>
+            <column datatype='string' name='[Company response to consumer]' role='dimension' type='nominal' />
             <column datatype='string' name='[Company]' role='dimension' type='nominal' />
             <column datatype='date' name='[Date received]' role='dimension' type='ordinal' />
             <column datatype='string' name='[Issue]' role='dimension' type='nominal' />
@@ -1986,6 +2047,9 @@
             <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Date received]' derivation='Year' name='[yr:Date received:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
+          <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]'>
+            <groupfilter function='level-members' level='[Company response to consumer]' user:ui-action-filter='[Action2_F21F9B8FD88F4F32A7E3B0D1191CCA21]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
           <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[none:Issue:nk]'>
             <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
               <groupfilter direction='DESC' expression='SUM([Number of Records])' function='order' user:ui-marker='order'>
@@ -1999,6 +2063,7 @@
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[yr:Date received:ok]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:Company:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:State:nk]</column>
+            <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -2061,6 +2126,7 @@
             <datasource caption='Complaints' name='federated.014m1nu03iqs6f1538ywz02oziox' />
           </datasources>
           <datasource-dependencies datasource='federated.014m1nu03iqs6f1538ywz02oziox'>
+            <column datatype='string' name='[Company response to consumer]' role='dimension' type='nominal' />
             <column datatype='string' name='[Company]' role='dimension' type='nominal' />
             <column datatype='date' name='[Date received]' role='dimension' type='ordinal' />
             <column datatype='string' name='[Issue]' role='dimension' type='nominal' />
@@ -2072,6 +2138,9 @@
             <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
             <column-instance column='[Date received]' derivation='Year' name='[yr:Date received:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
+          <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]'>
+            <groupfilter function='level-members' level='[Company response to consumer]' user:ui-action-filter='[Action2_F21F9B8FD88F4F32A7E3B0D1191CCA21]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
           <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Issue)]'>
             <groupfilter function='level-members' level='[Issue]' user:ui-action-filter='[Action1_D595E88B2FE94E3D902B545E86AC98ED]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
@@ -2080,6 +2149,7 @@
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:Company:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:State:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Issue)]</column>
+            <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -2151,6 +2221,7 @@
             <column caption='Trend Dynamic Calc' datatype='datetime' name='[Calculation_6924214110597775360]' role='dimension' type='ordinal'>
               <calculation class='tableau' formula='DATETRUNC([Parameters].[Parameter 2], [Date received])' />
             </column>
+            <column datatype='string' name='[Company response to consumer]' role='dimension' type='nominal' />
             <column datatype='string' name='[Company]' role='dimension' type='nominal' />
             <column datatype='date' name='[Date received]' role='dimension' type='ordinal' />
             <column datatype='string' name='[Issue]' role='dimension' type='nominal' />
@@ -2162,6 +2233,9 @@
             <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Date received]' derivation='Year' name='[yr:Date received:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
+          <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]'>
+            <groupfilter function='level-members' level='[Company response to consumer]' user:ui-action-filter='[Action2_F21F9B8FD88F4F32A7E3B0D1191CCA21]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
           <filter class='categorical' column='[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Issue)]'>
             <groupfilter function='level-members' level='[Issue]' user:ui-action-filter='[Action1_D595E88B2FE94E3D902B545E86AC98ED]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
@@ -2170,6 +2244,7 @@
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:Company:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[none:State:nk]</column>
             <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Issue)]</column>
+            <column>[federated.014m1nu03iqs6f1538ywz02oziox].[Action (Company response to consumer)]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -2663,8 +2738,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='3400' minheight='3400' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='220' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97870' id='219' param='vert' type-v2='layout-flow' w='98770' x='615' y='1065'>
+            <zone h='100000' id='222' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97870' id='221' param='vert' type-v2='layout-flow' w='98770' x='615' y='1065'>
                 <zone forceUpdate='true' h='6412' id='7' type-v2='text' w='85720' x='615' y='1065'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#000000' fontname='Tableau Bold' fontsize='20'>                         CREDIT CARD COMPLAINTS ANALYSIS DASHBOARD</run>
@@ -3565,7 +3640,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='161' />
+      <active id='162' />
       <simple-id uuid='{5087DD05-D8D6-42E9-BC6C-E887C0C8FF4C}' />
     </window>
   </windows>
