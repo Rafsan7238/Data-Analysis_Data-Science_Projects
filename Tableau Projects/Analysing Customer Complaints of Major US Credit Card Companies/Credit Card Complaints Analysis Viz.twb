@@ -1615,7 +1615,11 @@
           </slices>
           <aggregation value='true' />
         </view>
-        <style />
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.014m1nu03iqs6f1538ywz02oziox].[pcto:sum:Number of Records:qk]' palette='blue_teal_10_0' type='interpolated' />
+          </style-rule>
+        </style>
         <panes>
           <pane selection-relaxation-option='selection-relaxation-allow'>
             <view>
@@ -1626,6 +1630,13 @@
               <color column='[federated.014m1nu03iqs6f1538ywz02oziox].[pcto:sum:Number of Records:qk]' />
               <text column='[federated.014m1nu03iqs6f1538ywz02oziox].[pcto:sum:Number of Records:qk]' />
             </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontname='Tableau Medium' fontsize='10'>&lt;</run>
+                <run fontname='Tableau Medium' fontsize='10'>[federated.014m1nu03iqs6f1538ywz02oziox].[pcto:sum:Number of Records:qk]</run>
+                <run fontname='Tableau Medium' fontsize='10'>&gt;</run>
+              </formatted-text>
+            </customized-label>
             <style>
               <style-rule element='mark'>
                 <format attr='mark-labels-show' value='true' />
@@ -2182,8 +2193,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1750' minheight='1750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='156' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97870' id='155' param='vert' type-v2='layout-flow' w='98256' x='872' y='1065'>
+            <zone h='100000' id='160' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97870' id='159' param='vert' type-v2='layout-flow' w='98256' x='872' y='1065'>
                 <zone forceUpdate='true' h='6444' id='7' type-v2='text' w='85316' x='872' y='1065'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#000000' fontname='Tableau Bold' fontsize='20'>CREDIT CARD COMPLAINTS ANALYSIS DASHBOARD</run>
