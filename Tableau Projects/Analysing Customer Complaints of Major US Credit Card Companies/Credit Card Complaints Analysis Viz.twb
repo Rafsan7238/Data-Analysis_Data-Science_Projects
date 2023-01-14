@@ -50,6 +50,13 @@
           <member alias='Daily' value='&quot;day&quot;' />
         </members>
       </column>
+      <column caption='Select Map' datatype='string' name='[Parameter 3]' param-domain-type='list' role='measure' type='nominal' value='&quot;Filled Map&quot;'>
+        <calculation class='tableau' formula='&quot;Filled Map&quot;' />
+        <members>
+          <member value='&quot;Filled Map&quot;' />
+          <member value='&quot;Density Map&quot;' />
+        </members>
+      </column>
     </datasource>
     <datasource caption='Complaints' inline='true' name='federated.014m1nu03iqs6f1538ywz02oziox' version='18.1'>
       <connection class='federated'>
@@ -1680,8 +1687,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='800' minheight='800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='88' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97866' id='87' param='vert' type-v2='layout-flow' w='98770' x='615' y='1067'>
+            <zone h='100000' id='90' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97866' id='89' param='vert' type-v2='layout-flow' w='98770' x='615' y='1067'>
                 <zone forceUpdate='true' h='6474' id='7' type-v2='text' w='85812' x='615' y='1067'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#000000' fontname='Tableau Bold' fontsize='20'>CREDIT CARD COMPLAINTS ANALYSIS DASHBOARD</run>
