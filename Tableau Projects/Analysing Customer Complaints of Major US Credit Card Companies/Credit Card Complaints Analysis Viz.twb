@@ -513,6 +513,9 @@
       <column caption='In Progress %' datatype='real' name='[Calculation_6245155728960835593]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='SUM([Calculation_6245155728959447048])/SUM([Number of Records])' />
       </column>
+      <column caption='Trend Dynamic Calc' datatype='datetime' name='[Calculation_6924214110597775360]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='DATETRUNC([Parameters].[Parameter 2], [Date received])' />
+      </column>
       <column caption='Complaint Category' datatype='string' name='[Complaint Category ]' role='dimension' type='nominal' />
       <column datatype='integer' name='[Complaint ID]' role='dimension' type='ordinal' />
       <column datatype='string' hidden='true' name='[Product]' role='dimension' type='nominal' />
@@ -543,6 +546,16 @@
       <datasource-dependencies datasource='Parameters'>
         <column _.fcp.ParameterDefaultValues.true...default-value-field='[federated.014m1nu03iqs6f1538ywz02oziox].[Calculation_6245155728950677504]' caption='Max Date Received' datatype='date' name='[Parameter 1]' param-domain-type='any' role='measure' type='quantitative' value='#2021-04-10#'>
           <calculation class='tableau' formula='#2021-04-10#' />
+        </column>
+        <column alias='Weekly' caption='Trend' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;week&quot;'>
+          <calculation class='tableau' formula='&quot;week&quot;' />
+          <aliases>
+            <alias key='&quot;day&quot;' value='Daily' />
+            <alias key='&quot;month&quot;' value='Monthly' />
+            <alias key='&quot;quarter&quot;' value='Quarterly' />
+            <alias key='&quot;week&quot;' value='Weekly' />
+            <alias key='&quot;year&quot;' value='Yearly' />
+          </aliases>
         </column>
       </datasource-dependencies>
       <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
@@ -1379,8 +1392,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='800' minheight='800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='54' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97866' id='53' param='vert' type-v2='layout-flow' w='98770' x='615' y='1067'>
+            <zone h='100000' id='56' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97866' id='55' param='vert' type-v2='layout-flow' w='98770' x='615' y='1067'>
                 <zone forceUpdate='true' h='6474' id='7' type-v2='text' w='85812' x='615' y='1067'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#000000' fontname='Tableau Bold' fontsize='20'>CREDIT CARD COMPLAINTS ANALYSIS DASHBOARD</run>
