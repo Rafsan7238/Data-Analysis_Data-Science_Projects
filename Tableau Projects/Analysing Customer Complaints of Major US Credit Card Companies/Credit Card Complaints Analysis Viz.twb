@@ -525,6 +525,9 @@
       <column caption='Trend Dynamic Calc' datatype='datetime' name='[Calculation_6924214110597775360]' role='dimension' type='ordinal'>
         <calculation class='tableau' formula='DATETRUNC([Parameters].[Parameter 2], [Date received])' />
       </column>
+      <column caption='Map Filter' datatype='string' name='[Calculation_6924214110604718081]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='[Parameters].[Parameter 3]' />
+      </column>
       <column caption='Complaint Category' datatype='string' name='[Complaint Category ]' role='dimension' type='nominal' />
       <column datatype='integer' name='[Complaint ID]' role='dimension' type='ordinal' />
       <column datatype='string' hidden='true' name='[Product]' role='dimension' type='nominal' />
@@ -573,6 +576,9 @@
             <alias key='&quot;week&quot;' value='Weekly' />
             <alias key='&quot;year&quot;' value='Yearly' />
           </aliases>
+        </column>
+        <column caption='Select Map' datatype='string' name='[Parameter 3]' param-domain-type='list' role='measure' type='nominal' value='&quot;Filled Map&quot;'>
+          <calculation class='tableau' formula='&quot;Filled Map&quot;' />
         </column>
       </datasource-dependencies>
       <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
@@ -1687,8 +1693,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='800' minheight='800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='90' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97866' id='89' param='vert' type-v2='layout-flow' w='98770' x='615' y='1067'>
+            <zone h='100000' id='92' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97866' id='91' param='vert' type-v2='layout-flow' w='98770' x='615' y='1067'>
                 <zone forceUpdate='true' h='6474' id='7' type-v2='text' w='85812' x='615' y='1067'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#000000' fontname='Tableau Bold' fontsize='20'>CREDIT CARD COMPLAINTS ANALYSIS DASHBOARD</run>
