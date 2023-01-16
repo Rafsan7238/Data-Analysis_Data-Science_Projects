@@ -19,7 +19,7 @@ out there, it has become imperative for the companies to stay one step ahead in 
  The dashboard also allows the user to filter the view by year of complaint, company, state, issue and company response. Finally, a user is also able to export the 
  dashboard in pdf format or as an image file. 
  
- Click <a href="[https://public.tableau.com/app/profile/rafsan.al.mamun/viz/CoalTerminalMaintenanceAnalysis_16699226212560/CoalTerminalMaintenanceAnalysis](https://public.tableau.com/app/profile/rafsan.al.mamun/viz/CustomerComplaintsAnalysisofMajorUSCreditCardCompanies/Dashboard1)">here</a> for the complete visualisation.
+ Click <a href="https://public.tableau.com/app/profile/rafsan.al.mamun/viz/CustomerComplaintsAnalysisofMajorUSCreditCardCompanies/Dashboard1">here</a> for the complete visualisation.
  
 **Sneek Peek:**
 <img src="Dashboard Preview.png">
