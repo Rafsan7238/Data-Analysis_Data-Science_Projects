@@ -1,6 +1,6 @@
 # Analysing Customer Complaints of Major US Credit Card Companies
 
-As most people knows, A credit card is a payment card issued to users (cardholders) to enable the cardholder to pay a 
+As most people know, a credit card is a payment card issued to users (cardholders) to enable the cardholder to pay a 
 merchant for goods and services based on the cardholder's accrued debt (i.e., promise to the card issuer to pay them for 
 the amounts plus the other agreed charges). The card issuer (usually a bank or credit union) creates a revolving account 
 and grants a line of credit to the cardholder, from which the cardholder can borrow money for payment to a merchant or as a cash advance.
