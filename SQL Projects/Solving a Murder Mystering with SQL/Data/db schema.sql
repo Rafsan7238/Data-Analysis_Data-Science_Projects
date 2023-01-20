@@ -148,3 +148,5 @@ DROP TABLE inter;
 INSERT INTO person
 SELECT * FROM per;
 DROP TABLE per;
+
+-- SCHEMA COMPLETED -- 
