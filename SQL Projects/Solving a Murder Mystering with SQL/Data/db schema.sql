@@ -114,3 +114,9 @@ CREATE TABLE solution (
   usr varchar(1) DEFAULT NULL,
   value varchar(1) DEFAULT NULL
 );
+
+-- Insert data from temporary tables using SQL Import Wizard --
+
+INSERT INTO crime_scene_report
+SELECT * FROM crime_temp;
+DROP TABLE crime_temp;
