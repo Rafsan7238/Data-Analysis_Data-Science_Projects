@@ -132,3 +132,8 @@ DROP TABLE fb;
 INSERT INTO get_fit_now_check_in
 SELECT * FROM gf;
 DROP TABLE gf;
+
+INSERT INTO get_fit_now_member
+SELECT * FROM gf;
+DROP TABLE gf;
+
