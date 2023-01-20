@@ -141,3 +141,6 @@ INSERT INTO income
 SELECT * FROM inc;
 DROP TABLE inc;
 
+INSERT INTO interview
+SELECT * FROM inter;
+DROP TABLE inter;
