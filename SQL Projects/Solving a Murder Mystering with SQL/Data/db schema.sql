@@ -129,3 +129,6 @@ INSERT INTO facebook_event_checkin
 SELECT * FROM fb;
 DROP TABLE fb;
 
+INSERT INTO get_fit_now_check_in
+SELECT * FROM gf;
+DROP TABLE gf;
