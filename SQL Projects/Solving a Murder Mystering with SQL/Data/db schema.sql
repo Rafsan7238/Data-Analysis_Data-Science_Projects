@@ -120,3 +120,8 @@ CREATE TABLE solution (
 INSERT INTO crime_scene_report
 SELECT * FROM crime_temp;
 DROP TABLE crime_temp;
+
+INSERT INTO drivers_license
+SELECT * FROM license;
+DROP TABLE license;
+
