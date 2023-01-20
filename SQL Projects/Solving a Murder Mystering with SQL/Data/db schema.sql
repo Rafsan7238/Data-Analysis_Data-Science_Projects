@@ -125,3 +125,7 @@ INSERT INTO drivers_license
 SELECT * FROM license;
 DROP TABLE license;
 
+INSERT INTO facebook_event_checkin
+SELECT * FROM fb;
+DROP TABLE fb;
+
