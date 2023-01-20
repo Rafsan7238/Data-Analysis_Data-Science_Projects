@@ -137,3 +137,7 @@ INSERT INTO get_fit_now_member
 SELECT * FROM gf;
 DROP TABLE gf;
 
+INSERT INTO income
+SELECT * FROM inc;
+DROP TABLE inc;
+
