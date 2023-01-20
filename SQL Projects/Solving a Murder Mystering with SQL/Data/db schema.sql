@@ -144,3 +144,7 @@ DROP TABLE inc;
 INSERT INTO interview
 SELECT * FROM inter;
 DROP TABLE inter;
+
+INSERT INTO person
+SELECT * FROM per;
+DROP TABLE per;
