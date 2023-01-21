@@ -19,7 +19,7 @@ and also the main mastermind behind the crime.
 
 ### Database Schema:
 
-<img src="/Data/database schema diagram.png">
+<img src="Data/database schema diagram.png">
 
 The data tables used in this project has been generated as follows:
 
