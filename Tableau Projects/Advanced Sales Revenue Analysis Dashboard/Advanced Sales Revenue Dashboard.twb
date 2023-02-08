@@ -877,9 +877,11 @@
             <column datatype='real' name='[Profit]' role='measure' type='quantitative' />
             <column aggregation='Sum' datatype='integer' name='[Row]' role='dimension' type='ordinal' />
             <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State/Province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
             <column caption='Total CY Profit' datatype='real' name='[Total CY Sales (copy)_5529013028658745348]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='IF YEAR([Order Date])={MAX(YEAR([Order Date]))} THEN [Profit] END' />
             </column>
+            <column-instance column='[State/Province]' derivation='Attribute' name='[attr:State/Province:nk]' pivot='key' type='nominal' />
             <column-instance column='[Abbreviation]' derivation='None' name='[none:Abbreviation:nk]' pivot='key' type='nominal' />
             <column-instance column='[Column]' derivation='None' name='[none:Column:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Row]' derivation='None' name='[none:Row:qk]' pivot='key' type='quantitative' />
@@ -924,19 +926,43 @@
             <mark class='Circle' />
             <encodings>
               <color column='[federated.1bhxzsb1nlzigt123rpj903qzxal].[sum:Calculation_5529013028654051328:qk]' />
+              <tooltip column='[federated.1bhxzsb1nlzigt123rpj903qzxal].[attr:State/Province:nk]' />
             </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#666666' fontname='Tableau Semibold' fontsize='9'><![CDATA[State:	<[federated.1bhxzsb1nlzigt123rpj903qzxal].[attr:State/Province:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#666666' fontname='Tableau Semibold' fontsize='9'>Total CY Sales:&#9;</run>
+                <run bold='true' fontcolor='#666666' fontname='Tableau Semibold' fontsize='9'><![CDATA[<[federated.1bhxzsb1nlzigt123rpj903qzxal].[sum:Calculation_5529013028654051328:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#666666' fontname='Tableau Semibold' fontsize='9'>Total CY Profit:&#9;</run>
+                <run bold='true' fontcolor='#666666' fontname='Tableau Semibold' fontsize='9'><![CDATA[<[federated.1bhxzsb1nlzigt123rpj903qzxal].[sum:Total CY Sales (copy)_5529013028658745348:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
           </pane>
-          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Column:qk]'>
+          <pane id='1' selection-relaxation-option='selection-relaxation-disallow' x-axis-name='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Column:qk]'>
             <view>
               <breakdown value='auto' />
             </view>
             <mark class='Circle' />
             <encodings>
               <color column='[federated.1bhxzsb1nlzigt123rpj903qzxal].[sum:Calculation_5529013028654051328:qk]' />
+              <tooltip column='[federated.1bhxzsb1nlzigt123rpj903qzxal].[attr:State/Province:nk]' />
               <size column='[federated.1bhxzsb1nlzigt123rpj903qzxal].[sum:Calculation_5529013028654051328:qk]' />
             </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#666666' fontname='Tableau Semibold' fontsize='9'><![CDATA[State:	<[federated.1bhxzsb1nlzigt123rpj903qzxal].[attr:State/Province:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#666666' fontname='Tableau Semibold' fontsize='9'>Total CY Sales:&#9;</run>
+                <run bold='true' fontcolor='#666666' fontname='Tableau Semibold' fontsize='9'><![CDATA[<[federated.1bhxzsb1nlzigt123rpj903qzxal].[sum:Calculation_5529013028654051328:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#666666' fontname='Tableau Semibold' fontsize='9'>Total CY Profit:&#9;</run>
+                <run bold='true' fontcolor='#666666' fontname='Tableau Semibold' fontsize='9'><![CDATA[<[federated.1bhxzsb1nlzigt123rpj903qzxal].[sum:Total CY Sales (copy)_5529013028658745348:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
           </pane>
-          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Column:qk]' x-index='1'>
+          <pane id='2' selection-relaxation-option='selection-relaxation-disallow' x-axis-name='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Column:qk]' x-index='1'>
             <view>
               <breakdown value='auto' />
             </view>
@@ -944,9 +970,21 @@
             <mark-sizing mark-sizing-setting='marks-scaling-off' />
             <encodings>
               <color column='[federated.1bhxzsb1nlzigt123rpj903qzxal].[sum:Calculation_5529013028654051328:qk]' />
-              <size column='[federated.1bhxzsb1nlzigt123rpj903qzxal].[sum:Total CY Sales (copy)_5529013028658745348:qk]' />
+              <tooltip column='[federated.1bhxzsb1nlzigt123rpj903qzxal].[attr:State/Province:nk]' />
               <text column='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Abbreviation:nk]' />
+              <size column='[federated.1bhxzsb1nlzigt123rpj903qzxal].[sum:Total CY Sales (copy)_5529013028658745348:qk]' />
             </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#666666' fontname='Tableau Semibold' fontsize='9'><![CDATA[State:	<[federated.1bhxzsb1nlzigt123rpj903qzxal].[attr:State/Province:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#666666' fontname='Tableau Semibold' fontsize='9'>Total CY Sales:&#9;</run>
+                <run bold='true' fontcolor='#666666' fontname='Tableau Semibold' fontsize='9'><![CDATA[<[federated.1bhxzsb1nlzigt123rpj903qzxal].[sum:Calculation_5529013028654051328:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#666666' fontname='Tableau Semibold' fontsize='9'>Total CY Profit:&#9;</run>
+                <run bold='true' fontcolor='#666666' fontname='Tableau Semibold' fontsize='9'><![CDATA[<[federated.1bhxzsb1nlzigt123rpj903qzxal].[sum:Total CY Sales (copy)_5529013028658745348:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
             <customized-label>
               <formatted-text>
                 <run fontcolor='#666666' fontname='Arial' fontsize='8'>&lt;</run>
@@ -1919,8 +1957,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1200' minheight='1200' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='93' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98048' id='92' param='vert' type-v2='layout-flow' w='98918' x='541' y='976'>
+            <zone h='100000' id='95' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98048' id='94' param='vert' type-v2='layout-flow' w='98918' x='541' y='976'>
                 <zone fixed-size='280' h='98048' id='5' is-fixed='true' is-scaled='1' param='/Users/rafsanalmamun/Downloads/Data-Analysis_Data-Science_Projects/Tableau Projects/Advanced Sales Revenue Analysis Dashboard/Sales Dashboard Background/Sales Dashboard Background_page-0004.jpg' type-v2='bitmap' w='98918' x='541' y='976'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2305,6 +2343,7 @@
             <field>[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Column:ok]</field>
             <field>[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Column:qk]</field>
             <field>[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Row:ok]</field>
+            <field>[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:State/Province:nk]</field>
           </color-one-way>
         </highlight>
       </viewpoint>
