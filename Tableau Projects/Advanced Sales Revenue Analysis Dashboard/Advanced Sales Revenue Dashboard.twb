@@ -1039,9 +1039,14 @@
             <format attr='display' class='0' field='[federated.1bhxzsb1nlzigt123rpj903qzxal].[mn:Order Date:qk]' scope='cols' value='false' />
             <encoding attr='space' class='0' field='[federated.1bhxzsb1nlzigt123rpj903qzxal].[usr:Min/Max Month (copy)_5529013028670509070:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
             <format attr='display' class='0' field='[federated.1bhxzsb1nlzigt123rpj903qzxal].[usr:Min/Max Month (copy)_5529013028670509070:qk]' scope='rows' value='false' />
+            <format attr='tick-color' value='#00000000' />
           </style-rule>
           <style-rule element='cell'>
             <format attr='text-format' field='[federated.1bhxzsb1nlzigt123rpj903qzxal].[mn:Order Date:qk]' value='iLLLL' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
           </style-rule>
           <style-rule element='label'>
             <format attr='text-format' field='[federated.1bhxzsb1nlzigt123rpj903qzxal].[mn:Order Date:qk]' value='iLLLL' />
@@ -1065,8 +1070,35 @@
               </color-palette>
             </encoding>
           </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
           <style-rule element='table'>
             <format attr='show-null-value-warning' value='false' />
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
           </style-rule>
         </style>
         <panes>
@@ -1089,6 +1121,12 @@
                 <run fontcolor='#b07aa1' fontname='Tableau Semibold' fontsize='9'><![CDATA[PY Quantity:	<[federated.1bhxzsb1nlzigt123rpj903qzxal].[sum:Total PY Profit (copy)_5529013028660613129:qk]>]]></run>
               </formatted-text>
             </customized-tooltip>
+            <style>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
           </pane>
           <pane id='4' selection-relaxation-option='selection-relaxation-disallow' y-axis-name='[federated.1bhxzsb1nlzigt123rpj903qzxal].[Multiple Values]'>
             <view>
@@ -1110,6 +1148,12 @@
                 <run fontcolor='#b07aa1' fontname='Tableau Semibold' fontsize='9'><![CDATA[PY Quantity:	<[federated.1bhxzsb1nlzigt123rpj903qzxal].[sum:Total PY Profit (copy)_5529013028660613129:qk]>]]></run>
               </formatted-text>
             </customized-tooltip>
+            <style>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
           </pane>
           <pane id='5' selection-relaxation-option='selection-relaxation-disallow' y-axis-name='[federated.1bhxzsb1nlzigt123rpj903qzxal].[usr:Min/Max Month (copy)_5529013028670509070:qk]'>
             <view>
@@ -1136,6 +1180,10 @@
               <style-rule element='mark'>
                 <format attr='size' value='3.2154695987701416' />
                 <format attr='mark-transparency' value='206' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
               </style-rule>
             </style>
           </pane>
@@ -1176,6 +1224,9 @@
           <style-rule element='cell'>
             <format attr='text-format' field='[federated.1bhxzsb1nlzigt123rpj903qzxal].[usr:YOY Profit (copy)_5529013028660842506:qk]' value='p0.00%' />
             <format attr='text-format' field='[federated.1bhxzsb1nlzigt123rpj903qzxal].[sum:Total CY Profit (copy)_5529013028660457480:qk]' value='n&quot;# &quot;#,##0,K;-&quot;# &quot;#,##0,K' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
           </style-rule>
         </style>
         <panes>
@@ -1577,7 +1628,7 @@
           </zone>
           <zone h='15244' id='57' param='horz' type-v2='layout-flow' w='19189' x='77635' y='14756'>
             <zone h='15244' id='60' name='Qty Sparkline' show-title='false' w='19189' x='77635' y='14756'>
-              <layout-cache minwidth='101' type-h='fixed' type-w='scalable' />
+              <layout-cache minwidth='100' type-h='fixed' type-w='scalable' />
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -1592,8 +1643,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1150' minheight='1150' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='64' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98048' id='63' param='vert' type-v2='layout-flow' w='98918' x='541' y='976'>
+            <zone h='100000' id='66' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98048' id='65' param='vert' type-v2='layout-flow' w='98918' x='541' y='976'>
                 <zone fixed-size='280' h='98048' id='5' is-fixed='true' is-scaled='1' param='/Users/rafsanalmamun/Downloads/Data-Analysis_Data-Science_Projects/Tableau Projects/Advanced Sales Revenue Analysis Dashboard/Sales Dashboard Background/Sales Dashboard Background_page-0004.jpg' type-v2='bitmap' w='98918' x='541' y='976'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1666,7 +1717,7 @@
                   </zone-style>
                 </zone>
                 <zone fixed-size='117' h='15244' id='60' is-fixed='true' name='Qty Sparkline' show-title='false' w='19189' x='77635' y='14756'>
-                  <layout-cache minwidth='101' type-h='fixed' type-w='scalable' />
+                  <layout-cache minwidth='100' type-h='fixed' type-w='scalable' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1907,7 +1958,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='5' />
       <simple-id uuid='{E5F38851-7544-40B3-B65E-E2E264BA26B7}' />
     </window>
   </windows>
