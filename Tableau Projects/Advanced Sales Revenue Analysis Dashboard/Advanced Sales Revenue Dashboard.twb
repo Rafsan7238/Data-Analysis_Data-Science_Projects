@@ -565,6 +565,9 @@
       <column caption='YOY Profit Indicator' datatype='string' name='[YOY Sales Indicator (copy)_5529013028659339271]' role='measure' type='nominal'>
         <calculation class='tableau' formula='IF [YOY Sales (copy)_5529013028659113990]&gt;0 THEN &quot;⬆︎&quot; ELSE &quot;⬇︎&quot; END' />
       </column>
+      <column caption='YOY Qty Indicator' datatype='string' name='[YOY Sales Indicator (copy)_5529013028660998155]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF [YOY Profit (copy)_5529013028660842506]&gt;0 THEN &quot;⬆︎&quot; ELSE &quot;⬇︎&quot; END' />
+      </column>
       <_.fcp.ObjectModelTableType.true...column caption='Sales Data' datatype='table' name='[__tableau_internal_object_id__].[Orders_1FB18B8D322345EC908B12863BD76705]' role='measure' type='quantitative' />
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
       <semantic-values>
