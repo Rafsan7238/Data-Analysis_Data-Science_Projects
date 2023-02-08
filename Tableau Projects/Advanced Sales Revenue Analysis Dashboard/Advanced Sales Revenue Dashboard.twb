@@ -550,8 +550,8 @@
       <column caption='Total CY Profit' datatype='real' name='[Total CY Sales (copy)_5529013028658745348]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='IF YEAR([Order Date])={MAX(YEAR([Order Date]))} THEN [Profit] END' />
       </column>
-      <column caption='Total PY Profit (copy)' datatype='real' name='[Total PY Profit (copy)_5529013028660613129]' role='measure' type='quantitative'>
-        <calculation class='tableau' formula='IF YEAR([Order Date])={MAX(YEAR([Order Date]))}-1 THEN [Profit] END' />
+      <column caption='Total PY Qty' datatype='integer' name='[Total PY Profit (copy)_5529013028660613129]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF YEAR([Order Date])={MAX(YEAR([Order Date]))}-1 THEN [Quantity] END' />
       </column>
       <column caption='Total PY Profit' datatype='real' name='[Total PY Sales (copy)_5529013028658978821]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='IF YEAR([Order Date])={MAX(YEAR([Order Date]))}-1 THEN [Profit] END' />
