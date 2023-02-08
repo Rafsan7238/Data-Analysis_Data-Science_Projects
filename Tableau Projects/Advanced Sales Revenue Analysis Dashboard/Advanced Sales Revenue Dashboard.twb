@@ -547,6 +547,9 @@
       <column caption='Total CY Profit' datatype='real' name='[Total CY Sales (copy)_5529013028658745348]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='IF YEAR([Order Date])={MAX(YEAR([Order Date]))} THEN [Profit] END' />
       </column>
+      <column caption='Total PY Profit' datatype='real' name='[Total PY Sales (copy)_5529013028658978821]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF YEAR([Order Date])={MAX(YEAR([Order Date]))}-1 THEN [Profit] END' />
+      </column>
       <_.fcp.ObjectModelTableType.true...column caption='Sales Data' datatype='table' name='[__tableau_internal_object_id__].[Orders_1FB18B8D322345EC908B12863BD76705]' role='measure' type='quantitative' />
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
       <semantic-values>
