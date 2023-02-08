@@ -31,88 +31,125 @@
           <named-connection caption='Sales Data' name='excel-direct.1c2xqt110az0o81e6nhds04taoud'>
             <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/rafsanalmamun/Downloads/Data-Analysis_Data-Science_Projects/Tableau Projects/Advanced Sales Revenue Analysis Dashboard/Sales Data.xls' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
+          <named-connection caption='hexmap' name='excel-direct.0ic8ryf0i0dqiu132uh8807z7y6d'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/rafsanalmamun/Downloads/Data-Analysis_Data-Science_Projects/Tableau Projects/Advanced Sales Revenue Analysis Dashboard/hexmap.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation join='inner' type='join'>
           <clause type='join'>
             <expression op='='>
-              <expression op='[Orders].[Region]' />
-              <expression op='[People].[Region]' />
+              <expression op='[Orders].[State/Province]' />
+              <expression op='[Sheet1].[State]' />
             </expression>
           </clause>
-          <relation connection='excel-direct.1c2xqt110az0o81e6nhds04taoud' name='Orders' table='[Orders$]' type='table'>
-            <columns gridOrigin='A1:U10195:no:A1:U10195:0' header='yes' outcome='2'>
-              <column datatype='integer' name='Row ID' ordinal='0' />
-              <column datatype='string' name='Order ID' ordinal='1' />
-              <column datatype='date' name='Order Date' ordinal='2' />
-              <column datatype='date' name='Ship Date' ordinal='3' />
-              <column datatype='string' name='Ship Mode' ordinal='4' />
-              <column datatype='string' name='Customer ID' ordinal='5' />
-              <column datatype='string' name='Customer Name' ordinal='6' />
-              <column datatype='string' name='Segment' ordinal='7' />
-              <column datatype='string' name='Country/Region' ordinal='8' />
-              <column datatype='string' name='City' ordinal='9' />
-              <column datatype='string' name='State/Province' ordinal='10' />
-              <column datatype='string' name='Postal Code' ordinal='11' />
-              <column datatype='string' name='Region' ordinal='12' />
-              <column datatype='string' name='Product ID' ordinal='13' />
-              <column datatype='string' name='Category' ordinal='14' />
-              <column datatype='string' name='Sub-Category' ordinal='15' />
-              <column datatype='string' name='Product Name' ordinal='16' />
-              <column datatype='real' name='Sales' ordinal='17' />
-              <column datatype='integer' name='Quantity' ordinal='18' />
-              <column datatype='real' name='Discount' ordinal='19' />
-              <column datatype='real' name='Profit' ordinal='20' />
-            </columns>
+          <relation join='inner' type='join'>
+            <clause type='join'>
+              <expression op='='>
+                <expression op='[Orders].[Region]' />
+                <expression op='[People].[Region]' />
+              </expression>
+            </clause>
+            <relation connection='excel-direct.1c2xqt110az0o81e6nhds04taoud' name='Orders' table='[Orders$]' type='table'>
+              <columns gridOrigin='A1:U10195:no:A1:U10195:0' header='yes' outcome='2'>
+                <column datatype='integer' name='Row ID' ordinal='0' />
+                <column datatype='string' name='Order ID' ordinal='1' />
+                <column datatype='date' name='Order Date' ordinal='2' />
+                <column datatype='date' name='Ship Date' ordinal='3' />
+                <column datatype='string' name='Ship Mode' ordinal='4' />
+                <column datatype='string' name='Customer ID' ordinal='5' />
+                <column datatype='string' name='Customer Name' ordinal='6' />
+                <column datatype='string' name='Segment' ordinal='7' />
+                <column datatype='string' name='Country/Region' ordinal='8' />
+                <column datatype='string' name='City' ordinal='9' />
+                <column datatype='string' name='State/Province' ordinal='10' />
+                <column datatype='string' name='Postal Code' ordinal='11' />
+                <column datatype='string' name='Region' ordinal='12' />
+                <column datatype='string' name='Product ID' ordinal='13' />
+                <column datatype='string' name='Category' ordinal='14' />
+                <column datatype='string' name='Sub-Category' ordinal='15' />
+                <column datatype='string' name='Product Name' ordinal='16' />
+                <column datatype='real' name='Sales' ordinal='17' />
+                <column datatype='integer' name='Quantity' ordinal='18' />
+                <column datatype='real' name='Discount' ordinal='19' />
+                <column datatype='real' name='Profit' ordinal='20' />
+              </columns>
+            </relation>
+            <relation connection='excel-direct.1c2xqt110az0o81e6nhds04taoud' name='People' table='[People$]' type='table'>
+              <columns gridOrigin='A1:B5:no:A1:B5:0' header='yes' outcome='6'>
+                <column datatype='string' name='Regional Manager' ordinal='0' />
+                <column datatype='string' name='Region' ordinal='1' />
+              </columns>
+            </relation>
           </relation>
-          <relation connection='excel-direct.1c2xqt110az0o81e6nhds04taoud' name='People' table='[People$]' type='table'>
-            <columns gridOrigin='A1:B5:no:A1:B5:0' header='yes' outcome='6'>
-              <column datatype='string' name='Regional Manager' ordinal='0' />
-              <column datatype='string' name='Region' ordinal='1' />
+          <relation connection='excel-direct.0ic8ryf0i0dqiu132uh8807z7y6d' name='Sheet1' table='[Sheet1$]' type='table'>
+            <columns gridOrigin='A1:D52:no:A1:D52:0' header='yes' outcome='2'>
+              <column datatype='integer' name='Row' ordinal='0' />
+              <column datatype='real' name='Column' ordinal='1' />
+              <column datatype='string' name='State' ordinal='2' />
+              <column datatype='string' name='Abbreviation' ordinal='3' />
             </columns>
           </relation>
         </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
         <_.fcp.ObjectModelEncapsulateLegacy.true...relation join='inner' type='join'>
           <clause type='join'>
             <expression op='='>
-              <expression op='[Orders].[Region]' />
-              <expression op='[People].[Region]' />
+              <expression op='[Orders].[State/Province]' />
+              <expression op='[Sheet1].[State]' />
             </expression>
           </clause>
-          <relation connection='excel-direct.1c2xqt110az0o81e6nhds04taoud' name='Orders' table='[Orders$]' type='table'>
-            <columns gridOrigin='A1:U10195:no:A1:U10195:0' header='yes' outcome='2'>
-              <column datatype='integer' name='Row ID' ordinal='0' />
-              <column datatype='string' name='Order ID' ordinal='1' />
-              <column datatype='date' name='Order Date' ordinal='2' />
-              <column datatype='date' name='Ship Date' ordinal='3' />
-              <column datatype='string' name='Ship Mode' ordinal='4' />
-              <column datatype='string' name='Customer ID' ordinal='5' />
-              <column datatype='string' name='Customer Name' ordinal='6' />
-              <column datatype='string' name='Segment' ordinal='7' />
-              <column datatype='string' name='Country/Region' ordinal='8' />
-              <column datatype='string' name='City' ordinal='9' />
-              <column datatype='string' name='State/Province' ordinal='10' />
-              <column datatype='string' name='Postal Code' ordinal='11' />
-              <column datatype='string' name='Region' ordinal='12' />
-              <column datatype='string' name='Product ID' ordinal='13' />
-              <column datatype='string' name='Category' ordinal='14' />
-              <column datatype='string' name='Sub-Category' ordinal='15' />
-              <column datatype='string' name='Product Name' ordinal='16' />
-              <column datatype='real' name='Sales' ordinal='17' />
-              <column datatype='integer' name='Quantity' ordinal='18' />
-              <column datatype='real' name='Discount' ordinal='19' />
-              <column datatype='real' name='Profit' ordinal='20' />
-            </columns>
+          <relation join='inner' type='join'>
+            <clause type='join'>
+              <expression op='='>
+                <expression op='[Orders].[Region]' />
+                <expression op='[People].[Region]' />
+              </expression>
+            </clause>
+            <relation connection='excel-direct.1c2xqt110az0o81e6nhds04taoud' name='Orders' table='[Orders$]' type='table'>
+              <columns gridOrigin='A1:U10195:no:A1:U10195:0' header='yes' outcome='2'>
+                <column datatype='integer' name='Row ID' ordinal='0' />
+                <column datatype='string' name='Order ID' ordinal='1' />
+                <column datatype='date' name='Order Date' ordinal='2' />
+                <column datatype='date' name='Ship Date' ordinal='3' />
+                <column datatype='string' name='Ship Mode' ordinal='4' />
+                <column datatype='string' name='Customer ID' ordinal='5' />
+                <column datatype='string' name='Customer Name' ordinal='6' />
+                <column datatype='string' name='Segment' ordinal='7' />
+                <column datatype='string' name='Country/Region' ordinal='8' />
+                <column datatype='string' name='City' ordinal='9' />
+                <column datatype='string' name='State/Province' ordinal='10' />
+                <column datatype='string' name='Postal Code' ordinal='11' />
+                <column datatype='string' name='Region' ordinal='12' />
+                <column datatype='string' name='Product ID' ordinal='13' />
+                <column datatype='string' name='Category' ordinal='14' />
+                <column datatype='string' name='Sub-Category' ordinal='15' />
+                <column datatype='string' name='Product Name' ordinal='16' />
+                <column datatype='real' name='Sales' ordinal='17' />
+                <column datatype='integer' name='Quantity' ordinal='18' />
+                <column datatype='real' name='Discount' ordinal='19' />
+                <column datatype='real' name='Profit' ordinal='20' />
+              </columns>
+            </relation>
+            <relation connection='excel-direct.1c2xqt110az0o81e6nhds04taoud' name='People' table='[People$]' type='table'>
+              <columns gridOrigin='A1:B5:no:A1:B5:0' header='yes' outcome='6'>
+                <column datatype='string' name='Regional Manager' ordinal='0' />
+                <column datatype='string' name='Region' ordinal='1' />
+              </columns>
+            </relation>
           </relation>
-          <relation connection='excel-direct.1c2xqt110az0o81e6nhds04taoud' name='People' table='[People$]' type='table'>
-            <columns gridOrigin='A1:B5:no:A1:B5:0' header='yes' outcome='6'>
-              <column datatype='string' name='Regional Manager' ordinal='0' />
-              <column datatype='string' name='Region' ordinal='1' />
+          <relation connection='excel-direct.0ic8ryf0i0dqiu132uh8807z7y6d' name='Sheet1' table='[Sheet1$]' type='table'>
+            <columns gridOrigin='A1:D52:no:A1:D52:0' header='yes' outcome='2'>
+              <column datatype='integer' name='Row' ordinal='0' />
+              <column datatype='real' name='Column' ordinal='1' />
+              <column datatype='string' name='State' ordinal='2' />
+              <column datatype='string' name='Abbreviation' ordinal='3' />
             </columns>
           </relation>
         </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
         <cols>
+          <map key='[Abbreviation]' value='[Sheet1].[Abbreviation]' />
           <map key='[Category]' value='[Orders].[Category]' />
           <map key='[City]' value='[Orders].[City]' />
+          <map key='[Column]' value='[Sheet1].[Column]' />
           <map key='[Country/Region]' value='[Orders].[Country/Region]' />
           <map key='[Customer ID]' value='[Orders].[Customer ID]' />
           <map key='[Customer Name]' value='[Orders].[Customer Name]' />
@@ -128,11 +165,13 @@
           <map key='[Region]' value='[Orders].[Region]' />
           <map key='[Regional Manager]' value='[People].[Regional Manager]' />
           <map key='[Row ID]' value='[Orders].[Row ID]' />
+          <map key='[Row]' value='[Sheet1].[Row]' />
           <map key='[Sales]' value='[Orders].[Sales]' />
           <map key='[Segment]' value='[Orders].[Segment]' />
           <map key='[Ship Date]' value='[Orders].[Ship Date]' />
           <map key='[Ship Mode]' value='[Orders].[Ship Mode]' />
           <map key='[State/Province]' value='[Orders].[State/Province]' />
+          <map key='[State]' value='[Sheet1].[State]' />
           <map key='[Sub-Category]' value='[Orders].[Sub-Category]' />
         </cols>
         <metadata-records>
@@ -162,6 +201,20 @@
               <attribute datatype='string' name='gridOrigin'>&quot;A1:B5:no:A1:B5:0&quot;</attribute>
               <attribute datatype='boolean' name='header'>true</attribute>
               <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:D52:no:A1:D52:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
@@ -528,6 +581,69 @@
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_1FB18B8D322345EC908B12863BD76705]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Row</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Row]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Row</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_1FB18B8D322345EC908B12863BD76705]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Column</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Column]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Column</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_1FB18B8D322345EC908B12863BD76705]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_1FB18B8D322345EC908B12863BD76705]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Abbreviation</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Abbreviation]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Abbreviation</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_1FB18B8D322345EC908B12863BD76705]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
@@ -567,6 +683,7 @@
       <column datatype='integer' name='[Row ID]' role='dimension' type='ordinal' />
       <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
       <column datatype='string' name='[State/Province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
       <column caption='Total CY Qty' datatype='integer' name='[Total CY Profit (copy)_5529013028660457480]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='IF YEAR([Order Date])={MAX(YEAR([Order Date]))} THEN [Quantity] END' />
       </column>
@@ -683,39 +800,55 @@
               <relation join='inner' type='join'>
                 <clause type='join'>
                   <expression op='='>
-                    <expression op='[Orders].[Region]' />
-                    <expression op='[People].[Region]' />
+                    <expression op='[Orders].[State/Province]' />
+                    <expression op='[Sheet1].[State]' />
                   </expression>
                 </clause>
-                <relation connection='excel-direct.1c2xqt110az0o81e6nhds04taoud' name='Orders' table='[Orders$]' type='table'>
-                  <columns gridOrigin='A1:U10195:no:A1:U10195:0' header='yes' outcome='2'>
-                    <column datatype='integer' name='Row ID' ordinal='0' />
-                    <column datatype='string' name='Order ID' ordinal='1' />
-                    <column datatype='date' name='Order Date' ordinal='2' />
-                    <column datatype='date' name='Ship Date' ordinal='3' />
-                    <column datatype='string' name='Ship Mode' ordinal='4' />
-                    <column datatype='string' name='Customer ID' ordinal='5' />
-                    <column datatype='string' name='Customer Name' ordinal='6' />
-                    <column datatype='string' name='Segment' ordinal='7' />
-                    <column datatype='string' name='Country/Region' ordinal='8' />
-                    <column datatype='string' name='City' ordinal='9' />
-                    <column datatype='string' name='State/Province' ordinal='10' />
-                    <column datatype='string' name='Postal Code' ordinal='11' />
-                    <column datatype='string' name='Region' ordinal='12' />
-                    <column datatype='string' name='Product ID' ordinal='13' />
-                    <column datatype='string' name='Category' ordinal='14' />
-                    <column datatype='string' name='Sub-Category' ordinal='15' />
-                    <column datatype='string' name='Product Name' ordinal='16' />
-                    <column datatype='real' name='Sales' ordinal='17' />
-                    <column datatype='integer' name='Quantity' ordinal='18' />
-                    <column datatype='real' name='Discount' ordinal='19' />
-                    <column datatype='real' name='Profit' ordinal='20' />
-                  </columns>
+                <relation join='inner' type='join'>
+                  <clause type='join'>
+                    <expression op='='>
+                      <expression op='[Orders].[Region]' />
+                      <expression op='[People].[Region]' />
+                    </expression>
+                  </clause>
+                  <relation connection='excel-direct.1c2xqt110az0o81e6nhds04taoud' name='Orders' table='[Orders$]' type='table'>
+                    <columns gridOrigin='A1:U10195:no:A1:U10195:0' header='yes' outcome='2'>
+                      <column datatype='integer' name='Row ID' ordinal='0' />
+                      <column datatype='string' name='Order ID' ordinal='1' />
+                      <column datatype='date' name='Order Date' ordinal='2' />
+                      <column datatype='date' name='Ship Date' ordinal='3' />
+                      <column datatype='string' name='Ship Mode' ordinal='4' />
+                      <column datatype='string' name='Customer ID' ordinal='5' />
+                      <column datatype='string' name='Customer Name' ordinal='6' />
+                      <column datatype='string' name='Segment' ordinal='7' />
+                      <column datatype='string' name='Country/Region' ordinal='8' />
+                      <column datatype='string' name='City' ordinal='9' />
+                      <column datatype='string' name='State/Province' ordinal='10' />
+                      <column datatype='string' name='Postal Code' ordinal='11' />
+                      <column datatype='string' name='Region' ordinal='12' />
+                      <column datatype='string' name='Product ID' ordinal='13' />
+                      <column datatype='string' name='Category' ordinal='14' />
+                      <column datatype='string' name='Sub-Category' ordinal='15' />
+                      <column datatype='string' name='Product Name' ordinal='16' />
+                      <column datatype='real' name='Sales' ordinal='17' />
+                      <column datatype='integer' name='Quantity' ordinal='18' />
+                      <column datatype='real' name='Discount' ordinal='19' />
+                      <column datatype='real' name='Profit' ordinal='20' />
+                    </columns>
+                  </relation>
+                  <relation connection='excel-direct.1c2xqt110az0o81e6nhds04taoud' name='People' table='[People$]' type='table'>
+                    <columns gridOrigin='A1:B5:no:A1:B5:0' header='yes' outcome='6'>
+                      <column datatype='string' name='Regional Manager' ordinal='0' />
+                      <column datatype='string' name='Region' ordinal='1' />
+                    </columns>
+                  </relation>
                 </relation>
-                <relation connection='excel-direct.1c2xqt110az0o81e6nhds04taoud' name='People' table='[People$]' type='table'>
-                  <columns gridOrigin='A1:B5:no:A1:B5:0' header='yes' outcome='6'>
-                    <column datatype='string' name='Regional Manager' ordinal='0' />
-                    <column datatype='string' name='Region' ordinal='1' />
+                <relation connection='excel-direct.0ic8ryf0i0dqiu132uh8807z7y6d' name='Sheet1' table='[Sheet1$]' type='table'>
+                  <columns gridOrigin='A1:D52:no:A1:D52:0' header='yes' outcome='2'>
+                    <column datatype='integer' name='Row' ordinal='0' />
+                    <column datatype='real' name='Column' ordinal='1' />
+                    <column datatype='string' name='State' ordinal='2' />
+                    <column datatype='string' name='Abbreviation' ordinal='3' />
                   </columns>
                 </relation>
               </relation>
@@ -1539,6 +1672,26 @@
       </table>
       <simple-id uuid='{03C13733-5703-41A3-9EF6-5A3588712CE7}' />
     </worksheet>
+    <worksheet name='Sheet 7'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{FF1ED2D6-93B9-4E2C-994C-5EF582DC6C7D}' />
+    </worksheet>
   </worksheets>
   <dashboards>
     <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Sales Dashboard'>
@@ -1674,8 +1827,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1200' minheight='1200' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='71' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98048' id='70' param='vert' type-v2='layout-flow' w='98918' x='541' y='976'>
+            <zone h='100000' id='75' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98048' id='74' param='vert' type-v2='layout-flow' w='98918' x='541' y='976'>
                 <zone fixed-size='280' h='98048' id='5' is-fixed='true' is-scaled='1' param='/Users/rafsanalmamun/Downloads/Data-Analysis_Data-Science_Projects/Tableau Projects/Advanced Sales Revenue Analysis Dashboard/Sales Dashboard Background/Sales Dashboard Background_page-0004.jpg' type-v2='bitmap' w='98918' x='541' y='976'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2006,7 +2159,30 @@
       </viewpoint>
       <simple-id uuid='{6E37D1E0-F7BA-433A-9088-691A6DE9A1F9}' />
     </window>
-    <window class='dashboard' maximized='true' name='Sales Dashboard'>
+    <window class='worksheet' maximized='true' name='Sheet 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5515AFC2-F33D-484A-A4CD-C211D2D03033}' />
+    </window>
+    <window class='dashboard' name='Sales Dashboard'>
       <viewpoints>
         <viewpoint name='Profit KPI'>
           <zoom type='entire-view' />
@@ -4979,6 +5155,35 @@
       EBGxKAWAiIhFKQBERCxKASAiYlEKABERi1IAiIhYlAJARMSiFAAiIhalABARsSgFgIiIRSkA
       REQsSgEgImJRCgAREYtSAIiIWJQCQETEohQAIiIWpQAQEbEoBYCIiEX9PxL2PNn0EGV8AAAA
       AElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='384' name='Sheet 7' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAFXUlEQVR4nO3VMQEAIAzAMMC/5yFjRxMF/XpnZg4AOW87AIAdBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEfFxoG/IiMv0YAAAAASUVORK5CYII=
     </thumbnail>
   </thumbnails>
 </workbook>
