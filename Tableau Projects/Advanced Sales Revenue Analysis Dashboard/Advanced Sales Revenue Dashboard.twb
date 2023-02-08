@@ -677,6 +677,7 @@
         </panes>
         <rows />
         <cols />
+        <tooltip-style tooltip-mode='none' />
       </table>
       <simple-id uuid='{A7EF4BBB-2B29-4559-9945-3A024F9C1F66}' />
     </worksheet>
@@ -747,6 +748,7 @@
         </panes>
         <rows />
         <cols />
+        <tooltip-style tooltip-mode='none' />
       </table>
       <simple-id uuid='{8CE8E760-7F27-470D-A889-E0D8977F3DFC}' />
     </worksheet>
