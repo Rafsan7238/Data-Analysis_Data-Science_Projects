@@ -552,6 +552,11 @@
           <table-calc ordering-type='Rows' />
         </calculation>
       </column>
+      <column caption='Min/Max Qty' datatype='integer' name='[Min/Max Month (copy)_5529013028670509070]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF SUM([Total CY Profit (copy)_5529013028660457480])=WINDOW_MAX(SUM([Total CY Profit (copy)_5529013028660457480])) THEN SUM([Total CY Profit (copy)_5529013028660457480])&#10;ELSEIF SUM([Total CY Profit (copy)_5529013028660457480])=WINDOW_MIN(SUM([Total CY Profit (copy)_5529013028660457480])) THEN SUM([Total CY Profit (copy)_5529013028660457480])&#10;ELSE NULL &#10;END'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
       <column datatype='string' name='[Postal Code]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
       <column datatype='real' name='[Profit]' role='measure' type='quantitative' />
       <column datatype='integer' name='[Quantity]' role='measure' type='quantitative' />
