@@ -547,6 +547,11 @@
       <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
       <column datatype='string' name='[Country/Region]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
       <column datatype='real' name='[Discount]' role='measure' type='quantitative' />
+      <column caption='Min/Max Profit' datatype='real' name='[Min/Max Month (copy)_5529013028668792845]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF SUM([Total CY Sales (copy)_5529013028658745348])=WINDOW_MAX(SUM([Total CY Sales (copy)_5529013028658745348])) THEN SUM([Calculation_5529013028654051328])&#10;ELSEIF SUM([Total CY Sales (copy)_5529013028658745348])=WINDOW_MIN(SUM([Total CY Sales (copy)_5529013028658745348])) THEN SUM([Calculation_5529013028654051328])&#10;ELSE NULL &#10;END'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
       <column datatype='string' name='[Postal Code]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
       <column datatype='real' name='[Profit]' role='measure' type='quantitative' />
       <column datatype='integer' name='[Quantity]' role='measure' type='quantitative' />
