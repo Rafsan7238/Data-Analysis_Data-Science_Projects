@@ -539,6 +539,11 @@
       <column caption='YOY Sales Indicator' datatype='string' name='[Calculation_5529013028657393667]' role='measure' type='nominal'>
         <calculation class='tableau' formula='IF [Calculation_5529013028655091714]&gt;0 THEN &quot;⬆︎&quot; ELSE &quot;⬇︎&quot; END' />
       </column>
+      <column caption='Min/Max Month' datatype='real' name='[Calculation_5529013028664074252]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF SUM([Calculation_5529013028654051328])=WINDOW_MAX(SUM([Calculation_5529013028654051328])) THEN SUM([Calculation_5529013028654051328])&#10;ELSEIF SUM([Calculation_5529013028654051328])=WINDOW_MIN(SUM([Calculation_5529013028654051328])) THEN SUM([Calculation_5529013028654051328])&#10;ELSE NULL &#10;END'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
       <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
       <column datatype='string' name='[Country/Region]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
       <column datatype='string' name='[Postal Code]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
