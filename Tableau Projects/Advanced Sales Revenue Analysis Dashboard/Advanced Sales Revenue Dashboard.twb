@@ -650,6 +650,9 @@
       <column caption='Avg Profit Overall' datatype='real' name='[Avg Sales Overall (copy)_1325113887323369475]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='{FIXED : AVG(IF YEAR([Order Date])={MAX (YEAR([Order Date]))} THEN [Total CY Sales (copy)_5529013028658745348] END)}' />
       </column>
+      <column caption='Avg Profit Statewise' datatype='real' name='[Avg Sales Statewise (copy)_1325113887323586564]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED [State/Province]: AVG([Profit])}' />
+      </column>
       <column caption='Avg Sales Statewise' datatype='real' name='[Calculation_1325113887315382272]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='{FIXED [State/Province]: AVG([Sales])}' />
       </column>
@@ -2242,8 +2245,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1200' minheight='1200' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='127' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='126' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='129' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='128' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='98048' id='5' is-fixed='true' is-scaled='1' param='/Users/rafsanalmamun/Downloads/Data-Analysis_Data-Science_Projects/Tableau Projects/Advanced Sales Revenue Analysis Dashboard/Sales Dashboard Background/Sales Dashboard Background_page-0004.jpg' type-v2='bitmap' w='98918' x='541' y='976'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
