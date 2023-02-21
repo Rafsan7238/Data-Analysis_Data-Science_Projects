@@ -818,20 +818,20 @@
               <bucket>true</bucket>
             </map>
           </encoding>
-          <encoding attr='color' field='[none:Avg Sales Color (copy)_1325113887323824133:nk]' type='palette'>
-            <map to='#470794'>
-              <bucket>&quot;Above Average&quot;</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>&quot;Below Average&quot;</bucket>
-            </map>
-          </encoding>
           <encoding attr='color' field='[none:Calculation_1325113887320948738:nk]' type='palette'>
             <map to='#801f93'>
               <bucket>&quot;Below Average&quot;</bucket>
             </map>
             <map to='#e39700'>
               <bucket>&quot;Above Average&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Avg Sales Color (copy)_1325113887323824133:nk]' type='palette'>
+            <map to='#470794'>
+              <bucket>&quot;Above Average&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Below Average&quot;</bucket>
             </map>
           </encoding>
         </style-rule>
@@ -908,6 +908,64 @@
     </datasource>
   </datasources>
   <worksheets>
+    <worksheet name='Avg Profit by State Count'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Orders+People' name='federated.1bhxzsb1nlzigt123rpj903qzxal' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bhxzsb1nlzigt123rpj903qzxal'>
+            <column caption='Avg Profit Color' datatype='string' name='[Avg Sales Color (copy)_1325113887323824133]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Avg Sales Statewise (copy)_1325113887323586564] &lt; [Avg Sales Overall (copy)_1325113887323369475] THEN &apos;Below Average&apos;&#10;ELSEIF [Avg Sales Statewise (copy)_1325113887323586564] &gt; [Avg Sales Overall (copy)_1325113887323369475] THEN &apos;Above Average&apos;&#10;ELSEIF [Avg Sales Statewise (copy)_1325113887323586564] = [Avg Sales Overall (copy)_1325113887323369475] THEN &apos;Equal to Overall Avg&apos;&#10;END' />
+            </column>
+            <column caption='Avg Profit Overall' datatype='real' name='[Avg Sales Overall (copy)_1325113887323369475]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED : AVG(IF YEAR([Order Date])={MAX (YEAR([Order Date]))} THEN [Total CY Sales (copy)_5529013028658745348] END)}' />
+            </column>
+            <column caption='Avg Profit Statewise' datatype='real' name='[Avg Sales Statewise (copy)_1325113887323586564]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [State/Province]: AVG([Profit])}' />
+            </column>
+            <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Profit]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State/Province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='Total CY Profit' datatype='real' name='[Total CY Sales (copy)_5529013028658745348]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF YEAR([Order Date])={MAX(YEAR([Order Date]))} THEN [Profit] END' />
+            </column>
+            <column-instance column='[State/Province]' derivation='CountD' name='[ctd:State/Province:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Avg Sales Color (copy)_1325113887323824133]' derivation='None' name='[none:Avg Sales Color (copy)_1325113887323824133:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Avg Sales Color (copy)_1325113887323824133:nk]' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Avg Sales Color (copy)_1325113887323824133:nk]' />
+              <text column='[federated.1bhxzsb1nlzigt123rpj903qzxal].[ctd:State/Province:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Avg Sales Color (copy)_1325113887323824133:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{D6FFA080-E1E4-419B-BA84-883DC07A5597}' />
+    </worksheet>
     <worksheet name='Avg Sales by State Count'>
       <table>
         <view>
@@ -2365,8 +2423,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2300' minheight='2300' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='186' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98048' id='185' param='vert' type-v2='layout-flow' w='98918' x='541' y='976'>
+            <zone h='100000' id='190' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98048' id='189' param='vert' type-v2='layout-flow' w='98918' x='541' y='976'>
                 <zone fixed-size='280' h='98048' id='5' is-fixed='true' is-scaled='1' param='/Users/rafsanalmamun/Downloads/Data-Analysis_Data-Science_Projects/Tableau Projects/Advanced Sales Revenue Analysis Dashboard/Sales Dashboard Background/Sales Dashboard Background_page-0004.jpg' type-v2='bitmap' w='98918' x='541' y='976'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2926,7 +2984,7 @@
       </viewpoint>
       <simple-id uuid='{2CDDD382-A888-4DA1-BA71-E7122D67026C}' />
     </window>
-    <window class='worksheet' maximized='true' name='Avg Sales by State Count'>
+    <window class='worksheet' name='Avg Sales by State Count'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -2958,6 +3016,38 @@
         </highlight>
       </viewpoint>
       <simple-id uuid='{0D3B19FD-3165-4B1C-B064-04C116EAAFDE}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Avg Profit by State Count'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='0' param='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Avg Sales Color (copy)_1325113887323824133:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Avg Sales Color (copy)_1325113887323824133:nk]</field>
+            <field>[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:State/Province:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B2A4BBBE-88B2-416C-8714-690C12B5D395}' />
     </window>
     <window class='dashboard' name='Sales Dashboard'>
       <viewpoints>
@@ -2997,6 +3087,67 @@
     </window>
   </windows>
   <thumbnails>
+    <thumbnail height='88' name='Avg Profit by State Count' width='128'>
+      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
+    </thumbnail>
     <thumbnail height='88' name='Avg Sales by State Count' width='128'>
       iVBORw0KGgoAAAANSUhEUgAAAIAAAABYCAYAAAA9U/+JAAAACXBIWXMAAA7DAAAOwwHHb6hk
       AAAL8klEQVR4nO2cf1BU5b/HX+fsLrtnF2ER1gC7sAooDJlEl0lLza9wZ6JrGU6CeOeqdOuf
