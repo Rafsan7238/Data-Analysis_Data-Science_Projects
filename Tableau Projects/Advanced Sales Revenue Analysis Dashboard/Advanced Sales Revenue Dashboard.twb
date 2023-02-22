@@ -1526,6 +1526,23 @@
             <format attr='font-family' value='Arial' />
             <format attr='color' value='#e6e6e6' />
           </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Category:nk]' value='Category'>
+              <formatted-text>
+                <run fontcolor='#ffffff'>Category</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Region:nk]' value='Region'>
+              <formatted-text>
+                <run fontcolor='#ffffff'>Region</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Ship Mode:nk]' value='Ship Mode'>
+              <formatted-text>
+                <run fontcolor='#ffffff'>Ship Mode</run>
+              </formatted-text>
+            </format>
+          </style-rule>
         </style>
         <panes>
           <pane selection-relaxation-option='selection-relaxation-allow'>
@@ -3090,8 +3107,8 @@
             <run bold='true' fontalignment='1' fontcolor='#d4d4d4' fontname='Arial' fontsize='12'> and Manager</run>
           </formatted-text>
         </zone>
-        <zone h='30000' id='316' param='vert' type-v2='layout-flow' w='10203' x='86622' y='2927'>
-          <zone h='6342' id='317' mode='checkdropdown' name='HexMap Sales/Profit' param='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Category:nk]' type-v2='filter' values='database' w='10203' x='86622' y='2927'>
+        <zone h='19268' id='316' layout-strategy-id='distribute-evenly' param='vert' type-v2='layout-flow' w='10203' x='86622' y='2927'>
+          <zone h='6341' id='317' mode='checkdropdown' name='HexMap Sales/Profit' param='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Category:nk]' type-v2='filter' values='database' w='10068' x='86689' y='3049'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -3099,7 +3116,7 @@
               <format attr='margin' value='4' />
             </zone-style>
           </zone>
-          <zone h='6342' id='320' mode='checkdropdown' name='HexMap Sales/Profit' param='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Region:nk]' type-v2='filter' values='database' w='10203' x='86622' y='9269'>
+          <zone h='6342' id='320' mode='checkdropdown' name='HexMap Sales/Profit' param='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Region:nk]' type-v2='filter' values='database' w='10068' x='86689' y='9390'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -3107,7 +3124,7 @@
               <format attr='margin' value='4' />
             </zone-style>
           </zone>
-          <zone h='6342' id='325' mode='checkdropdown' name='HexMap Sales/Profit' param='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Ship Mode:nk]' type-v2='filter' values='database' w='10203' x='86622' y='15611'>
+          <zone h='6341' id='325' mode='checkdropdown' name='HexMap Sales/Profit' param='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Ship Mode:nk]' type-v2='filter' values='database' w='10068' x='86689' y='15732'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -3115,14 +3132,19 @@
               <format attr='margin' value='4' />
             </zone-style>
           </zone>
+          <zone-style>
+            <format attr='border-color' value='#c0c0c0' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+          </zone-style>
         </zone>
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='3250' minheight='3250' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='327' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98048' id='326' param='vert' type-v2='layout-flow' w='98918' x='541' y='976'>
+            <zone h='100000' id='331' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98048' id='330' param='vert' type-v2='layout-flow' w='98918' x='541' y='976'>
                 <zone fixed-size='280' h='98048' id='5' is-fixed='true' is-scaled='1' param='/Users/rafsanalmamun/Downloads/Data-Analysis_Data-Science_Projects/Tableau Projects/Advanced Sales Revenue Analysis Dashboard/Sales Dashboard Background/Sales Dashboard Background_page-0004.jpg' type-v2='bitmap' w='98918' x='541' y='976'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -3242,7 +3264,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='6342' id='317' mode='checkdropdown' name='HexMap Sales/Profit' param='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Category:nk]' type-v2='filter' values='database' w='10203' x='86622' y='2927'>
+                <zone h='6341' id='317' mode='checkdropdown' name='HexMap Sales/Profit' param='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Category:nk]' type-v2='filter' values='database' w='10068' x='86689' y='3049'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -3251,7 +3273,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='6342' id='320' mode='checkdropdown' name='HexMap Sales/Profit' param='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Region:nk]' type-v2='filter' values='database' w='10203' x='86622' y='9269'>
+                <zone h='6342' id='320' mode='checkdropdown' name='HexMap Sales/Profit' param='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Region:nk]' type-v2='filter' values='database' w='10068' x='86689' y='9390'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -3260,7 +3282,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='6342' id='325' mode='checkdropdown' name='HexMap Sales/Profit' param='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Ship Mode:nk]' type-v2='filter' values='database' w='10203' x='86622' y='15611'>
+                <zone h='6341' id='325' mode='checkdropdown' name='HexMap Sales/Profit' param='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Ship Mode:nk]' type-v2='filter' values='database' w='10068' x='86689' y='15732'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -4010,7 +4032,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='325' />
+      <active id='5' />
       <simple-id uuid='{E5F38851-7544-40B3-B65E-E2E264BA26B7}' />
     </window>
   </windows>
