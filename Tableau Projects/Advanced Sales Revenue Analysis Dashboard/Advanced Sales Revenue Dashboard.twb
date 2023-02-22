@@ -2909,8 +2909,10 @@
       <datasource-dependencies datasource='federated.1bhxzsb1nlzigt123rpj903qzxal'>
         <column datatype='string' name='[Category]' role='dimension' type='nominal' />
         <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Ship Mode]' role='dimension' type='nominal' />
         <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
         <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Ship Mode]' derivation='None' name='[none:Ship Mode:nk]' pivot='key' type='nominal' />
       </datasource-dependencies>
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
@@ -3097,7 +3099,15 @@
               <format attr='margin' value='4' />
             </zone-style>
           </zone>
-          <zone h='15488' id='320' name='HexMap Sales/Profit' param='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Region:nk]' type-v2='filter' values='database' w='10203' x='86622' y='9269'>
+          <zone h='6342' id='320' mode='checkdropdown' name='HexMap Sales/Profit' param='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Region:nk]' type-v2='filter' values='database' w='10203' x='86622' y='9269'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='6342' id='325' mode='checkdropdown' name='HexMap Sales/Profit' param='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Ship Mode:nk]' type-v2='filter' values='database' w='10203' x='86622' y='15611'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -3109,10 +3119,10 @@
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='3200' minheight='3200' sizing-mode='vscroll' />
+          <size maxheight='3250' minheight='3250' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='322' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98048' id='321' param='vert' type-v2='layout-flow' w='98918' x='541' y='976'>
+            <zone h='100000' id='327' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98048' id='326' param='vert' type-v2='layout-flow' w='98918' x='541' y='976'>
                 <zone fixed-size='280' h='98048' id='5' is-fixed='true' is-scaled='1' param='/Users/rafsanalmamun/Downloads/Data-Analysis_Data-Science_Projects/Tableau Projects/Advanced Sales Revenue Analysis Dashboard/Sales Dashboard Background/Sales Dashboard Background_page-0004.jpg' type-v2='bitmap' w='98918' x='541' y='976'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -3241,7 +3251,16 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='15488' id='320' mode='checkdropdown' name='HexMap Sales/Profit' param='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Region:nk]' type-v2='filter' values='database' w='10203' x='86622' y='9269'>
+                <zone h='6342' id='320' mode='checkdropdown' name='HexMap Sales/Profit' param='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Region:nk]' type-v2='filter' values='database' w='10203' x='86622' y='9269'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6342' id='325' mode='checkdropdown' name='HexMap Sales/Profit' param='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Ship Mode:nk]' type-v2='filter' values='database' w='10203' x='86622' y='15611'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -3991,7 +4010,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='320' />
+      <active id='325' />
       <simple-id uuid='{E5F38851-7544-40B3-B65E-E2E264BA26B7}' />
     </window>
   </windows>
