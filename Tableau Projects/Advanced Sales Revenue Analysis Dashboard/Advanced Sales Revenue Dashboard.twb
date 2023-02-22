@@ -2461,6 +2461,26 @@
       </table>
       <simple-id uuid='{03C13733-5703-41A3-9EF6-5A3588712CE7}' />
     </worksheet>
+    <worksheet name='Total Sales by Location and Manager'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{5F177205-564A-4DB0-8F8D-EA3E55A9FAF2}' />
+    </worksheet>
   </worksheets>
   <dashboards>
     <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Sales Dashboard'>
@@ -2656,8 +2676,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2800' minheight='2800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='255' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98048' id='254' param='vert' type-v2='layout-flow' w='98918' x='541' y='976'>
+            <zone h='100000' id='257' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98048' id='256' param='vert' type-v2='layout-flow' w='98918' x='541' y='976'>
                 <zone fixed-size='280' h='98048' id='5' is-fixed='true' is-scaled='1' param='/Users/rafsanalmamun/Downloads/Data-Analysis_Data-Science_Projects/Tableau Projects/Advanced Sales Revenue Analysis Dashboard/Sales Dashboard Background/Sales Dashboard Background_page-0004.jpg' type-v2='bitmap' w='98918' x='541' y='976'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -3368,7 +3388,30 @@
       </viewpoint>
       <simple-id uuid='{F988B1E3-55C1-4F05-9C42-88BEC3E0016A}' />
     </window>
-    <window class='dashboard' maximized='true' name='Sales Dashboard'>
+    <window class='worksheet' maximized='true' name='Total Sales by Location and Manager'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{38D7C22A-DC6C-4D5E-9545-483CA5284FBD}' />
+    </window>
+    <window class='dashboard' name='Sales Dashboard'>
       <viewpoints>
         <viewpoint name='Avg Profit by State Count'>
           <zoom type='entire-view' />
@@ -8721,6 +8764,35 @@
       EBGxKAWAiIhFKQBERCxKASAiYlEKABERi1IAiIhYlAJARMSiFAAiIhalABARsSgFgIiIRSkA
       REQsSgEgImJRCgAREYtSAIiIWJQCQETEohQAIiIWpQAQEbEoBYCIiEX9PxL2PNn0EGV8AAAA
       AElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='384' name='Total Sales by Location and Manager' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAFXUlEQVR4nO3VMQEAIAzAMMC/5yFjRxMF/XpnZg4AOW87AIAdBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEfFxoG/IiMv0YAAAAASUVORK5CYII=
     </thumbnail>
   </thumbnails>
 </workbook>
