@@ -2629,15 +2629,20 @@
         </zone>
         <zone h='6829' id='195' name='Avg Sales by State Count' show-title='false' w='4324' x='22838' y='79878' />
         <zone h='6829' id='198' name='Avg Profit by State Count' show-title='false' w='4324' x='48446' y='79878' />
-        <zone h='30000' id='233' name='Monthly Sales by Segment' show-title='false' w='41081' x='55743' y='37195' />
+        <zone h='29390' id='233' name='Monthly Sales by Segment' show-title='false' w='41081' x='55743' y='37805' />
         <zone h='5366' id='234' mode='compact' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='10811' x='39932' y='32195' />
+        <zone h='3659' id='241' type-v2='text' w='14054' x='55743' y='33537'>
+          <formatted-text>
+            <run bold='true' fontcolor='#d4d4d4' fontname='Arial' fontsize='12'>Monthly Sales by Segment</run>
+          </formatted-text>
+        </zone>
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='2750' minheight='2750' sizing-mode='vscroll' />
+          <size maxheight='2800' minheight='2800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='240' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98048' id='239' param='vert' type-v2='layout-flow' w='98918' x='541' y='976'>
+            <zone h='100000' id='243' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98048' id='242' param='vert' type-v2='layout-flow' w='98918' x='541' y='976'>
                 <zone fixed-size='280' h='98048' id='5' is-fixed='true' is-scaled='1' param='/Users/rafsanalmamun/Downloads/Data-Analysis_Data-Science_Projects/Tableau Projects/Advanced Sales Revenue Analysis Dashboard/Sales Dashboard Background/Sales Dashboard Background_page-0004.jpg' type-v2='bitmap' w='98918' x='541' y='976'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2814,7 +2819,19 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='246' h='30000' id='233' is-fixed='true' name='Monthly Sales by Segment' show-title='false' w='41081' x='55743' y='37195'>
+                <zone h='3659' id='241' type-v2='text' w='14054' x='55743' y='33537'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#d4d4d4' fontname='Arial' fontsize='12'>Monthly Sales by Segment</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='241' h='29390' id='233' is-fixed='true' name='Monthly Sales by Segment' show-title='false' w='41081' x='55743' y='37805'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
