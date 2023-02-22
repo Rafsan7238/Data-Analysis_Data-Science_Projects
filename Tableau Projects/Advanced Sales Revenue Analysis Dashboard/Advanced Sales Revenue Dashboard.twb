@@ -665,6 +665,9 @@
       <column caption='Avg Sales Color' datatype='string' name='[Calculation_1325113887320948738]' role='dimension' type='nominal'>
         <calculation class='tableau' formula='IF [Calculation_1325113887315382272] &lt; [Calculation_1325113887316025345] THEN &apos;Below Average&apos;&#10;ELSEIF [Calculation_1325113887315382272] &gt; [Calculation_1325113887316025345] THEN &apos;Above Average&apos;&#10;ELSEIF [Calculation_1325113887315382272] = [Calculation_1325113887316025345] THEN &apos;Equal to Overall Avg&apos;&#10;END' />
       </column>
+      <column caption='Dynamic Measure' datatype='real' name='[Calculation_1558034430891618304]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='CASE [Parameters].[Parameter 1]&#10;WHEN &apos;Total CY Sales&apos; THEN [Calculation_5529013028654051328]&#10;WHEN &apos;Total CY Profit&apos; THEN [Total CY Sales (copy)_5529013028658745348]&#10;WHEN &apos;Total CY Qty&apos; THEN [Total CY Profit (copy)_5529013028660457480]&#10;END' />
+      </column>
       <column caption='Total CY Sales' datatype='real' name='[Calculation_5529013028654051328]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='IF YEAR([Order Date])={MAX(YEAR([Order Date]))} THEN [Sales] END' />
       </column>
@@ -831,6 +834,11 @@
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
+      <datasource-dependencies datasource='Parameters'>
+        <column caption='Select Measure' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;Total CY Sales&quot;'>
+          <calculation class='tableau' formula='&quot;Total CY Sales&quot;' />
+        </column>
+      </datasource-dependencies>
       <filter class='categorical' column='[Country/Region]' filter-group='2'>
         <groupfilter function='member' level='[Country/Region]' member='&quot;United States&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
       </filter>
@@ -2512,8 +2520,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2450' minheight='2450' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='212' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='211' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='214' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='213' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='98048' id='5' is-fixed='true' is-scaled='1' param='/Users/rafsanalmamun/Downloads/Data-Analysis_Data-Science_Projects/Tableau Projects/Advanced Sales Revenue Analysis Dashboard/Sales Dashboard Background/Sales Dashboard Background_page-0004.jpg' type-v2='bitmap' w='98918' x='541' y='976'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -3165,6 +3173,7 @@
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
+            <card mode='compact' param='[Parameters].[Parameter 1]' type='parameter' />
           </strip>
         </edge>
         <edge name='top'>
