@@ -1566,6 +1566,9 @@
           </style-rule>
           <style-rule element='label'>
             <format attr='text-format' field='[federated.1bhxzsb1nlzigt123rpj903qzxal].[mn:Order Date:ok]' value='iLLL' />
+            <format attr='font-weight' field='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Segment:nk]' value='bold' />
+            <format attr='color' field='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Segment:nk]' value='#d4d4d4' />
+            <format attr='font-family' field='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Segment:nk]' value='Arial' />
           </style-rule>
           <style-rule element='pane'>
             <format attr='border-width' data-class='total' value='0' />
@@ -2650,8 +2653,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2800' minheight='2800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='245' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98048' id='244' param='vert' type-v2='layout-flow' w='98918' x='541' y='976'>
+            <zone h='100000' id='247' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98048' id='246' param='vert' type-v2='layout-flow' w='98918' x='541' y='976'>
                 <zone fixed-size='280' h='98048' id='5' is-fixed='true' is-scaled='1' param='/Users/rafsanalmamun/Downloads/Data-Analysis_Data-Science_Projects/Tableau Projects/Advanced Sales Revenue Analysis Dashboard/Sales Dashboard Background/Sales Dashboard Background_page-0004.jpg' type-v2='bitmap' w='98918' x='541' y='976'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
