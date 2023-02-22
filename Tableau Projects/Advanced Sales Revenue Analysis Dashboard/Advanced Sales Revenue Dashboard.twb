@@ -2243,8 +2243,16 @@
           <style-rule element='label'>
             <format attr='display' field='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Region:nk]' value='false' />
           </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
           <style-rule element='table'>
             <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
           </style-rule>
         </style>
         <panes>
@@ -2588,12 +2596,32 @@
           </style-rule>
           <style-rule element='header'>
             <format attr='height-header' value='40' />
+            <format attr='border-width' data-class='total' scope='rows' value='0' />
+            <format attr='border-style' data-class='total' scope='rows' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
           </style-rule>
           <style-rule element='table'>
             <format attr='background-color' value='#00000000' />
           </style-rule>
           <style-rule element='worksheet'>
             <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
           </style-rule>
         </style>
         <panes>
@@ -2817,8 +2845,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='3100' minheight='3100' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='298' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98048' id='297' param='vert' type-v2='layout-flow' w='98918' x='541' y='976'>
+            <zone h='100000' id='300' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98048' id='299' param='vert' type-v2='layout-flow' w='98918' x='541' y='976'>
                 <zone fixed-size='280' h='98048' id='5' is-fixed='true' is-scaled='1' param='/Users/rafsanalmamun/Downloads/Data-Analysis_Data-Science_Projects/Tableau Projects/Advanced Sales Revenue Analysis Dashboard/Sales Dashboard Background/Sales Dashboard Background_page-0004.jpg' type-v2='bitmap' w='98918' x='541' y='976'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
