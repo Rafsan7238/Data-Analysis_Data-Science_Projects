@@ -2894,6 +2894,7 @@
       <size maxheight='820' maxwidth='1480' minheight='820' minwidth='1480' sizing-mode='fixed' />
       <datasources>
         <datasource name='Parameters' />
+        <datasource caption='Orders+People' name='federated.1bhxzsb1nlzigt123rpj903qzxal' />
       </datasources>
       <datasource-dependencies datasource='Parameters'>
         <column caption='Select Measure' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;Total CY Sales&quot;'>
@@ -2904,6 +2905,10 @@
             <member value='&quot;Total CY Qty&quot;' />
           </members>
         </column>
+      </datasource-dependencies>
+      <datasource-dependencies datasource='federated.1bhxzsb1nlzigt123rpj903qzxal'>
+        <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+        <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
       </datasource-dependencies>
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
@@ -3081,13 +3086,23 @@
             <run bold='true' fontalignment='1' fontcolor='#d4d4d4' fontname='Arial' fontsize='12'> and Manager</run>
           </formatted-text>
         </zone>
+        <zone h='30000' id='316' param='vert' type-v2='layout-flow' w='10203' x='86622' y='2927'>
+          <zone h='6342' id='317' mode='checkdropdown' name='HexMap Sales/Profit' param='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Category:nk]' type-v2='filter' values='database' w='10203' x='86622' y='2927'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+        </zone>
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='3100' minheight='3100' sizing-mode='vscroll' />
+          <size maxheight='3150' minheight='3150' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='315' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98048' id='314' param='vert' type-v2='layout-flow' w='98918' x='541' y='976'>
+            <zone h='100000' id='319' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98048' id='318' param='vert' type-v2='layout-flow' w='98918' x='541' y='976'>
                 <zone fixed-size='280' h='98048' id='5' is-fixed='true' is-scaled='1' param='/Users/rafsanalmamun/Downloads/Data-Analysis_Data-Science_Projects/Tableau Projects/Advanced Sales Revenue Analysis Dashboard/Sales Dashboard Background/Sales Dashboard Background_page-0004.jpg' type-v2='bitmap' w='98918' x='541' y='976'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -3199,6 +3214,15 @@
                 </zone>
                 <zone fixed-size='117' h='15244' id='60' is-fixed='true' name='Qty Sparkline' show-title='false' w='19189' x='77635' y='14756'>
                   <layout-cache minwidth='100' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6342' id='317' mode='checkdropdown' name='HexMap Sales/Profit' param='[federated.1bhxzsb1nlzigt123rpj903qzxal].[none:Category:nk]' type-v2='filter' values='database' w='10203' x='86622' y='2927'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -3797,7 +3821,7 @@
       </viewpoint>
       <simple-id uuid='{B2A4BBBE-88B2-416C-8714-690C12B5D395}' />
     </window>
-    <window class='worksheet' maximized='true' name='Monthly Sales by Segment'>
+    <window class='worksheet' name='Monthly Sales by Segment'>
       <cards>
         <edge name='left'>
           <strip size='146'>
@@ -3900,7 +3924,7 @@
       </viewpoint>
       <simple-id uuid='{E41E9471-90E3-4D3E-AAC4-591D2424B9A9}' />
     </window>
-    <window class='dashboard' name='Sales Dashboard'>
+    <window class='dashboard' maximized='true' name='Sales Dashboard'>
       <viewpoints>
         <viewpoint name='Avg Profit by State Count'>
           <zoom type='entire-view' />
@@ -3948,7 +3972,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='316' />
       <simple-id uuid='{E5F38851-7544-40B3-B65E-E2E264BA26B7}' />
     </window>
   </windows>
