@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="824e9d30-9503-4ff9-bbc8-8588da638c76" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Applying ML to Predict Hotel Booking Cancellations.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Applying ML to Predict Hotel Booking Cancellations.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Analysing Hotel Cancellations.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Analysing Hotel Cancellations.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681125249910</updated>
-      <workItem from="1681125251344" duration="1623000" />
+      <workItem from="1681125251344" duration="2010000" />
     </task>
     <servers />
   </component>
