@@ -104,13 +104,13 @@ def get_model():
         # add a max pooling layer using 2x2 pool size
         tf.keras.layers.MaxPooling2D(pool_size=(2, 2)),
 
-         # add a convolutional layer to learn 48 filters using a 3x3 kernel and relu activation function
+        # add a convolutional layer to learn 48 filters using a 3x3 kernel and relu activation function
         tf.keras.layers.Conv2D(48, (3, 3), activation="relu", input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)),
 
         # flatten the units
         tf.keras.layers.Flatten(),
 
-        # add a hidden layer with 128 nodes and 0.5 dropout
+        # add a hidden layer with 128 nodes and 0.2 dropout
         tf.keras.layers.Dense(128, activation="relu"),
         tf.keras.layers.Dropout(0.2),
 
